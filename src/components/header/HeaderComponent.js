@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
+import GradeTableComponent from '../gradeTable/GradeTableComponent';
 
 const HeaderComponent = () => {
   return (
@@ -12,6 +13,7 @@ const HeaderComponent = () => {
             'Join our mission to give students the knowledge, skills, practice and imagination to achieve advanced literacy success.'
           }
         />
+        <GradeTableComponent />
       </section>
     </div>
   );

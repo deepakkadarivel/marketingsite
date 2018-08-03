@@ -40,26 +40,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .section {
-    padding: 20px;
-
-    &__header {
-      font-size: 4.0em;
-    }
-
-    &__sub-header {
-      font-size: 1.2em;
-      letter-spacing: 0.1em;
-    }
-
-    &__content {
-      font-size: 1.0em;
-    }
-  }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .section {
     padding: 20px;
 

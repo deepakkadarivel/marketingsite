@@ -33,23 +33,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .section {
-    padding: 20px;
-  }
-  .section__header {
-    font-size: 4em;
-  }
-  .section__sub-header {
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-  }
-  .section__content {
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .section {
     padding: 20px;
   }

@@ -1,0 +1,37 @@
+.grade__cell {
+  border: 1px solid #ffffff;
+  width: 100px;
+}
+.grade__cell--head {
+  padding: 10px;
+  text-align: start;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1em;
+}
+.grade__cell--body {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 3em;
+}
+.grade__cell--body p {
+  font-size: 0.6rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .grade {
+    padding: 20px;
+  }
+  .grade__cell {
+    padding: 10px;
+    width: 60px;
+  }
+  .grade__cell--body {
+    font-size: 2em;
+  }
+  .grade__cell--body p {
+    font-size: 0.4rem;
+  }
+}

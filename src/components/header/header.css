@@ -7,10 +7,11 @@
 .header__section {
   position: relative;
   height: 100vh;
-  /* For text formatting. */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* For text formatting. */
   color: white;
   text-shadow: 0 0 5px #000;
 }
