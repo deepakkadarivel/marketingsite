@@ -17,10 +17,16 @@
       text-transform: uppercase;
       font-weight: normal;
       font-size: 3.0em;
+      transition: 0.5s ease;
 
       p {
         font-size: 0.6rem;
       }
+    }
+
+    &--body:hover {
+      background: #73aa4f;
+      text-shadow: none;
     }
   }
 }

@@ -15,9 +15,14 @@
   text-transform: uppercase;
   font-weight: normal;
   font-size: 3em;
+  transition: 0.5s ease;
 }
 .grade__cell--body p {
   font-size: 0.6rem;
+}
+.grade__cell--body:hover {
+  background: #73aa4f;
+  text-shadow: none;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
