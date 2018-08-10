@@ -19,4 +19,8 @@ SectionTitleComponent.propTypes = {
   content: PropTypes.string
 };
 
+SectionTitleComponent.defaultProps = {
+  content: ''
+};
+
 export default SectionTitleComponent;

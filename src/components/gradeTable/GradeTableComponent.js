@@ -14,12 +14,7 @@ const GradeTableComponent = props => {
       </thead>
       <tbody>
         <tr>
-          <td className="grade__cell grade__cell--body">
-            <p>grade</p>6
-          </td>
-          <td className="grade__cell grade__cell--body">
-            <p>grade</p>8
-          </td>
+          <td className="grade__cell grade__cell--body">ms</td>
           <td className="grade__cell grade__cell--body">hs</td>
           <td className="grade__cell grade__cell--body">ell</td>
         </tr>
