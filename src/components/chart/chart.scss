@@ -2,6 +2,7 @@
   height: 100vh;
 
   &__section {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +19,7 @@
     color: #000000;
     background-color: #FFFFFF;
     text-shadow: none;
-    box-shadow: 0 23px 34px rgba(189, 189, 189, 29);
+    box-shadow: 0 2px 8px #8cbe828c;
 
     thead {
       background-color: #8CBE82;
@@ -38,6 +39,10 @@
 
     th:not(:first-child) {
       text-align: center;
+    }
+
+    .readingContent {
+      text-align: left !important;
     }
 
     tr:nth-child(even) {
@@ -62,6 +67,11 @@
     z-index: -1;
     left: 50px;
     margin-top: -100px;
+
+    &--readings {
+      left: auto;
+      margin-top: -40px;
+    }
   }
 
   .fullCircle1 {
@@ -73,6 +83,11 @@
     z-index: -1;
     right: 30px;
     margin-top: 260px;
+
+    &--readings {
+      right: auto;
+      left: 90px;
+    }
   }
 }
 

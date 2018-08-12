@@ -2,6 +2,7 @@
   height: 100vh;
 }
 .chart__section {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +15,7 @@
   color: #000000;
   background-color: #ffffff;
   text-shadow: none;
-  box-shadow: 0 23px 34px #bdbdbd;
+  box-shadow: 0 2px 8px #8cbe828c;
 }
 .chart__table thead {
   background-color: #8cbe82;
@@ -31,6 +32,9 @@
 }
 .chart__table th:not(:first-child) {
   text-align: center;
+}
+.chart__table .readingContent {
+  text-align: left !important;
 }
 .chart__table tr:nth-child(even) {
   background-color: #eeeeee;
@@ -51,6 +55,10 @@
   left: 50px;
   margin-top: -100px;
 }
+.chart .fullCircle--readings {
+  left: auto;
+  margin-top: -40px;
+}
 .chart .fullCircle1 {
   position: absolute;
   height: 150px;
@@ -60,6 +68,10 @@
   z-index: -1;
   right: 30px;
   margin-top: 260px;
+}
+.chart .fullCircle1--readings {
+  right: auto;
+  left: 90px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
