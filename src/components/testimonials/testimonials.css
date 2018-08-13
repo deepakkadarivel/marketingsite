@@ -1,8 +1,7 @@
 .testimonials {
-  height: 100vh;
+  margin: 10% 0;
 }
 .testimonials__section {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
