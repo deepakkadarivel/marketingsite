@@ -90,15 +90,10 @@
   .testimonials {
     &__section {
       &__content {
+        min-height: 400px;
         .user--image {
           width: 150px;
           height: 150px;
-          left: 5%;
-          margin-top: -75px;
-        }
-
-        .user--content {
-          padding: 12%;
         }
       }
     }
@@ -114,18 +109,27 @@
   .testimonials {
 
     &__section {
+
+      .section {
+        margin-bottom: 0;
+
+      }
+
       &__content {
-        height: 555px;
+        min-height: 650px;
+        flex-direction: column;
 
         .user--image {
+          max-width: 100px;
+          min-width: 100px;
           width: 100px;
+          max-height: 100px;
           height: 100px;
-          left: 5%;
-          margin-top: -50px;
         }
 
         .user--content {
-          padding: 10%;
+          margin-left: 15%;
+          margin-right: 10%;
 
           &__name {
             margin-top: 20px;
