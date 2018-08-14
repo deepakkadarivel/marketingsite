@@ -40,6 +40,10 @@
 .chart__table th:not(:first-child) {
   text-align: center;
 }
+.chart__table .readingContent:first-child {
+  color: #619756;
+  font-weight: bold;
+}
 .chart__table .readingContent {
   text-align: left !important;
 }

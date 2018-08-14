@@ -1,11 +1,101 @@
 .stepper {
-  margin: 10% 0;
+  padding: 5%;
+}
+.stepper__bg {
+  right: 5%;
+  margin-top: -400px;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: url('../../assets/icons/logo-bg.svg') center center no-repeat;
+  z-index: -1;
+  opacity: 0.2;
 }
 .stepper__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
+  color: black;
+}
+.stepper__section__actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.stepper__section__actions .action {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  transition: 0.5s ease-in-out;
+  box-sizing: border-box;
+  border: 0.5px solid #ffffff;
+}
+.stepper__section__actions .action__item {
+  width: 100px;
+  height: 100px;
+}
+.stepper__section__actions .action__text {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+.stepper__section__actions .action:hover {
+  box-sizing: border-box;
+  background-color: #fafafa;
+  color: #619756;
+  box-shadow: 0 2px 8px #8cbe828c;
+  border: 0.5px solid #8cbe82;
+}
+.stepper__section__actions .test {
+  background: url('../../assets/icons/test.svg') center center no-repeat;
+}
+.stepper__section__actions .teach {
+  background: url('../../assets/icons/teach.svg') center center no-repeat;
+}
+.stepper__section__actions .train {
+  background: url('../../assets/icons/train.svg') center center no-repeat;
+}
+.stepper__section__actions .target {
+  background: url('../../assets/icons/target.svg') center center no-repeat;
+}
+.stepper__section__text {
+  padding: 2% 10%;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .stepper__bg {
+    right: 5%;
+    margin-top: -400px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: url('../../assets/icons/logo-bg.svg') center center no-repeat;
+    z-index: -1;
+    opacity: 0.1;
+    object-fit: cover;
+  }
+  .stepper__section__actions .action {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .stepper__section__actions .action__item {
+    width: 62px;
+    height: 62px;
+  }
+  .stepper__section__actions .action__text {
+    font-size: 12px;
+  }
+  .stepper__section__actions .action:last-child {
+    margin-right: 0;
+  }
+  .stepper__section__text {
+    padding: 10%;
+  }
 }
