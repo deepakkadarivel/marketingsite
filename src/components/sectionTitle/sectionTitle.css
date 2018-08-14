@@ -1,16 +1,17 @@
+.section {
+  z-index: 4;
+}
 .section__header {
   font-size: 4.4em;
 }
 .section__header span {
   font-style: italic;
 }
-
 .section__sub-header {
   font-size: 2em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
-
 .section__content {
   margin-top: 20px;
   font-size: 1em;

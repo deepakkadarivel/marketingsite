@@ -1,10 +1,11 @@
 .chart {
-  margin: 10% 0;
+  padding: 5%;
 }
 .chart--bg {
   background-color: #fafafa;
 }
 .chart__section {
+  padding: 0 12%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,10 +14,10 @@
 }
 .chart__section .methodsFooter {
   padding: 30px 60px;
+  z-index: 3;
 }
 .chart__table {
   border-collapse: collapse;
-  width: 80%;
   color: #000000;
   background-color: #ffffff;
   text-shadow: none;
@@ -58,11 +59,11 @@
   border-radius: 100%;
   background-color: #d6e8ba;
   z-index: 1;
-  left: 50px;
-  margin-top: -100px;
+  left: 115px;
+  margin-top: -190px;
 }
 .chart .fullCircle--readings {
-  left: auto;
+  left: auto !important;
   margin-top: -40px;
 }
 .chart .fullCircle1 {
@@ -72,7 +73,6 @@
   border-radius: 100%;
   background-color: #8cbe82;
   z-index: 1;
-  right: 30px;
   margin-top: 260px;
 }
 .chart .fullCircle1--readings {
@@ -81,18 +81,29 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .chart__section {
+    padding: 0;
+  }
   .chart .fullCircle {
     left: 10px;
     margin-top: -130px;
   }
   .chart .fullCircle1 {
     right: 10px;
-    margin-top: 370px;
+    margin-top: 270px;
+  }
+  .chart .fullCircle1--readings {
+    left: 4px;
+    margin-top: 266px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .chart__section {
+    padding: 0;
+  }
   .chart__section .methodsFooter {
+    padding: 30px 20px;
     font-size: 14px;
   }
   .chart__table {
@@ -112,7 +123,7 @@
   .chart .fullCircle1 {
     height: 100px;
     width: 100px;
-    right: 10px;
-    margin-top: 290px;
+    left: 5px;
+    margin-top: 266px;
   }
 }

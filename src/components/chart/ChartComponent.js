@@ -9,8 +9,8 @@ const ChartComponent = props => {
   const isReadings = data.type === 'readings';
 
   return (
-    <div className="chart">
-      <section className="chart__section chart--bg parallax">
+    <div className={`chart ${isMethod ? 'chart--bg' : ''}`}>
+      <section className="chart__section">
         <SectionTitleComponent subHeader={data.contentSubHeader} />
         <table className="chart__table">
           <thead>
