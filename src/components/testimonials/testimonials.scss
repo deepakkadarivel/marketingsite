@@ -1,5 +1,6 @@
 .testimonials {
-  margin: 10% 0;
+  padding: 5%;
+  background-color: #fafafa;
 
   &__section {
     display: flex;
@@ -15,24 +16,24 @@
 
     &__content {
       width: 100%;
-      margin-bottom: 100px;
-      background-color: #8CBE82;
+      display: flex;
+      flex-direction: row;
 
       .user--image {
-        position: absolute;
-        width: 200px;
-        height: 200px;
+        min-width: 150px;
+        height: 150px;
+        margin-left: 10%;
         background-color: #FFFFFF;
         z-index: 1;
         border-radius: 100%;
-        left: 10%;
-        margin-top: -100px;
         border: 1px solid #619756;
       }
 
       .user--content {
-        padding: 2% 20% 2% 25%;
-        color: #FFFFFF;
+        margin-left: 5%;
+        margin-right: 10%;
+        color: #000000;
+        min-height: 270px;
 
         &__name {
           font-size: 18px;
@@ -56,29 +57,30 @@
           font-weight: 500;
           font-style: italic;
           margin: 12px 0;
+          color: #619756;
         }
 
         &__summary {
           font-size: 14px;
           margin-top: 12px;
+          color: #666666;
         }
       }
     }
 
     &__left {
-      //position: absolute;
-      //left: 0;
-      width: 48px;
-      height: 48px;
+      position: absolute;
+      width: 54px;
+      height: 54px;
+      left: 2%;
       background: url("../../assets/icons/arrow-left.svg") center center no-repeat;
     }
 
     &__right {
-      //right: 0;
       position: absolute;
-      left: 60px;
-      width: 48px;
-      height: 48px;
+      width: 54px;
+      height: 54px;
+      right: 2%;
       background: url("../../assets/icons/arrow-right.svg") center center no-repeat;
     }
   }
@@ -113,7 +115,7 @@
 
     &__section {
       &__content {
-        margin-bottom: 100px;
+        height: 555px;
 
         .user--image {
           width: 100px;
