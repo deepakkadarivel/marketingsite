@@ -1,12 +1,17 @@
 {
-  "main.css": "static/css/main.b1b535e3.css",
-  "main.css.map": "static/css/main.b1b535e3.css.map",
-  "main.js": "static/js/main.f49aa025.js",
-  "main.js.map": "static/js/main.f49aa025.js.map",
-  "static/media/arrow-left.svg": "static/media/arrow-left.a3037843.svg",
-  "static/media/arrow-right.svg": "static/media/arrow-right.8a90cb72.svg",
+  "main.css": "static/css/main.6c3e6141.css",
+  "main.css.map": "static/css/main.6c3e6141.css.map",
+  "main.js": "static/js/main.d5238abd.js",
+  "main.js.map": "static/js/main.d5238abd.js.map",
+  "static/media/arrow-left.svg": "static/media/arrow-left.bf9a1bca.svg",
+  "static/media/arrow-right.svg": "static/media/arrow-right.1621a4c4.svg",
   "static/media/header_bg.jpg": "static/media/header_bg.960a4207.jpg",
   "static/media/header_bg_ipad.jpg": "static/media/header_bg_ipad.63224588.jpg",
   "static/media/header_bg_ipad_land.jpg": "static/media/header_bg_ipad_land.9f44e73e.jpg",
-  "static/media/header_bg_mob.jpg": "static/media/header_bg_mob.71c894a1.jpg"
+  "static/media/header_bg_mob.jpg": "static/media/header_bg_mob.71c894a1.jpg",
+  "static/media/logo-bg.svg": "static/media/logo-bg.5750b353.svg",
+  "static/media/target.svg": "static/media/target.843e18d4.svg",
+  "static/media/teach.svg": "static/media/teach.3991f290.svg",
+  "static/media/test.svg": "static/media/test.80fa90d3.svg",
+  "static/media/train.svg": "static/media/train.dcc9f576.svg"
 }
