@@ -69,13 +69,6 @@ const ChartComponent = props => {
           </tbody>
         </table>
 
-        {isMethod && (
-          <p className="methodsFooter">
-            Students who love reading get higher test scores. Period. But Zinc
-            also embeds numerous test taking strategies throughout the app.
-          </p>
-        )}
-
         <div
           className={`fullCircle ${isReadings ? 'fullCircle--readings' : ''}`}
         />

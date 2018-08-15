@@ -12,10 +12,6 @@
   justify-content: center;
   color: #000000;
 }
-.chart__section .methodsFooter {
-  padding: 30px 60px;
-  z-index: 3;
-}
 .chart__table {
   border-collapse: collapse;
   color: #000000;
@@ -105,10 +101,6 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .chart__section {
     padding: 0;
-  }
-  .chart__section .methodsFooter {
-    padding: 30px 20px;
-    font-size: 14px;
   }
   .chart__table {
     font-size: 11px;

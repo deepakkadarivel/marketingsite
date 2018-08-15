@@ -5,9 +5,25 @@ import StepperComponent from '../stepper/StepperComponent';
 import ChartComponent from '../chart/ChartComponent';
 import TestimonialsComponent from '../testimonials/TestimonialsComponent';
 import FooterComponent from '../footer/FooterComponent';
+import ToolbarComponent from '../toolbar/ToolbarComponent';
+import SideDrawer from '../sideDrawer/SideDrawer';
+import Backdrop from '../backdrop/Backdrop';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      sideDrawerOpen: false
+    };
+  }
+
   render() {
+    const drawerToggleClickHandler = () => {
+      this.setState(prevState => {
+        return { sideDrawerOpen: !prevState.sideDrawerOpen };
+      });
+    };
+
     const methods = {
       contentSubHeader: 'all your literacy needs were in one place?',
       headers: [
@@ -98,7 +114,12 @@ class App extends Component {
     };
 
     return (
-      <div>
+      <div className="App">
+        <ToolbarComponent drawerClickHandler={drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {this.state.sideDrawerOpen && (
+          <Backdrop drawerClickHandler={drawerToggleClickHandler} />
+        )}
         <HeaderComponent />
         <StepperComponent />
         <ChartComponent data={methods} />
