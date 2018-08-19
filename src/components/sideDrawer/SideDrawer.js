@@ -5,14 +5,23 @@ import PropTypes from 'prop-types';
 const SideDrawer = props => {
   return (
     <div className={`sidebar ${props.show ? 'sidebar--open' : ''}`}>
-      <div className="sidebar__logo" />
       <div className="sidebar__items">
+        <a href="#">@ZincLearning</a>
         <a href="#">News</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#">Login</a>
-        <a href="#">Sign up for a Demo</a>
       </div>
+
+      <p className="sidebar__address">
+        PARTNERSHIPS@ZINCLEARNINGLABS.COM
+        <br />
+        <br />
+        <br />
+        ZINC LEARNING LABS
+        <br />
+        41 UNION SQUARE WEST | SUITE 602 NY, NY 10003
+      </p>
     </div>
   );
 };

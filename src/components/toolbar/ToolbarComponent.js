@@ -7,18 +7,15 @@ class ToolbarComponent extends Component {
   render() {
     return (
       <div className="nav">
+        <div className="nav__logo" />
+        <div className="nav__items">
+          <a href="#">Sign up for a Demo</a>
+          <a href="#">Login</a>
+        </div>
         <div>
           <DrawerToggleButton
             drawerClickHandler={this.props.drawerClickHandler}
           />
-        </div>
-        <div className="nav__logo" />
-        <div className="nav__items">
-          <a href="#">News</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Login</a>
-          <a href="#">Sign up for a Demo</a>
         </div>
       </div>
     );
