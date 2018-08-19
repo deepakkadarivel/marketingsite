@@ -32,7 +32,6 @@
       .user--content {
         margin-left: 5%;
         margin-right: 10%;
-        color: #000000;
         min-height: 270px;
 
         &__name {
@@ -57,13 +56,11 @@
           font-weight: 500;
           font-style: italic;
           margin: 12px 0;
-          color: #619756;
         }
 
         &__summary {
           font-size: 14px;
           margin-top: 12px;
-          color: #666666;
         }
       }
     }

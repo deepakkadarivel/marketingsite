@@ -16,7 +16,14 @@ const ChartComponent = props => {
           <thead>
             <tr>
               {data.headers.map((header, i) => {
-                return <th key={i}>{header}</th>;
+                return (
+                  <th
+                    key={i}
+                    className={isReadings ? 'readingHeader' : 'methodsHeader'}
+                  >
+                    {header}
+                  </th>
+                );
               })}
             </tr>
           </thead>
@@ -29,11 +36,11 @@ const ChartComponent = props => {
                   </td>
                   {isMethod && (
                     <td
-                      className={
+                      className={`chart__table__bg ${
                         row.zincProg
-                          ? `chart__table__correct`
-                          : `chart__table__wrong`
-                      }
+                          ? 'chart__table__correct'
+                          : 'chart__table__wrong'
+                      }`}
                     >
                       {row.zincProg ? '\u2714' : '\u2717'}
                     </td>
@@ -46,7 +53,7 @@ const ChartComponent = props => {
                           : `chart__table__wrong`
                       }
                     >
-                      {row.vocabProgram ? '\u2714' : '\u2717'}
+                      {row.vocabProgram ? '\u2714' : '\u2716'}
                     </td>
                   )}
                   {isMethod && (
@@ -57,7 +64,7 @@ const ChartComponent = props => {
                           : `chart__table__wrong`
                       }
                     >
-                      {row.readingProg ? '\u2714' : '\u2717'}
+                      {row.readingProg ? '\u2714' : '\u2716'}
                     </td>
                   )}
                   {isReadings && (

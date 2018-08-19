@@ -15,21 +15,21 @@
 }
 .chart__table {
   border-collapse: collapse;
-  color: #000000;
-  background-color: #ffffff;
-  text-shadow: none;
-  box-shadow: 0 2px 8px #8cbe828c;
-  z-index: 2;
-}
-.chart__table thead {
-  background-color: #8cbe82;
   color: #ffffff;
+  text-shadow: none;
+  z-index: 2;
+  border: 3px solid #ffffff;
 }
 .chart__table td,
 .chart__table th {
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   padding: 14px 20px;
+  border-bottom: 4px dotted #ffffff;
+  border-right: 2px solid #ffffff;
+}
+.chart__table tr:last-child td {
+  border-bottom: 3px solid #ffffff;
 }
 .chart__table td:not(:first-child) {
   text-align: center;
@@ -37,21 +37,35 @@
 .chart__table th:not(:first-child) {
   text-align: center;
 }
+.chart__table .methodsHeader:nth-child(2) {
+  background-color: #000000;
+}
 .chart__table .readingContent:first-child {
   color: #619756;
   font-weight: bold;
 }
 .chart__table .readingContent {
   text-align: left !important;
+  font-weight: normal;
 }
-.chart__table tr:nth-child(even) {
-  background-color: #eeeeee;
+.chart__table .readingHeader:first-child {
+  color: #000000;
+  background-color: #8eb352;
+  font-weight: bold;
+}
+.chart__table .readingContent:first-child {
+  color: #000000;
+  background-color: #8eb352;
+  font-weight: bold;
+}
+.chart__table__bg {
+  background-color: #000000;
 }
 .chart__table__correct {
-  color: #8cbe82;
+  color: #ffffff;
 }
 .chart__table__wrong {
-  color: #d6312e;
+  color: #000000;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

@@ -17,21 +17,22 @@
 
   &__table {
     border-collapse: collapse;
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
     text-shadow: none;
-    box-shadow: 0 2px 8px #8cbe828c;
     z-index: 2;
-
-    thead {
-      background-color: #8CBE82;
-      color: #FFFFFF;
-    }
+    border: 3px solid #ffffff;
 
     td, th {
-      font-weight: normal;
+      font-weight: bold;
       text-align: left;
       padding: 14px 20px;
+      border-bottom: 4px dotted #FFFFFF;
+      border-right: 2px solid #FFFFFF;
+    }
+
+    tr:last-child {
+      td {border-bottom: 3px solid #FFFFFF;}
+
     }
 
     td:not(:first-child) {
@@ -42,24 +43,42 @@
       text-align: center;
     }
 
+    .methodsHeader:nth-child(2) {
+      background-color: #000000;
+    }
+
     .readingContent:first-child {
       color: #619756;
       font-weight: bold;
     }
+
     .readingContent {
       text-align: left !important;
+      font-weight: normal;
     }
 
-    tr:nth-child(even) {
-      background-color: #eeeeee;
+    .readingHeader:first-child {
+      color: #000000;
+      background-color: rgb(142, 179, 82);
+      font-weight: bold;
+    }
+
+    .readingContent:first-child {
+      color: #000000;
+      background-color: rgb(142, 179, 82);
+      font-weight: bold;
+    }
+
+    &__bg {
+      background-color: #000000;
     }
 
     &__correct {
-      color: #8CBE82;
+      color: #FFFFFF;
     }
 
     &__wrong {
-      color: #D6312E;
+      color: #000000;
     }
   }
 }
