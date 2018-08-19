@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #8cbe82;
+  background-color: #8eb352;
   color: white;
   padding: 40px 20px;
 }
@@ -12,26 +12,49 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .footer__section__actions .button:nth-child(1) {
   margin-bottom: 20px;
 }
 .footer__section__actions .button {
-  border: 1px solid #ffffff;
   background: none;
   padding: 12px 18px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
   color: white;
-  outline: none;
   transition: 0.5s ease;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
 }
-.footer__section__actions .button:hover {
-  background-color: #619756;
+.footer__section__actions .sign-up {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_signup.svg') center center no-repeat;
+}
+.footer__section__actions .email {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_email.svg') center center no-repeat;
+}
+.footer__section__actions .phone {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_phone.svg') center center no-repeat;
+}
+.footer__section__actions .location {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_location.svg') center center
+    no-repeat;
 }
 .footer__section__address {
   width: 50%;
@@ -55,6 +78,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .footer__section__actions .button {
+    font-size: 10px;
   }
   .footer__section__address {
     width: 100%;

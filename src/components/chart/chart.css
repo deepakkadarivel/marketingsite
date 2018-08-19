@@ -1,8 +1,9 @@
 .chart {
   padding: 5%;
+  background-color: #bb00d7;
 }
 .chart--bg {
-  background-color: #fafafa;
+  background-color: #ec008c;
 }
 .chart__section {
   padding: 0 12%;
@@ -10,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #000000;
+  color: #ffffff;
 }
 .chart__table {
   border-collapse: collapse;
@@ -52,49 +53,10 @@
 .chart__table__wrong {
   color: #d6312e;
 }
-.chart .fullCircle {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  background-color: #d6e8ba;
-  z-index: 1;
-  left: 115px;
-  margin-top: -190px;
-}
-.chart .fullCircle--readings {
-  left: auto !important;
-  margin-top: -40px;
-}
-.chart .fullCircle1 {
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
-  background-color: #8cbe82;
-  z-index: 1;
-  margin-top: 260px;
-}
-.chart .fullCircle1--readings {
-  right: auto;
-  left: 90px;
-}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .chart__section {
     padding: 0;
-  }
-  .chart .fullCircle {
-    left: 10px;
-    margin-top: -130px;
-  }
-  .chart .fullCircle1 {
-    right: 10px;
-    margin-top: 270px;
-  }
-  .chart .fullCircle1--readings {
-    left: 4px;
-    margin-top: 266px;
   }
 }
 
@@ -109,17 +71,5 @@
   .chart__table th {
     text-align: center;
     padding: 14px 8px;
-  }
-  .chart .fullCircle {
-    height: 100px;
-    width: 100px;
-    left: 10px;
-    margin-top: -160px;
-  }
-  .chart .fullCircle1 {
-    height: 100px;
-    width: 100px;
-    left: 5px;
-    margin-top: 266px;
   }
 }

@@ -1,22 +1,13 @@
 .stepper {
   padding: 5%;
-}
-.stepper__bg {
-  right: 5%;
-  margin-top: -400px;
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: url('../../assets/icons/logo-bg.svg') center center no-repeat;
-  z-index: -1;
-  opacity: 0.2;
+  background-color: #018dfb;
+  color: #ffffff;
 }
 .stepper__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: black;
 }
 .stepper__section__actions {
   display: flex;
@@ -67,17 +58,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .stepper__bg {
-    right: 5%;
-    margin-top: -400px;
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background: url('../../assets/icons/logo-bg.svg') center center no-repeat;
-    z-index: -1;
-    opacity: 0.1;
-    object-fit: cover;
-  }
   .stepper__section__actions .action {
     margin-right: 30px;
     display: flex;

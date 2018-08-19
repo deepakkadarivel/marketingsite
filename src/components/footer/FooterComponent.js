@@ -6,17 +6,24 @@ const FooterComponent = () => {
     <div className="footer">
       <section className="footer__section">
         <div className="footer__section__actions">
-          <button className="button">sign up for a demo</button>
-          <button className="button">join today</button>
-        </div>
-        <div className="footer__section__address">
-          <p>
-            41 Union Square West, Suite 602 <br /> New York, NY | 10003
-          </p>
-          <br />
-          <p>
-            support@zinclearninglabs.com <br /> 212.924.3040
-          </p>
+          <div className="button">
+            <span className="sign-up" />
+            sign up for a demo
+          </div>
+          <div className="button">
+            <span className="email" />
+            PARTNERSHIPS@ZINCLEARNINGLABS.COM
+          </div>
+          <div className="button">
+            <span className="phone" />
+            212.924.3040
+          </div>
+          <div className="button">
+            <span className="location" />
+            ZINC LEARNING LABS
+            <br />
+            41 UNION SQUARE WEST | SUITE 602 | NY, NY 10003
+          </div>
         </div>
       </section>
     </div>

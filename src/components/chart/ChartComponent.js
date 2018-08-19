@@ -68,13 +68,6 @@ const ChartComponent = props => {
             })}
           </tbody>
         </table>
-
-        <div
-          className={`fullCircle ${isReadings ? 'fullCircle--readings' : ''}`}
-        />
-        <div
-          className={`fullCircle1 ${isReadings ? 'fullCircle1--readings' : ''}`}
-        />
       </section>
     </div>
   );

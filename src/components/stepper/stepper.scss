@@ -1,23 +1,13 @@
 .stepper {
   padding: 5%;
-
-  &__bg {
-    right: 5%;
-    margin-top: -400px;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: url("../../assets/icons/logo-bg.svg") center center no-repeat;
-    z-index: -1;
-    opacity: 0.2;
-  }
+  background-color: rgb(1, 141, 251);
+  color: #FFFFFF;
 
   &__section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
 
     &__actions {
       display: flex;
@@ -37,7 +27,6 @@
           width: 100px;
           height: 100px;
         }
-
 
         &__text {
           text-transform: uppercase;
@@ -96,17 +85,6 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .stepper {
-    &__bg {
-      right: 5%;
-      margin-top: -400px;
-      position: absolute;
-      width: 400px;
-      height: 400px;
-      background: url("../../assets/icons/logo-bg.svg") center center no-repeat;
-      z-index: -1;
-      opacity: 0.1;
-      object-fit: cover;
-    }
 
     &__section {
       &__actions {
