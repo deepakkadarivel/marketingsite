@@ -8,6 +8,7 @@ import Backdrop from '../backdrop/Backdrop';
 import Home from '../home/Home';
 import About from '../about/About';
 import Contact from '../contact/Contact';
+import News from '../news/News';
 
 class App extends Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/news" component={News} />
         </Switch>
         <FooterComponent />
       </div>

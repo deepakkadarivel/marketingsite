@@ -1,0 +1,19 @@
+.news {
+  padding: 5%;
+  background-color: rgba(142, 179, 82, 0.9);
+  color: #ffffff;
+}
+.news__container {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.news__container p {
+  padding: 2% 10% 5% 10%;
+  text-align: left;
+  color: #222222;
+}
+.news__container p:nth-child(1) {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}

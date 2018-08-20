@@ -1,3 +1,29 @@
 .contact {
   padding: 5%;
+  background-color: #666666;
+  color: #ffffff;
+}
+.contact__content {
+  padding-right: 50%;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    padding: 10%;
+  }
+  .contact__content {
+    padding-right: 30%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contact {
+    padding: 10%;
+  }
+  .contact__content {
+    padding-right: 10%;
+  }
 }

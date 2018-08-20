@@ -1,0 +1,21 @@
+.news {
+  padding: 5%;
+  background-color: rgba(142, 179, 82, 0.9);
+  color: #FFFFFF;
+
+  &__container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    p {
+      padding: 2% 10% 5% 10%;
+      text-align: left;
+      color: #222222;
+    }
+
+    p:nth-child(1) {
+      font-size: 16px !important;
+      font-weight: bold !important;
+    }
+  }
+}
