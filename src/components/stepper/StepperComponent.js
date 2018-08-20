@@ -14,19 +14,31 @@ const StepperComponent = () => {
       <div className="stepper__section__actions">
         <div className="action">
           <div className="action__item test" />
-          <span className="action__text">Test</span>
+          <p className="action__text">Test</p>
         </div>
+        <div className="action__item--link arrow" />
         <div className="action">
-          <div className="action__item teach" />
-          <span className="action__text">Teach</span>
+          <div className="action__item vocab" />
+          <p className="action__text">
+            Teach <br /> Vocabulary
+          </p>
         </div>
+        <div className="action__item--link arrow" />
+        <div className="action">
+          <div className="action__item reading" />
+          <p className="action__text">
+            Teach <br /> Close Reading
+          </p>
+        </div>
+        <div className="action__item--link arrow" />
         <div className="action">
           <div className="action__item train" />
-          <span className="action__text">Train</span>
+          <p className="action__text">Train</p>
         </div>
+        <div className="action__item--link arrow" />
         <div className="action">
           <div className="action__item target" />
-          <span className="action__text">Target</span>
+          <p className="action__text">Target</p>
         </div>
       </div>
 

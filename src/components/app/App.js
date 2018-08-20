@@ -87,7 +87,7 @@ class App extends Component {
 
     const closeReading = {
       contentSubHeader: 'students had personalized close reading instruction?',
-      headers: ['What Zinc Close Reading offers', 'How'],
+      headers: ['What Zinc Close Reading offers', 'HOW IT WORKS'],
       rows: [
         {
           title: 'Personalized learning',

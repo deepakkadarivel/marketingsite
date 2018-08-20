@@ -17,18 +17,24 @@
       text-align: center;
 
       .action {
-        margin-right: 20px;
         padding-bottom: 10px;
-        transition: 0.5s ease-in-out;
+        transition: 0.8s ease;
         box-sizing: border-box;
-        border: 0.5px solid #FFFFFF;
 
         &__item {
-          width: 100px;
-          height: 100px;
+          width: 182px;
+          height: 182px;
+
+          &--link {
+            width: 50px;
+            height: 10px;
+            position: relative;
+            bottom: 20px;
+          }
         }
 
         &__text {
+          margin-top: 14px;
           text-transform: uppercase;
           font-weight: 600;
           letter-spacing: .2em;
@@ -37,32 +43,57 @@
 
       .action:hover {
         box-sizing: border-box;
-        background-color: #fafafa;
-        color: #619756;
-        box-shadow: 0 2px 8px #8cbe828c;
-        border: 0.5px solid #8CBE82;
+        transition: 0.8s ease;
+
+        .test {
+          background: url("../../assets/icons/icon_test_color.svg") center center no-repeat;
+        }
+
+        .vocab {
+          background: url("../../assets/icons/icon_vocab_color.svg") center center no-repeat;
+        }
+
+        .reading {
+          background: url("../../assets/icons/icon_reading_color.svg") center center no-repeat;
+        }
+
+        .train {
+          background: url("../../assets/icons/icon_train_color.svg") center center no-repeat;
+        }
+
+        .target {
+          background: url("../../assets/icons/icon_target_color.svg") center center no-repeat;
+        }
+      }
+
+      .arrow {
+        background: url("../../assets/icons/icon_arrow.svg") center center no-repeat;
       }
 
       .test {
-        background: url("../../assets/icons/test.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_test.svg") center center no-repeat;
       }
 
-      .teach {
-        background: url("../../assets/icons/teach.svg") center center no-repeat;
+      .vocab {
+        background: url("../../assets/icons/icon_vocab.svg") center center no-repeat;
+      }
+
+      .reading {
+        background: url("../../assets/icons/icon_reading.svg") center center no-repeat;
       }
 
       .train {
-        background: url("../../assets/icons/train.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_train.svg") center center no-repeat;
       }
 
       .target {
-        background: url("../../assets/icons/target.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_target.svg") center center no-repeat;
       }
     }
 
     &__text {
-      padding: 2% 10%;
-      text-align: center;
+      padding: 5% 10% 0 10%;
+      text-align: left;
       letter-spacing: .1rem;
     }
   }
@@ -70,11 +101,67 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .stepper {
-  }
-}
+    &__section {
+      &__actions {
+        .action {
+          margin-right: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          &__item {
+            width: 80px;
+            height: 80px;
+          }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .stepper {
+          &__text {
+            font-size: 8px;
+          }
+        }
+
+        .action:hover {
+          .test {
+            background: url("../../assets/icons/icon_test_md_color.svg") center center no-repeat;
+          }
+
+          .vocab {
+            background: url("../../assets/icons/icon_vocab_md_color.svg") center center no-repeat;
+          }
+
+          .reading {
+            background: url("../../assets/icons/icon_reading_md_color.svg") center center no-repeat;
+          }
+
+          .train {
+            background: url("../../assets/icons/icon_train_md_color.svg") center center no-repeat;
+          }
+
+          .target {
+            background: url("../../assets/icons/icon_target_md_color.svg") center center no-repeat;
+          }
+        }
+
+        .test {
+          background: url("../../assets/icons/icon_test_md.svg") center center no-repeat;
+        }
+
+        .vocab {
+          background: url("../../assets/icons/icon_vocab_md.svg") center center no-repeat;
+        }
+
+        .reading {
+          background: url("../../assets/icons/icon_reading_md.svg") center center no-repeat;
+        }
+
+        .train {
+          background: url("../../assets/icons/icon_train_md.svg") center center no-repeat;
+        }
+
+        .target {
+          background: url("../../assets/icons/icon_target_md.svg") center center no-repeat;
+        }
+      }
+    }
   }
 }
 
