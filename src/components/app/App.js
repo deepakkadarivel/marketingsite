@@ -9,6 +9,8 @@ import Home from '../home/Home';
 import About from '../about/About';
 import Contact from '../contact/Contact';
 import News from '../news/News';
+import Zinc from '../zinc/Zinc';
+import Login from '../login/Login';
 
 class App extends Component {
   constructor() {
@@ -16,6 +18,18 @@ class App extends Component {
     this.state = {
       sideDrawerOpen: false
     };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      this.onRouteChanged();
+    }
+  }
+
+  onRouteChanged() {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
   }
 
   render() {
@@ -37,6 +51,8 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/news" component={News} />
+          <Route exact path="/zinc" component={Zinc} />
+          <Route exact path="/login" component={Login} />
         </Switch>
         <FooterComponent />
       </div>

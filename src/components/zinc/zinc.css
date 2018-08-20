@@ -1,0 +1,19 @@
+.zinc {
+  padding: 5%;
+  background-color: #ec008c;
+  color: #ffffff;
+}
+.zinc__container {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .zinc {
+    padding: 10%;
+  }
+  .zinc__container {
+    width: 100%;
+  }
+}

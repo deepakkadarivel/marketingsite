@@ -150,7 +150,7 @@ const News = () => {
       <div className="news__container">
         <Masonry brakePoints={brakePoints}>
           {newsImages.map((image, id) => {
-            return <Tile key={id} src={image} />;
+            return <Tile key={id} src={image} isNews={true} />;
           })}
         </Masonry>
       </div>

@@ -58,16 +58,18 @@ class Masonry extends Component {
   }
 }
 
-const Tile = ({ src }) => {
+const Tile = ({ src, isNews = false }) => {
   return (
     <div className="tile">
       <img src={src.img} />
-      <div>
-        <p className="tile__heading">{src.heading}</p>
-        <p className="tile__date">{src.date}</p>
-        <p className="tile__description">{src.description}</p>
-        <button className="tile__more">More</button>
-      </div>
+      {isNews && (
+        <div>
+          <p className="tile__heading">{src.heading}</p>
+          <p className="tile__date">{src.date}</p>
+          <p className="tile__description">{src.description}</p>
+          <button className="tile__more">More</button>
+        </div>
+      )}
     </div>
   );
 };

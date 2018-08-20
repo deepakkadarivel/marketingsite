@@ -1,22 +1,17 @@
-.news {
+.zinc {
   padding: 5%;
-  background-color: rgba(142, 179, 82, 0.9);
+  background-color: rgb(236, 0, 140);
   color: #FFFFFF;
 
   &__container {
     width: 80%;
     margin: auto;
     margin-top: 10px;
-    p {
-      padding: 2% 10% 5% 10%;
-      text-align: left;
-      color: #222222;
-    }
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .news {
+  .zinc {
     padding: 10%;
 
     &__container {
@@ -24,4 +19,3 @@
     }
   }
 }
-
