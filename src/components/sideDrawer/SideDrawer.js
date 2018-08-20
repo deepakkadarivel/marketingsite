@@ -1,16 +1,28 @@
 import React from 'react';
 import './sideDrawer.css';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 const SideDrawer = props => {
   return (
     <div className={`sidebar ${props.show ? 'sidebar--open' : ''}`}>
       <div className="sidebar__items">
-        <a href="#">@ZincLearning</a>
-        <a href="#">News</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Login</a>
+        <Link to="/zinc">
+          <p>@ZincLearning</p>
+        </Link>
+        <Link to="/news">
+          <p>News</p>
+        </Link>
+        <Link to="/about">
+          <p>About</p>
+        </Link>
+        <Link to="/contact">
+          <p>Contact</p>
+        </Link>
+        <Link to="/login">
+          <p>Login</p>
+        </Link>
       </div>
 
       <p className="sidebar__address">
@@ -30,4 +42,4 @@ SideDrawer.propTypes = {
   show: PropTypes.bool
 };
 
-export default SideDrawer;
+export default withRouter(SideDrawer);

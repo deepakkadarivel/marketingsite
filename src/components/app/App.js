@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import HeaderComponent from '../header/HeaderComponent';
-import StepperComponent from '../stepper/StepperComponent';
-import ChartComponent from '../chart/ChartComponent';
-import TestimonialsComponent from '../testimonials/TestimonialsComponent';
+import { Switch, Route } from 'react-router-dom';
 import FooterComponent from '../footer/FooterComponent';
 import ToolbarComponent from '../toolbar/ToolbarComponent';
 import SideDrawer from '../sideDrawer/SideDrawer';
 import Backdrop from '../backdrop/Backdrop';
 import Home from '../home/Home';
+import About from '../about/About';
+import Contact from '../contact/Contact';
 
 class App extends Component {
   constructor() {
@@ -32,7 +31,11 @@ class App extends Component {
         {this.state.sideDrawerOpen && (
           <Backdrop drawerClickHandler={drawerToggleClickHandler} />
         )}
-        <Home />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
         <FooterComponent />
       </div>
     );

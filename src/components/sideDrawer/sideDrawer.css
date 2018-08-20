@@ -18,7 +18,7 @@
   flex-direction: column;
   margin-top: 60px;
 }
-.sidebar__items a {
+.sidebar__items p {
   margin: 0 2%;
   text-transform: uppercase;
   text-decoration: none;
@@ -30,7 +30,7 @@
   border-spacing: 10px;
   padding: 8px 24px;
 }
-.sidebar__items a:hover {
+.sidebar__items p:hover {
   color: #000000;
 }
 .sidebar__address {
