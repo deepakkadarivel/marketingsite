@@ -1,0 +1,92 @@
+.method {
+  width: 80%;
+  height: auto;
+  top: 10%;
+  left: 10%;
+  z-index: 8;
+  position: fixed;
+  background: #FFFFFF;
+
+  &--test {
+    background-color: rgb(142, 179, 82);
+  }
+  &--vocab {
+    background-color: rgb(236, 0, 140);
+  }
+  &--reading {
+    background-color: rgb(244, 121, 32);
+  }
+  &--train {
+    background-color: rgb(25, 137, 125);
+  }
+  &--target {
+    background-color: rgb(187, 0, 215);
+  }
+
+  &__content {
+    margin: 2% 4% 10% 4%;
+
+    &--body {
+      display: flex;
+      flex-direction: row;
+
+      &__action {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .item {
+          width: 80px;
+          height: 80px;
+        }
+
+        .text {
+          font-size: 14px;
+          font-weight: bold;
+          margin-top: 10px;
+        }
+
+        .test {
+          background: url("../../assets/icons/icon_test_md_color.svg") center center no-repeat;
+        }
+
+        .vocab {
+          background: url("../../assets/icons/icon_vocab_md_color.svg") center center no-repeat;
+        }
+
+        .reading {
+          background: url("../../assets/icons/icon_reading_md_color.svg") center center no-repeat;
+        }
+
+        .train {
+          background: url("../../assets/icons/icon_train_md_color.svg") center center no-repeat;
+        }
+
+        .target {
+          background: url("../../assets/icons/icon_target_md_color.svg") center center no-repeat;
+        }
+      }
+
+      &__info {
+        width: 40%;
+        padding: 2%;
+      }
+
+      &__image {
+        width: 33%;
+        height: auto;
+        background-size: contain;
+      }
+
+      .img_vocab {
+        background-size: contain;
+        background-image: url("../../assets/images/img_vocab.jpg");
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+}

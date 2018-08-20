@@ -57,17 +57,19 @@
 }
 .testimonials__section__left {
   position: absolute;
-  width: 54px;
-  height: 54px;
+  width: 74px;
+  height: 74px;
   left: 2%;
-  background: url('../../assets/icons/arrow-left.svg') center center no-repeat;
+  background: url('../../assets/icons/icon_arrow_left.svg') center center
+    no-repeat;
 }
 .testimonials__section__right {
   position: absolute;
-  width: 54px;
-  height: 54px;
+  width: 74px;
+  height: 74px;
   right: 2%;
-  background: url('../../assets/icons/arrow-right.svg') center center no-repeat;
+  background: url('../../assets/icons/icon_arrow_right.svg') center center
+    no-repeat;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
