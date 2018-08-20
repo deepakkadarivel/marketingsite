@@ -11,6 +11,7 @@ import Contact from '../contact/Contact';
 import News from '../news/News';
 import Zinc from '../zinc/Zinc';
 import Login from '../login/Login';
+import { withRouter } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -46,13 +47,13 @@ class App extends Component {
         {this.state.sideDrawerOpen && (
           <Backdrop drawerClickHandler={drawerToggleClickHandler} />
         )}
-        <Switch basename={location.pathname || 'marketingsite'}>
-          <Route path="/" component={Home} />
+        <Switch basename={window.location.pathname || 'marketingsite'}>
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/news" component={News} />
           <Route exact path="/zinc" component={Zinc} />
           <Route exact path="/login" component={Login} />
+          <Route component={Home} />
         </Switch>
         <FooterComponent />
       </div>
@@ -60,4 +61,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
