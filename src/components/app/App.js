@@ -47,6 +47,7 @@ class App extends Component {
           <Backdrop drawerClickHandler={drawerToggleClickHandler} />
         )}
         <Switch>
+          <IndexRoute component={Home} />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
