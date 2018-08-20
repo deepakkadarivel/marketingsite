@@ -16,6 +16,10 @@
       align-items: center;
       text-align: center;
 
+      .action-container {
+        display: flex;
+      }
+
       .action {
         padding-bottom: 10px;
         transition: 0.8s ease;
@@ -27,7 +31,7 @@
 
           &--link {
             width: 50px;
-            height: 10px;
+            //height: 10px;
             position: relative;
             bottom: 20px;
           }

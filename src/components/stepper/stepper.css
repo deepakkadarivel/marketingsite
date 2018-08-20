@@ -16,6 +16,9 @@
   align-items: center;
   text-align: center;
 }
+.stepper__section__actions .action-container {
+  display: flex;
+}
 .stepper__section__actions .action {
   padding-bottom: 10px;
   transition: 0.8s ease;
@@ -27,7 +30,6 @@
 }
 .stepper__section__actions .action__item--link {
   width: 50px;
-  height: 10px;
   position: relative;
   bottom: 20px;
 }
