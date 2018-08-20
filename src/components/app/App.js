@@ -46,9 +46,8 @@ class App extends Component {
         {this.state.sideDrawerOpen && (
           <Backdrop drawerClickHandler={drawerToggleClickHandler} />
         )}
-        <Switch>
-          <IndexRoute component={Home} />
-          <Route exact path="/" component={Home} />
+        <Switch basename={location.pathname || 'marketingsite'}>
+          <Route path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/news" component={News} />
