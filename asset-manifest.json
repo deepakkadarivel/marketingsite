@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.4d6f2c7d.css",
-  "main.css.map": "static/css/main.4d6f2c7d.css.map",
-  "main.js": "static/js/main.51b02391.js",
-  "main.js.map": "static/js/main.51b02391.js.map",
+  "main.css": "static/css/main.8d3c679b.css",
+  "main.css.map": "static/css/main.8d3c679b.css.map",
+  "main.js": "static/js/main.e88e49e9.js",
+  "main.js.map": "static/js/main.e88e49e9.js.map",
   "static/media/News_Clore_Reading_Beta.jpg": "static/media/News_Clore_Reading_Beta.15dbdc06.jpg",
   "static/media/News_Demo_Night.jpg": "static/media/News_Demo_Night.eec03adf.jpg",
   "static/media/News_Dont_Ignore.jpg": "static/media/News_Dont_Ignore.fc6304e4.jpg",
@@ -50,5 +50,17 @@
   "static/media/icon_vocab_md.svg": "static/media/icon_vocab_md.d3fb378b.svg",
   "static/media/icon_vocab_md_color.svg": "static/media/icon_vocab_md_color.fc1bab23.svg",
   "static/media/img_vocab.jpg": "static/media/img_vocab.b11d612e.jpg",
-  "static/media/nav-logo.svg": "static/media/nav-logo.50e7b091.svg"
+  "static/media/nav-logo.svg": "static/media/nav-logo.50e7b091.svg",
+  "static/media/tweet_Andy_Meyers.jpg": "static/media/tweet_Andy_Meyers.0bcde571.jpg",
+  "static/media/tweet_Bess_McNamara_Dahmash.jpg": "static/media/tweet_Bess_McNamara_Dahmash.bdb324eb.jpg",
+  "static/media/tweet_Calesta_Mueller.jpg": "static/media/tweet_Calesta_Mueller.9fd238dd.jpg",
+  "static/media/tweet_Daly_TBK8.jpg": "static/media/tweet_Daly_TBK8.75668e78.jpg",
+  "static/media/tweet_Daly_TBK8_2.jpg": "static/media/tweet_Daly_TBK8_2.4c7c798b.jpg",
+  "static/media/tweet_Daly_TBK8_3.jpg": "static/media/tweet_Daly_TBK8_3.85ae51d6.jpg",
+  "static/media/tweet_Kim_Ponderfl.jpg": "static/media/tweet_Kim_Ponderfl.e31a6623.jpg",
+  "static/media/tweet_Kim_Ponderfl_2.jpg": "static/media/tweet_Kim_Ponderfl_2.41e74b69.jpg",
+  "static/media/tweet_Rithy_Som.jpg": "static/media/tweet_Rithy_Som.489b2530.jpg",
+  "static/media/tweet_Rithy_Som_2.jpg": "static/media/tweet_Rithy_Som_2.5f32fba9.jpg",
+  "static/media/tweet_Stefan_Troutman.jpg": "static/media/tweet_Stefan_Troutman.d21e1d39.jpg",
+  "static/media/tweet_Sylvia_Ellison.jpg": "static/media/tweet_Sylvia_Ellison.d988fd85.jpg"
 }
