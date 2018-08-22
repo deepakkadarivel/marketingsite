@@ -2,20 +2,25 @@
   z-index: 4;
 }
 .section__header {
-  font-size: 4.4em;
+  font-size: 3.2em;
+  margin: 0;
 }
 .section__header span {
-  font-style: italic;
+  font-family: 'BELLI', sans-serif;
 }
 .section__sub-header {
-  font-size: 2em;
-  letter-spacing: 0.2em;
+  font-size: 1.5em;
+  margin: 0;
   text-transform: uppercase;
 }
 .section__content {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1em;
   letter-spacing: 0.05em;
+}
+.section__content p {
+  margin: 0;
+  line-height: 24px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

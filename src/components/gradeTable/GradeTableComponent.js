@@ -8,7 +8,10 @@ const GradeTableComponent = props => {
       <thead>
         <tr>
           <th className="grade__cell grade__cell--head" colSpan={4}>
-            see zinc in action:
+            <div className="content">
+              <div className="content__eye" />
+              <p className="content__text">see zinc in action:</p>
+            </div>
           </th>
         </tr>
       </thead>

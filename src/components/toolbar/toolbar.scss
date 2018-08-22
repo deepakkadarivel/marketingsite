@@ -3,6 +3,7 @@
   height: 60px;
   position: fixed;
   z-index: 5;
+  font-family: 'Nexa-Bold', sans-serif;
   background: #000000;
   -webkit-box-shadow: 0 1px 1px #666666;
   -moz-box-shadow: 0 1px 1px #666666;
@@ -23,7 +24,7 @@
     display: block;
 
     a {
-      margin-right: 10px;
+      margin-right: 20px;
       text-transform: uppercase;
       text-decoration: none;
       cursor: pointer;

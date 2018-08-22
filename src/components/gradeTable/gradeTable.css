@@ -1,6 +1,7 @@
 .grade {
-  margin-top: 2%;
+  margin-top: 5%;
   border-spacing: 0;
+  font-family: 'Nexa-Bold', sans-serif;
 }
 .grade__cell {
   border: 1px solid #ffffff;
@@ -8,6 +9,20 @@
 }
 .grade__cell--head {
   padding: 10px;
+}
+.grade__cell--head .content {
+  display: flex;
+  align-items: center;
+}
+.grade__cell--head .content__eye {
+  width: 64px;
+  height: 36px;
+  margin-left: 20px;
+  background: url('../../assets/icons/icon_eye.svg') center center no-repeat;
+}
+.grade__cell--head .content__text {
+  position: absolute;
+  margin-left: 100px;
   text-align: start;
   text-transform: uppercase;
   font-weight: normal;
@@ -18,7 +33,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 3em;
+  font-size: 5em;
   transition: 0.5s ease;
 }
 .grade__cell--body p {
