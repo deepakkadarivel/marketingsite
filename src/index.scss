@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'NexaRegular';
-  src: local('NexaRegular'), url(./assets/fonts/NexaRegular.otf);
+  src: local('NexaRegular'), url(./assets/fonts/Nexa-Regular.otf);
 }
 
 @font-face {
@@ -9,8 +9,23 @@
 }
 
 @font-face {
+  font-family: 'Nexa-XBold';
+  src: local('Nexa-XBold'), url(./assets/fonts/Nexa-XBold.otf);
+}
+
+@font-face {
+  font-family: 'Nexa-Heavy';
+  src: local('Nexa-Heavy'), url(./assets/fonts/Nexa-Heavy.otf);
+}
+
+@font-face {
+  font-family: 'Nexa-Black';
+  src: local('Nexa-Black'), url(./assets/fonts/Nexa-Black.otf);
+}
+
+@font-face {
   font-family: 'BELLI';
-  src: local('BELLI'), url(./assets/fonts/BELLI.TTF);
+  src: local('BELLI'), url(./assets/fonts/BELLI.otf);
 }
 
 html {

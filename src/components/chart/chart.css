@@ -1,5 +1,5 @@
 .chart {
-  padding: 5%;
+  padding: 5% 0;
   background-color: #bb00d7;
 }
 .chart--bg {
@@ -9,16 +9,33 @@
   padding: 0 12%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   color: #ffffff;
 }
 .chart__table {
+  margin-top: 20px;
   border-collapse: collapse;
   color: #ffffff;
   text-shadow: none;
   z-index: 2;
-  border: 3px solid #ffffff;
+  border: 8px solid #ffffff;
+}
+.chart__table th {
+  font-family: 'Nexa-Heavy', sans-serif;
+  line-height: 1.22em;
+}
+.chart__table .methodsHeader:not(:first-child) {
+  width: 10%;
+}
+.chart__table .readingHeader:first-child {
+  width: 40%;
+  font-family: 'Nexa-Black', sans-serif;
+}
+.chart__table .readingHeader:last-child {
+  width: 50%;
+}
+.chart__table td {
+  font-family: 'Nexa-XBold', sans-serif;
 }
 .chart__table td,
 .chart__table th {
@@ -37,6 +54,24 @@
 .chart__table th:not(:first-child) {
   text-align: center;
 }
+.chart__table .check {
+  width: 100%;
+  height: 30px;
+  background: url('../../assets/icons/icon_mark_check.svg') center center
+    no-repeat;
+}
+.chart__table .check_dark {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background: url('../../assets/icons/icon_mark_check_dark.svg') center center
+    no-repeat;
+}
+.chart__table .x {
+  width: 100%;
+  height: 32px;
+  background: url('../../assets/icons/icon_mark_x.svg') center center no-repeat;
+}
 .chart__table .methodsHeader:nth-child(2) {
   background-color: #000000;
 }
@@ -48,13 +83,26 @@
   text-align: left !important;
   font-weight: normal;
 }
+.chart__table .readingContent--body {
+  display: flex;
+  align-items: center;
+}
+.chart__table .readingContent--body p {
+  padding-left: 10px;
+}
+.chart__table .readingContent:last-child {
+  font-family: 'NexaRegular', sans-serif;
+  padding-right: 20%;
+  line-height: 1.8em;
+}
 .chart__table .readingHeader {
   text-align: left !important;
+  font-family: 'Nexa-Bold', sans-serif;
 }
 .chart__table .readingHeader:first-child {
   color: #000000;
   background-color: #8eb352;
-  font-weight: bold;
+  font-family: 'Nexa-XBold', sans-serif;
 }
 .chart__table .readingContent:first-child {
   color: #000000;

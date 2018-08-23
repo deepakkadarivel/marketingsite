@@ -32,7 +32,10 @@ const ChartComponent = props => {
               return (
                 <tr key={i}>
                   <td className={isReadings ? 'readingContent' : ''}>
-                    {row.title}
+                    <div className={isReadings ? 'readingContent--body' : ''}>
+                      {isReadings ? <span className="check_dark" /> : ''}{' '}
+                      <p>{row.title}</p>
+                    </div>
                   </td>
                   {isMethod && (
                     <td
@@ -42,7 +45,7 @@ const ChartComponent = props => {
                           : 'chart__table__wrong'
                       }`}
                     >
-                      {row.zincProg ? '\u2714' : '\u2717'}
+                      <div className={row.zincProg ? 'check' : 'x'} />
                     </td>
                   )}
                   {isMethod && (
@@ -53,7 +56,7 @@ const ChartComponent = props => {
                           : `chart__table__wrong`
                       }
                     >
-                      {row.vocabProgram ? '\u2714' : '\u2716'}
+                      <div className={row.vocabProgram ? 'check' : 'x'} />
                     </td>
                   )}
                   {isMethod && (
@@ -64,7 +67,7 @@ const ChartComponent = props => {
                           : `chart__table__wrong`
                       }
                     >
-                      {row.readingProg ? '\u2714' : '\u2716'}
+                      <div className={row.readingProg ? 'check' : 'x'} />
                     </td>
                   )}
                   {isReadings && (
