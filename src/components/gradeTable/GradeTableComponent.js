@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const GradeTableComponent = props => {
   return (
-    <table className="grade">
+    <table className={`grade ${props.isChart ? 'grade--chart' : ''}`}>
       <thead>
         <tr>
           <th className="grade__cell grade__cell--head" colSpan={4}>
@@ -27,7 +27,12 @@ const GradeTableComponent = props => {
 };
 
 GradeTableComponent.propTypes = {
-  content: PropTypes.string
+  content: PropTypes.string,
+  isChart: PropTypes.bool
+};
+
+GradeTableComponent.DefaultProps = {
+  isChart: false
 };
 
 export default GradeTableComponent;

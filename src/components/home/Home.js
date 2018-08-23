@@ -3,6 +3,12 @@ import HeaderComponent from '../header/HeaderComponent';
 import StepperComponent from '../stepper/StepperComponent';
 import ChartComponent from '../chart/ChartComponent';
 import TestimonialsComponent from '../testimonials/TestimonialsComponent';
+import SpacerComponent from '../spacer/SpacerComponent';
+
+import ZIA_Main_Page_interactive_close_reading_instruction_grab from '../../assets/images/spacers/ZIA_Main_Page_interactive_close_reading_instruction_grab.jpg';
+import ZIA_Main_Page_leveled_real_world_texts_grab from '../../assets/images/spacers/ZIA_Main_Page_leveled_real_world_texts_grab.jpg';
+import ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab from '../../assets/images/spacers/ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab.jpg';
+import ZIA_Main_Page_student_performance_data_grab from '../../assets/images/spacers/ZIA_Main_Page_student_performance_data_grab.jpg';
 
 const Home = () => {
   const methods = {
@@ -97,9 +103,29 @@ const Home = () => {
     <div>
       <HeaderComponent />
       <StepperComponent />
+      <SpacerComponent
+        action={'STUDENT PERFORMANCE DATA'}
+        img={ZIA_Main_Page_interactive_close_reading_instruction_grab}
+        name={'performance'}
+      />
       <ChartComponent data={methods} />
+      <SpacerComponent
+        action={'“LEVELED, “REAL WORLD” TEXTS'}
+        img={ZIA_Main_Page_leveled_real_world_texts_grab}
+        name={'performance'}
+      />
       <ChartComponent data={closeReading} />
+      <SpacerComponent
+        action={'INTERACTIVE CLOSE READING INSTRUCTION'}
+        img={ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab}
+        name={'performance'}
+      />
       <TestimonialsComponent />
+      <SpacerComponent
+        action={'SAT PREP: VOCABULARY - 5TH GRADE'}
+        img={ZIA_Main_Page_student_performance_data_grab}
+        name={'performance'}
+      />
     </div>
   );
 };

@@ -1,0 +1,32 @@
+.spacer {
+  background: #000000;
+  max-width: 100vw;
+  padding: 10px 0;
+}
+.spacer__header {
+  height: 60px;
+  background-color: #8eb352;
+  color: #000000;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 20%;
+}
+.spacer__header__action-type {
+  font-family: 'Nexa-Heavy', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.spacer__header__action {
+  font-family: 'Nexa-Bold', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.spacer__img {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}

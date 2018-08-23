@@ -4,6 +4,12 @@ import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
 import Backdrop from '../backdrop/Backdrop';
 import Method from '../method/Method';
 
+import method_test from '../../assets/images/methodology/methodology_slide-show_Test_grab.jpg';
+import method_vocab from '../../assets/images/methodology/methodology_slide-show_Teach_Vocab_grab.jpg';
+import method_close_reading from '../../assets/images/methodology/methodology_slide-show_Teach_CR_grab.jpg';
+import method_target from '../../assets/images/methodology/methodology_slide-show_Target_grab.jpg';
+import method_train from '../../assets/images/methodology/methodology_slide-show_Train_grab.jpg';
+
 class StepperComponent extends Component {
   constructor() {
     super();
@@ -27,7 +33,7 @@ class StepperComponent extends Component {
           'separate adaptive tests for middle and high school students',
           'multiple opportunities to retest and level up later'
         ],
-        img: 'img_vocab'
+        img: method_test
       },
       {
         id: 1,
@@ -41,7 +47,7 @@ class StepperComponent extends Component {
           'over 5000 words and terms let you use existing sets or make your own',
           'relatable presenters guide students through interactive close reading experiences to build comprehension skills'
         ],
-        img: 'img_vocab'
+        img: method_vocab
       },
       {
         id: 2,
@@ -55,7 +61,7 @@ class StepperComponent extends Component {
           ' embedded standardized testing strategies and practice',
           'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
         ],
-        img: 'img_vocab'
+        img: method_close_reading
       },
       {
         id: 3,
@@ -69,7 +75,7 @@ class StepperComponent extends Component {
           ' embedded standardized testing strategies and practice',
           'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
         ],
-        img: 'img_vocab'
+        img: method_train
       },
       {
         id: 4,
@@ -83,7 +89,7 @@ class StepperComponent extends Component {
           'aligned to TEKS, FLA and state standards',
           'leaderboards motivate friendly competition'
         ],
-        img: 'img_vocab'
+        img: method_target
       }
     ];
 

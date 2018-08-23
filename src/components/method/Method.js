@@ -17,12 +17,18 @@ const Method = prop => {
             <p className="text">{text}</p>
           </div>
           <div className="method__content--body__info">
-            <p>{prop.method.answer}</p>
+            <p className="text">{prop.method.answer}</p>
             {prop.method.points.map((point, i) => (
-              <li key={i}>{point}</li>
+              <li key={i} className="list">
+                {point}
+              </li>
             ))}
           </div>
-          <div className={`method__content--body__image ${prop.method.img}`} />
+          <img
+            className="method__content--body__image"
+            src={prop.method.img}
+            alt={prop.method.icon}
+          />
         </div>
       </div>
     </div>

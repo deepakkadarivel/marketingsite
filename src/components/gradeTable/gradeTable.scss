@@ -2,6 +2,11 @@
   margin-top:5%;
   border-spacing: 0;
   font-family: 'Nexa-Bold', sans-serif;
+
+  &--chart {
+  width: 50%;
+  }
+
   &__cell {
     border: 1px solid #ffffff;
     width: 100px;
@@ -30,7 +35,7 @@
     }
 
     &--body {
-      padding: 20px;
+      padding: 30px 20px 10px 20px;
       text-align: center;
       text-transform: uppercase;
       font-weight: normal;

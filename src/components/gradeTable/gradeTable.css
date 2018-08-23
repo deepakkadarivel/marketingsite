@@ -3,6 +3,9 @@
   border-spacing: 0;
   font-family: 'Nexa-Bold', sans-serif;
 }
+.grade--chart {
+  width: 50%;
+}
 .grade__cell {
   border: 1px solid #ffffff;
   width: 100px;
@@ -29,7 +32,7 @@
   font-size: 1em;
 }
 .grade__cell--body {
-  padding: 20px;
+  padding: 30px 20px 10px 20px;
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;

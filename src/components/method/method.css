@@ -30,7 +30,7 @@
   flex-direction: row;
 }
 .method__content--body__action {
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,45 +38,49 @@
   text-align: center;
 }
 .method__content--body__action .item {
-  width: 80px;
-  height: 80px;
+  width: 182px;
+  height: 182px;
 }
 .method__content--body__action .text {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 10px;
+  font-size: 24px;
+  font-family: 'Nexa-XBold', sans-serif;
+  margin-top: 20px;
+  line-height: 1.2em;
 }
 .method__content--body__action .test {
-  background: url('../../assets/icons/icon_test_md_color.svg') center center
+  background: url('../../assets/icons/icon_test_color.svg') center center
     no-repeat;
 }
 .method__content--body__action .vocab {
-  background: url('../../assets/icons/icon_vocab_md_color.svg') center center
+  background: url('../../assets/icons/icon_vocab_color.svg') center center
     no-repeat;
 }
 .method__content--body__action .reading {
-  background: url('../../assets/icons/icon_reading_md_color.svg') center center
+  background: url('../../assets/icons/icon_reading_color.svg') center center
     no-repeat;
 }
 .method__content--body__action .train {
-  background: url('../../assets/icons/icon_train_md_color.svg') center center
+  background: url('../../assets/icons/icon_train_color.svg') center center
     no-repeat;
 }
 .method__content--body__action .target {
-  background: url('../../assets/icons/icon_target_md_color.svg') center center
+  background: url('../../assets/icons/icon_target_color.svg') center center
     no-repeat;
 }
 .method__content--body__info {
-  width: 40%;
+  width: 30%;
   padding: 2%;
+  line-height: 1.4em;
+}
+.method__content--body__info .text {
+  margin-bottom: 20px;
+}
+.method__content--body__info .list {
+  margin-left: 20px;
 }
 .method__content--body__image {
-  width: 33%;
+  display: block;
+  max-height: 300px;
+  width: auto;
   height: auto;
-  background-size: contain;
-}
-.method__content--body .img_vocab {
-  background-size: contain;
-  background-image: url('../../assets/images/img_vocab.jpg');
-  background-repeat: no-repeat;
 }

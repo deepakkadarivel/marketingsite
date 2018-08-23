@@ -2,6 +2,7 @@ import React from 'react';
 import './chart.css';
 import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
 import PropTypes from 'prop-types';
+import GradeTableComponent from '../gradeTable/GradeTableComponent';
 
 const ChartComponent = props => {
   const { data } = props;
@@ -78,6 +79,7 @@ const ChartComponent = props => {
             })}
           </tbody>
         </table>
+        <GradeTableComponent isChart={true} />
       </section>
     </div>
   );
