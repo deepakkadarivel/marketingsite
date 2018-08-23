@@ -1,11 +1,11 @@
 .testimonials {
-  padding: 5%;
+  padding: 5% 0;
   background-color: #d71920;
 }
 .testimonials__section {
+  padding: 0 12%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   color: #ffffff;
 }
@@ -17,43 +17,61 @@
   display: flex;
   flex-direction: row;
 }
-.testimonials__section__content .user--image {
-  min-width: 150px;
-  height: 150px;
+.testimonials__section__content .student--story {
+  margin-top: 60px;
+  margin-left: 30px;
+  display: block;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+.testimonials__section__content .quote--image {
+  min-width: 180px;
+  height: 485px;
   margin-left: 10%;
-  background-color: #ffffff;
   z-index: 1;
-  border-radius: 100%;
-  border: 1px solid #619756;
+  background: url('../../assets/icons/icon_quote.svg') center center no-repeat;
 }
 .testimonials__section__content .user--content {
-  margin-left: 5%;
+  margin-left: 2%;
   margin-right: 10%;
   min-height: 270px;
 }
-.testimonials__section__content .user--content__name {
-  font-size: 18px;
-  font-weight: bold;
-}
-.testimonials__section__content .user--content__profession {
-  font-size: 12px;
-  font-weight: lighter;
-  margin-top: 8px;
-}
-.testimonials__section__content .user--content__location {
-  font-size: 12px;
-  font-weight: lighter;
-  margin-top: 4px;
+.testimonials__section__content .user--content__summary {
+  font-family: 'Nexa-Heavy-Italic', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-top: 60px;
 }
 .testimonials__section__content .user--content__comment {
-  font-size: 24px;
-  font-weight: 500;
-  font-style: italic;
-  margin: 12px 0;
+  font-family: 'Nexa-Heavy-Italic', sans-serif;
+  font-size: 1.2em;
+  margin: 30px 0;
 }
-.testimonials__section__content .user--content__summary {
+.testimonials__section__content .user--content__use {
+  font-family: 'Nexa-Black-Italic', sans-serif;
   font-size: 14px;
-  margin-top: 12px;
+}
+.testimonials__section__content .user--content__info {
+  display: flex;
+  margin-left: -12%;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: 'Nexa-Black', sans-serif;
+}
+.testimonials__section__content .user--content__info__img {
+  margin-left: 30px;
+  display: block;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+.testimonials__section__content .user--content__more {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'Nexa-Black', sans-serif;
+  cursor: pointer;
 }
 .testimonials__section__left {
   position: absolute;

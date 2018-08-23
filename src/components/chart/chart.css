@@ -85,6 +85,7 @@
 }
 .chart__table .readingContent--body {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 .chart__table .readingContent--body p {
@@ -98,6 +99,7 @@
 .chart__table .readingHeader {
   text-align: left !important;
   font-family: 'Nexa-Bold', sans-serif;
+  line-height: 4em;
 }
 .chart__table .readingHeader:first-child {
   color: #000000;

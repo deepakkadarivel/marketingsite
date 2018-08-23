@@ -24,6 +24,16 @@
 }
 
 @font-face {
+  font-family: 'Nexa-Black-Italic';
+  src: local('Nexa-Black-Italic'), url(./assets/fonts/Nexa-Black-Italic.otf);
+}
+
+@font-face {
+  font-family: 'Nexa-Heavy-Italic';
+  src: local('Nexa-Heavy-Italic'), url(./assets/fonts/Nexa-Heavy-Italic.otf);
+}
+
+@font-face {
   font-family: 'BELLI';
   src: local('BELLI'), url(./assets/fonts/BELLI.otf);
 }

@@ -1,5 +1,6 @@
 .footer {
   &__section {
+    font-family: 'Nexa-Black', sans-serif;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -8,6 +9,8 @@
     background-color: rgb(142, 179, 82);
     color: white;
     padding: 40px 20px;
+    font-size: 12px;
+    line-height: 1.4em;
 
     &__actions {
       width: 50%;
@@ -23,8 +26,6 @@
       .button {
         background: none;
         padding: 12px 18px;
-        font-size: 14px;
-        font-weight: bold;
         text-transform: uppercase;
         cursor: pointer;
         color: white;
@@ -62,7 +63,6 @@
 
     &__address {
       width: 50%;
-      font-size: 12px;
       display: flex;
       flex-direction: column;
       align-items: center;

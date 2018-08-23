@@ -101,6 +101,7 @@
 
       &--body {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
         p {
           padding-left: 10px;
@@ -117,6 +118,7 @@
     .readingHeader {
       text-align: left !important;
       font-family: 'Nexa-Bold', sans-serif;
+      line-height: 4em;
     }
 
     .readingHeader:first-child {

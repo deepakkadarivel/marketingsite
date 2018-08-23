@@ -15,8 +15,7 @@ const SectionTitleComponent = props => {
 };
 
 SectionTitleComponent.propTypes = {
-  subHeader: PropTypes.string.isRequired,
-  content: PropTypes.string
+  subHeader: PropTypes.string.isRequired
 };
 
 SectionTitleComponent.defaultProps = {
