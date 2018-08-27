@@ -9,7 +9,7 @@ const SideDrawer = props => {
     <div className={`sidebar ${props.show ? 'sidebar--open' : ''}`}>
       <div className="sidebar__items">
         <Link to="/">
-          <p>Mission</p>
+          <p>Home</p>
         </Link>
         <Link to="/zinc">
           <p>@ZincLearning</p>

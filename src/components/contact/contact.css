@@ -1,6 +1,8 @@
 .contact {
-  padding: 5%;
-  background-color: #008dfb;
+  padding: 5% 12%;
+  height: 100vh;
+  background: url('../../assets/images/contact_bg.jpg') no-repeat fixed center;
+  background-size: cover;
   color: #ffffff;
 }
 .contact__content {
@@ -12,6 +14,22 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .contact {
+    background: url('../../assets/images/contact_bg_ipad.jpg') no-repeat fixed
+      center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .contact {
+    background: url('../../assets/images/contact_bg_mob.jpg') no-repeat center
+      center fixed;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    background: url('../../assets/images/conatct_bg_ipad_land.jpg') no-repeat
+      center center fixed;
     padding: 10%;
   }
   .contact__content {
@@ -21,6 +39,8 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contact {
+    background: url('../../assets/images/contact_bg_mob.jpg') no-repeat center
+      center fixed;
     padding: 10%;
   }
   .contact__content {

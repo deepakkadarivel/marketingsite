@@ -1,19 +1,38 @@
 .zinc {
-  padding: 5%;
-  background-color: rgb(236, 0, 140);
+  padding: 5% 12%;
+  background: url('../../assets/images/zinc_bg.jpg') no-repeat fixed center;
+  background-size: cover;
   color: #FFFFFF;
 
   &__container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+.zinc {
+    background: url('../../assets/images/zinc_bg_ipad.jpg') no-repeat fixed center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .zinc {
+      background: url('../../assets/images/zinc_bg_ipad_land.jpg') no-repeat center center fixed;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .zinc {
+      background: url('../../assets/images/zinc_bg_mob.jpg') no-repeat center center fixed;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .zinc {
     padding: 10%;
-
+    background: url('../../assets/images/zinc_bg_mob.jpg') no-repeat center center fixed;
     &__container {
       width: 100%;
     }

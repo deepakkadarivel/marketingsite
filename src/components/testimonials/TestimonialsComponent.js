@@ -35,6 +35,11 @@ class TestimonialsComponent extends Component {
       type: 'comment'
     },
     {
+      type: 'image',
+      img: student_testimonial_1,
+      id: 1
+    },
+    {
       name: 'Dave Diem',
       profession:
         'Role: 9th grade Global Studies teacher with 14 years of experience',
@@ -46,6 +51,11 @@ class TestimonialsComponent extends Component {
         'It has been wonderful to see the healthy competition. Students really are motivated to go back and play multiple decks even when they’re not explicitly assigned. This never used to happen with our previous vocabulary routines.',
       img: dave,
       type: 'comment'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_2,
+      id: 2
     },
     {
       name: 'Jean Trahant',
@@ -61,6 +71,11 @@ class TestimonialsComponent extends Component {
       type: 'comment'
     },
     {
+      type: 'image',
+      img: student_testimonial_3,
+      id: 3
+    },
+    {
       name: 'Julie Wright',
       profession: 'Role: Test-Prep Tutor',
       location: 'Location: New York, NY',
@@ -71,6 +86,11 @@ class TestimonialsComponent extends Component {
         'I’ve seen many students’ [SAT/ACT] verbal scores increase after spending a few months reading the articles on the app!',
       img: julie,
       type: 'comment'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_4,
+      id: 4
     },
     {
       name: 'Julie Swobodzinski',
@@ -85,6 +105,11 @@ class TestimonialsComponent extends Component {
       type: 'comment'
     },
     {
+      type: 'image',
+      img: student_testimonial_5,
+      id: 5
+    },
+    {
       name: 'Curtis Eccles',
       profession: 'Role: 9th and 10th grade ELA with 22 years of experience',
       location: 'Location: Washington state',
@@ -95,6 +120,11 @@ class TestimonialsComponent extends Component {
         'With Zinc, we are automatically aligned! Since Zinc, our scores have increased on our state tests! The students are having more fun learning! Most importantly, ALL students are engaged!',
       img: Curtis,
       type: 'comment'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_6,
+      id: 6
     },
     {
       name: 'Greg Jones',
@@ -110,36 +140,6 @@ class TestimonialsComponent extends Component {
         'Zinc has helped me raise my A.I.R test scores. The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work.',
       img: Greg,
       type: 'comment'
-    },
-    {
-      type: 'image',
-      img: student_testimonial_1,
-      id: 1
-    },
-    {
-      type: 'image',
-      img: student_testimonial_2,
-      id: 2
-    },
-    {
-      type: 'image',
-      img: student_testimonial_3,
-      id: 3
-    },
-    {
-      type: 'image',
-      img: student_testimonial_4,
-      id: 4
-    },
-    {
-      type: 'image',
-      img: student_testimonial_5,
-      id: 5
-    },
-    {
-      type: 'image',
-      img: student_testimonial_6,
-      id: 6
     },
     {
       type: 'image',

@@ -1,22 +1,42 @@
 .news {
-  padding: 5%;
-  background-color: rgba(142, 179, 82, 0.9);
+  padding: 5% 12%;
+  background: url('../../assets/images/news_bg.jpg') no-repeat fixed center;
+  background-size: cover;
   color: #FFFFFF;
 
   &__container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
     p {
-      padding: 2% 10% 5% 10%;
+      padding: 2% 10% 0 10%;
       text-align: left;
       color: #222222;
     }
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .news {
+      background: url('../../assets/images/news_bg_ipad.jpg') no-repeat fixed center;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .news {
+        background: url('../../assets/images/news_bg_ipad_land.jpg') no-repeat center center fixed;
+      }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .news {
+        background: url('../../assets/images/news_bg_mob.jpg') no-repeat center center fixed;
+      }
+  }
+
 @media (min-width: 320px) and (max-width: 480px) {
   .news {
+    background: url('../../assets/images/news_bg_mob.jpg') no-repeat center center fixed;
     padding: 10%;
 
     &__container {
