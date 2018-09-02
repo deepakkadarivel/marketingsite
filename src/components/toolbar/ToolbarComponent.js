@@ -10,11 +10,11 @@ class ToolbarComponent extends Component {
         <div className="nav__logo" />
         <div className="nav__items">
           <a href="#">Sign up for a Demo</a>
-          <a href="#">Login</a>
+          <a href="https://games.zinclearninglabs.com/users/sign_in">Login</a>
         </div>
         <div>
           <DrawerToggleButton
-            drawerClickHandler={this.props.drawerClickHandler}
+            drawerClickHandler={() => this.props.drawerClickHandler()}
           />
         </div>
       </div>

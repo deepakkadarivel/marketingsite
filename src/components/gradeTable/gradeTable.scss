@@ -9,15 +9,15 @@
     .grade {
     &__cell {
       &--body {
-        padding: 20px 10px 5px 10px;
+        padding: 10px 5px 3px 5px;
         text-align: center;
         text-transform: uppercase;
         font-weight: normal;
-        font-size: 3.0em;
+        font-size: 2.6em;
         transition: 0.5s ease;
   
         p {
-          font-size: 0.4rem;
+          font-size: 0.2rem;
         }
       }
     }

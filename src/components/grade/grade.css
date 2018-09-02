@@ -8,24 +8,56 @@
   position: fixed;
   background: #8eb352;
 }
+.gradepopup .close {
+  position: absolute;
+  top: 30px;
+  right: 280px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: url('../../assets/icons/icon_mark_x_white.svg') center center
+    no-repeat;
+}
+.gradepopup .popup--body {
+  min-width: 49%;
+  max-width: 50%;
+  margin-top: 20px;
+}
 .gradepopup .header {
   display: flex;
   flex-direction: row;
+  height: auto;
 }
 .gradepopup .header__link {
   margin-left: 3%;
 }
 .gradepopup .header__link p {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   cursor: pointer;
 }
 .gradepopup .header__link p:nth-child(3) {
-  margin-bottom: 14px;
+  margin-bottom: 13px;
+}
+.gradepopup .header__link .ms {
+  color: #bb00d7;
+}
+.gradepopup .header__link .hs {
+  color: #008dfb;
+}
+.gradepopup .header__link .ell {
+  color: #d71920;
+}
+.gradepopup .header__link .white {
+  color: #ffffff;
+}
+.gradepopup .header__link .green {
+  color: #8eb352;
 }
 .gradepopup .header__action {
   border: 1px solid #ffffff;
   display: inline-block;
+  color: #ffffff;
 }
 .gradepopup .header__action p {
   margin: 0;

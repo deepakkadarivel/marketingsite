@@ -7,15 +7,15 @@
   margin-top: 0;
 }
 .grade--popup .grade__cell--body {
-  padding: 20px 10px 5px 10px;
+  padding: 10px 5px 3px 5px;
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 3em;
+  font-size: 2.6em;
   transition: 0.5s ease;
 }
 .grade--popup .grade__cell--body p {
-  font-size: 0.4rem;
+  font-size: 0.2rem;
 }
 .grade--popup .grade--popup__ms {
   background: #bb00d7;

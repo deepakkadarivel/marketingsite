@@ -14,7 +14,7 @@
   height: 50px;
   background: url('../../assets/icons/nav-logo.svg') center center no-repeat;
   position: absolute;
-  left: 60px;
+  left: 10px;
 }
 .nav__items {
   display: block;

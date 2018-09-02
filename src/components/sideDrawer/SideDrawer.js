@@ -23,9 +23,9 @@ const SideDrawer = props => {
         <Link to="/contact">
           <p>Contact</p>
         </Link>
-        <Link to="/login">
+        <a href="https://games.zinclearninglabs.com/users/sign_in">
           <p>Login</p>
-        </Link>
+        </a>
       </div>
 
       <p className="sidebar__address">
