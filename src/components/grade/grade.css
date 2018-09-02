@@ -1,0 +1,35 @@
+.gradepopup {
+  width: 100%;
+  height: 100%;
+  padding: 40px 60px;
+  top: 60px;
+  left: 128px;
+  z-index: 8;
+  position: fixed;
+  background: #8eb352;
+}
+.gradepopup .header {
+  display: flex;
+  flex-direction: row;
+}
+.gradepopup .header__link {
+  margin-left: 3%;
+}
+.gradepopup .header__link p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.gradepopup .header__link p:nth-child(3) {
+  margin-bottom: 14px;
+}
+.gradepopup .header__action {
+  border: 1px solid #ffffff;
+  display: inline-block;
+}
+.gradepopup .header__action p {
+  margin: 0;
+  font-size: 14px;
+  display: inline-block;
+  padding: 2px 4px 0px 4px;
+}

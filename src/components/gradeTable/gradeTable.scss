@@ -3,6 +3,45 @@
   border-spacing: 0;
   font-family: 'Nexa-Bold', sans-serif;
 
+  &--popup {
+    margin-top:0;
+
+    .grade {
+    &__cell {
+      &--body {
+        padding: 20px 10px 5px 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 3.0em;
+        transition: 0.5s ease;
+  
+        p {
+          font-size: 0.4rem;
+        }
+      }
+    }
+
+    &--popup {
+
+    &__ms {
+      background: rgb(187, 0, 215);
+      text-shadow: none;
+    }
+  
+    &__hs {
+      background: rgb(0, 141, 251);
+      text-shadow: none;
+    }
+  
+    &__ell {
+      background: rgb(215, 25, 32);
+      text-shadow: none;
+    }
+  }
+  }
+  }
+
   &--chart {
   width: 50%;
   }
@@ -47,8 +86,18 @@
       }
     }
 
-    &--body:hover {
-      background: #73aa4f;
+    &--body:nth-child(1):hover {
+      background: rgb(187, 0, 215);
+      text-shadow: none;
+    }
+
+    &--body:nth-child(2):hover {
+      background: rgb(0, 141, 251);
+      text-shadow: none;
+    }
+
+    &--body:nth-child(3):hover {
+      background: rgb(215, 25, 32);
       text-shadow: none;
     }
   }

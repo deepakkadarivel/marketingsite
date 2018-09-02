@@ -3,6 +3,32 @@
   border-spacing: 0;
   font-family: 'Nexa-Bold', sans-serif;
 }
+.grade--popup {
+  margin-top: 0;
+}
+.grade--popup .grade__cell--body {
+  padding: 20px 10px 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 3em;
+  transition: 0.5s ease;
+}
+.grade--popup .grade__cell--body p {
+  font-size: 0.4rem;
+}
+.grade--popup .grade--popup__ms {
+  background: #bb00d7;
+  text-shadow: none;
+}
+.grade--popup .grade--popup__hs {
+  background: #008dfb;
+  text-shadow: none;
+}
+.grade--popup .grade--popup__ell {
+  background: #d71920;
+  text-shadow: none;
+}
 .grade--chart {
   width: 50%;
 }
@@ -42,8 +68,16 @@
 .grade__cell--body p {
   font-size: 0.6rem;
 }
-.grade__cell--body:hover {
-  background: #73aa4f;
+.grade__cell--body:nth-child(1):hover {
+  background: #bb00d7;
+  text-shadow: none;
+}
+.grade__cell--body:nth-child(2):hover {
+  background: #008dfb;
+  text-shadow: none;
+}
+.grade__cell--body:nth-child(3):hover {
+  background: #d71920;
   text-shadow: none;
 }
 
