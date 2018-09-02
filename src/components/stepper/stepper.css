@@ -1,4 +1,9 @@
+.step {
+  display: flex;
+}
+
 .stepper {
+  min-width: 100%;
   padding: 5% 0;
   background-color: #018dfb;
   color: #ffffff;
