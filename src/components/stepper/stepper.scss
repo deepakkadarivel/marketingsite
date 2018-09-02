@@ -1,6 +1,13 @@
 .step {
+  min-width: 100%;
   display: flex;
+  overflow-x: auto;
 }
+
+.step::-webkit-scrollbar {
+  display: none;
+}
+
 .stepper {
   min-width: 100%;
   padding: 5% 0;
