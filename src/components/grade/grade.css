@@ -3,7 +3,7 @@
   height: 100%;
   padding: 40px 60px;
   top: 60px;
-  left: 128px;
+  left: 78px;
   z-index: 8;
   position: fixed;
   background: #8eb352;
@@ -11,7 +11,7 @@
 .gradepopup .close {
   position: absolute;
   top: 30px;
-  right: 280px;
+  right: 230px;
   width: 32px;
   height: 32px;
   cursor: pointer;
