@@ -13,7 +13,7 @@
     }
 
     &__section {
-        padding: 0 12%;
+        padding: 0 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -21,7 +21,6 @@
 
     .section {
         margin-bottom: 50px;
-  
       }
   
       &__content {
@@ -104,4 +103,95 @@
         }
       }
     }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .testimonial {
+
+    padding: 20% 0;
+
+    &__section {
+
+      .section {
+        margin-bottom: 0;
+
+      }
+
+      &__content {
+        min-height: 650px;
+        flex-direction: column;
+
+        .student--story {
+          margin: 0;
+          display: block;
+          max-height:none;
+          width: auto;
+          height: auto;
+          object-fit: contain;
+        }
+
+        .quote--image {
+          display: none;
+        }
+
+        .user--image {
+          max-width: 100px;
+          min-width: 100px;
+          width: 100px;
+          max-height: 100px;
+          height: 100px;
+        }
+
+        .user--content {
+          margin: 5%;
+          // margin-right: 10%;
+
+          &__summary {
+            margin-left: 0;
+          }
+
+          &__name {
+            margin-top: 20px;
+          }
+
+          &__info {
+            margin: 0;
+            flex-direction: column;
+
+            &--detail {
+              padding: 0; 
+            }
+            
+  
+            &__img {
+              margin-top: 40px;
+              display: block;
+              max-height:250px;
+              width: auto;
+              height: auto;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+
+      &__left {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        left: 2%;
+        background: url("../../assets/icons/icon_arrow_left_md.svg") center center no-repeat;
+      }
+  
+      &__right {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        right: 2%;
+        background: url("../../assets/icons/icon_arrow_right_md.svg") center center no-repeat;
+      }
+    }
+
+    
+  }
 }

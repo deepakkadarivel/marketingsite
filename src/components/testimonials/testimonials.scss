@@ -3,7 +3,7 @@
   background-color: rgb(215, 25, 32);
 
   &__section {
-    padding: 0 12%;
+    padding: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,6 +138,19 @@
         min-height: 650px;
         flex-direction: column;
 
+        .student--story {
+          margin: 0;
+          display: block;
+          max-height:none;
+          width: auto;
+          height: auto;
+          object-fit: contain;
+        }
+
+        .quote--image {
+          display: none;
+        }
+
         .user--image {
           max-width: 100px;
           min-width: 100px;
@@ -155,6 +168,24 @@
           }
         }
       }
+
+      &__left {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        left: 2%;
+        background: url("../../assets/icons/icon_arrow_left_md.svg") center center no-repeat;
+      }
+  
+      &__right {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        right: 2%;
+        background: url("../../assets/icons/icon_arrow_right_md.svg") center center no-repeat;
+      }
     }
+
+    
   }
 }

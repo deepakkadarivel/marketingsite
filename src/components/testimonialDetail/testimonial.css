@@ -12,7 +12,7 @@
   letter-spacing: 0.1em;
 }
 .testimonial__section {
-  padding: 0 12%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,4 +87,75 @@
   font-size: 12px;
   font-family: 'Nexa-Black', sans-serif;
   cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .testimonial {
+    padding: 20% 0;
+  }
+  .testimonial__section .section {
+    margin-bottom: 0;
+  }
+  .testimonial__section__content {
+    min-height: 650px;
+    flex-direction: column;
+  }
+  .testimonial__section__content .student--story {
+    margin: 0;
+    display: block;
+    max-height: none;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  .testimonial__section__content .quote--image {
+    display: none;
+  }
+  .testimonial__section__content .user--image {
+    max-width: 100px;
+    min-width: 100px;
+    width: 100px;
+    max-height: 100px;
+    height: 100px;
+  }
+  .testimonial__section__content .user--content {
+    margin: 5%;
+  }
+  .testimonial__section__content .user--content__summary {
+    margin-left: 0;
+  }
+  .testimonial__section__content .user--content__name {
+    margin-top: 20px;
+  }
+  .testimonial__section__content .user--content__info {
+    margin: 0;
+    flex-direction: column;
+  }
+  .testimonial__section__content .user--content__info--detail {
+    padding: 0;
+  }
+  .testimonial__section__content .user--content__info__img {
+    margin-top: 40px;
+    display: block;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  .testimonial__section__left {
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    left: 2%;
+    background: url('../../assets/icons/icon_arrow_left_md.svg') center center
+      no-repeat;
+  }
+  .testimonial__section__right {
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    right: 2%;
+    background: url('../../assets/icons/icon_arrow_right_md.svg') center center
+      no-repeat;
+  }
 }
