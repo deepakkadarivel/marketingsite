@@ -4,6 +4,7 @@ import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
 import GradeTableComponent from '../gradeTable/GradeTableComponent';
 import GradeComponent from '../grade/GradeComponent';
 import Backdrop from '../backdrop/Backdrop';
+import Video from '../video/Video';
 
 class HeaderComponent extends Component {
   constructor(props) {
@@ -32,6 +33,12 @@ class HeaderComponent extends Component {
             content={content}
           />
           <GradeTableComponent setSelectedGrade={setSelectedGrade} />
+
+          <Video
+            src={
+              'blob:https://www.dropbox.com/0977e8ac-a4dc-4481-a321-d03bf4314f69'
+            }
+          />
           {this.state.grade !== '' && (
             <Backdrop drawerClickHandler={() => setSelectedGrade('')} />
           )}

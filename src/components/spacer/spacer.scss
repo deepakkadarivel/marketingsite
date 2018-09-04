@@ -10,7 +10,7 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    padding: 0 20%;
+    padding: 0 10%;
 
     &__action-type {
       font-family: 'Nexa-Heavy', sans-serif;
@@ -32,5 +32,41 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .spacer {
+    &__header {
+      &__action-type {
+        font-family: 'Nexa-Heavy', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+  
+      &__action {
+        font-family: 'Nexa-Bold', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .spacer {
+    &__header {
+      &__action-type {
+        font-family: 'Nexa-Heavy', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+  
+      &__action {
+        font-family: 'Nexa-Bold', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
   }
 }

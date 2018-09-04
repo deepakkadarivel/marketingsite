@@ -121,16 +121,7 @@
   color: #000000;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .chart__section {
-    padding: 0;
-  }
-}
-
 @media (min-width: 320px) and (max-width: 480px) {
-  .chart__section {
-    padding: 0;
-  }
   .chart__table {
     font-size: 11px;
   }
