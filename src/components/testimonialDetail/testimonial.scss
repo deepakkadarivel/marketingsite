@@ -105,6 +105,12 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testimonial {
+    padding: 15% 0;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .testimonial {
 
