@@ -41,6 +41,20 @@
           height: 182px;
         }
 
+        .action {
+          border: 1px solid #ffffff;
+          display: inline-block;
+          color: #ffffff;
+          margin-top: 20px;
+
+          p {
+              margin: 0;
+              font-size: 14px;
+              display: inline-block;
+              padding: 2px 4px 0px 4px;
+          }
+      }
+
         .text {
           font-size: 24px;
           font-family: 'Nexa-XBold', sans-serif;

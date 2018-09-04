@@ -47,7 +47,9 @@ class StepperComponent extends Component {
           'over 5000 words and terms let you use existing sets or make your own',
           'relatable presenters guide students through interactive close reading experiences to build comprehension skills'
         ],
-        img: method_vocab
+        img: method_vocab,
+        link: 'http://bit.ly/2AmgI82',
+        linkName: 'PLAY GAME'
       },
       {
         id: 2,
@@ -61,7 +63,9 @@ class StepperComponent extends Component {
           ' embedded standardized testing strategies and practice',
           'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
         ],
-        img: method_close_reading
+        img: method_close_reading,
+        link: 'http://bit.ly/2w9qxSl',
+        linkName: 'PLAY GAME'
       },
       {
         id: 3,
@@ -75,7 +79,9 @@ class StepperComponent extends Component {
           ' embedded standardized testing strategies and practice',
           'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
         ],
-        img: method_train
+        img: method_train,
+        link: 'http://bit.ly/2NLWMNZ',
+        linkName: 'BROWSE'
       },
       {
         id: 4,
