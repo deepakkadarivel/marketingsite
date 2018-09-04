@@ -67,7 +67,11 @@ const Tile = ({ src, isNews = false }) => {
           <p className="tile__heading">{src.heading}</p>
           <p className="tile__date">{src.date}</p>
           <p className="tile__description">{src.description}</p>
-          <button className="tile__more">More</button>
+          {src.link && (
+            <a href={src.link} className="tile__more">
+              More
+            </a>
+          )}
         </div>
       )}
     </div>

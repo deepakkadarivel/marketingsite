@@ -18,22 +18,34 @@ import News_Zinc_In_EdTech from '../../assets/images/news/News_Zinc_In_EdTech.jp
 import News_Zinc_Presents from '../../assets/images/news/News_Zinc_Presents.jpg';
 import News_Zinc_Takes_On from '../../assets/images/news/News_Zinc_Takes_On.jpg';
 import News_Zinc_Weights_In from '../../assets/images/news/News_Zinc_Weights_In.jpg';
+import leap_innovations from '../../assets/images/news/leap_innovations.png';
 
 let brakePoints = [750];
 const newsImages = [
+  {
+    img: leap_innovations,
+    heading: 'Zinc Is a Proud New Member of the LEAP Pilot Network',
+    date: 'May 03, 2018',
+    description:
+      "Zinc is thrilled to have been chosen as one of twelve ed tech tools invited to join LEAP Innovation's Pilot Network. Read more about their work and the upcoming pilots here!",
+    link:
+      'https://www.prnewswire.com/news-releases/twelve-new-edtech-tools-make-the-cut-for-chicago-teachers-according-to-leading-education-nonprofit-300622998.html'
+  },
   {
     img: News_Clore_Reading_Beta,
     heading: 'CLOSE READING EXPERIENCE BETA IS HERE',
     date: 'Febuary 5, 2018',
     description:
-      'We’re excited to announce the launch of our newest literacy tool, the Zinc Close Reading Experience, which uses interactive, student-led video lessons to teach close reading with commonly taught texts like Romeo and Juliet and Dr. Martin Luther King’s “I Have a Dream” speech. Through guided practice, the feature will help students learn and/ or reinforce necessary skills for effective reading. Learn more'
+      'We’re excited to announce the launch of our newest literacy tool, the Zinc Close Reading Experience, which uses interactive, student-led video lessons to teach close reading with commonly taught texts like Romeo and Juliet and Dr. Martin Luther King’s “I Have a Dream” speech. Through guided practice, the feature will help students learn and/ or reinforce necessary skills for effective reading. Learn more',
+    link: 'https://games.zinclearninglabs.com/r/demo/crg/passage/33'
   },
   {
     img: News_Demo_Night,
     heading: 'DEMO NIGHT IN NYC!',
     date: 'December 19, 2016',
     description:
-      'Zinc was thrilled to demo at the New York Tech Alliance’s  nal event of 2016, a night devoted to innovative ed tech solutions and presented in partnership with the New York City Department of Education’s iZone. If you weren’t able to attend, but want to see what you missed, you can check out the recording'
+      'Zinc was thrilled to demo at the New York Tech Alliance’s  nal event of 2016, a night devoted to innovative ed tech solutions and presented in partnership with the New York City Department of Education’s iZone. If you weren’t able to attend, but want to see what you missed, you can check out the recording',
+    link: 'https://vimeo.com/196638406'
   },
   {
     img: News_Dont_Ignore,
@@ -57,7 +69,10 @@ const newsImages = [
     img: News_Education_Dive,
     heading: 'EDUCATION DIVE ON ZINC’S SPRINGBOARD INTEGRATION',
     date: 'July 21, 2016',
-    description: 'Education Dive shared the scoop on Zinc and the College Board'
+    description:
+      'Education Dive shared the scoop on Zinc and the College Board',
+    link:
+      'https://www.educationdive.com/press-release/20160608-college-board-and-zinc-learning-labs-integrate-innovative-reading-platform/'
   },
   {
     img: News_Research_Recognized,
@@ -74,7 +89,8 @@ const newsImages = [
     heading: 'TOUGH TALK ON USING TECH TO ACHIEVE ADVANCED LITERACY TODAY',
     date: 'July 31, 2017',
     description:
-      'Edtech Digest recently interviewed Zinc’s founder, Matt Bardin, on his views on literacy, edtech and the future of reading. Check out the full piece'
+      'Edtech Digest recently interviewed Zinc’s founder, Matt Bardin, on his views on literacy, edtech and the future of reading. Check out the full piece',
+    link: 'https://edtechdigest.blog/2017/07/20/advancing-literacy/'
   },
   {
     img: News_Veritas_Is_Now_Zinc,
@@ -93,7 +109,9 @@ const newsImages = [
     date: 'September 6, 2017',
     description:
       'Great lit minds think alike.\n' +
-      'Zinc and LitLife, a nationally recognized organization dedicated to innovative approaches in professional development for literacy education, announced we’ll be joining efforts to achieve our shared mission of improving adolescent literacy. More on the partnership'
+      'Zinc and LitLife, a nationally recognized organization dedicated to innovative approaches in professional development for literacy education, announced we’ll be joining efforts to achieve our shared mission of improving adolescent literacy. More on the partnership',
+    link:
+      'https://www.educationdive.com/press-release/20170906-litlife-adds-zinc-learning-labs-online-literacy-tools-to-boost-middle-scho/'
   },
   {
     img: News_Zinc_Featured_In_District,
@@ -115,14 +133,18 @@ const newsImages = [
     heading: 'ZINC IN EDTECH REVIEW',
     date: 'August 1, 2016',
     description:
-      'EdTechReview (ETR), the Delhi start-up for education tech- nology news and community, whom EdSurge labels as their “Indian Twin,” recently published a comprehensive Zinc review. Highlights include a reference to the program as “a great way for both educators and stu- dents to keep in a loop and work together,” and a sugges- tion that the reports allow all teachers and students, to an- alyze “weak and strong areas and work accordingly.” Check out the full review'
+      'EdTechReview (ETR), the Delhi start-up for education tech- nology news and community, whom EdSurge labels as their “Indian Twin,” recently published a comprehensive Zinc review. Highlights include a reference to the program as “a great way for both educators and stu- dents to keep in a loop and work together,” and a sugges- tion that the reports allow all teachers and students, to an- alyze “weak and strong areas and work accordingly.” Check out the full review',
+    link:
+      'http://edtechreview.in/reviews/2456-zinc-reading-labs-to-enhance-college-ready-reading-and-thinking-skills#.V5scjjB50OU.twitter'
   },
   {
     img: News_Zinc_Presents,
     heading: 'ZINC PRESENTS AT THE 2018 ASU GSV SUMMIT',
     date: 'April 20, 2018',
     description:
-      'Check out Zinc’s Founder and President, Matt Bardin, dis- cussing Zinc’s Reading Revolu- tion HERE'
+      'Check out Zinc’s Founder and President, Matt Bardin, dis- cussing Zinc’s Reading Revolu- tion HERE',
+    link:
+      'https://www.youtube.com/watch?v=LgYXxtXZPqs&list=PLIxIt1uiA-hh2wS3lvQnHdLBu9oQjtjag&index=90#newspage042018'
   },
   {
     img: News_Zinc_Takes_On,
@@ -130,14 +152,18 @@ const newsImages = [
     date: 'April 25, 2017',
     description:
       'Zinc’s experience with the\n' +
-      'New York City Department of Education’s iZone led to some big insight into how districts across the country can disrupt the education technology status quo. Check out these pearls of wisdom in an EdSurge article, written by Zinc’s Director of Business Development, Colette Coleman'
+      'New York City Department of Education’s iZone led to some big insight into how districts across the country can disrupt the education technology status quo. Check out these pearls of wisdom in an EdSurge article, written by Zinc’s Director of Business Development, Colette Coleman',
+    link:
+      'https://www.edsurge.com/news/2017-04-15-can-a-district-disrupt-the-edtech-industry'
   },
   {
     img: News_Zinc_Weights_In,
     heading: 'ZINC WEIGHS IN ON THE NEW SAT IN US NEWS & WORLD REPORT',
     date: 'March 4, 2016',
     description:
-      'The exciting shift to the new SAT is upon us! Learn more about this change and hear in- sights from Zinc’s Founder and President, Matt Bardin, a test prep expert with over 20 years of experience in this article out of US News'
+      'The exciting shift to the new SAT is upon us! Learn more about this change and hear in- sights from Zinc’s Founder and President, Matt Bardin, a test prep expert with over 20 years of experience in this article out of US News',
+    link:
+      'https://www.usnews.com/news/articles/2016-03-03/the-debut-of-the-new-sat?int=a14709'
   }
 ];
 

@@ -39,6 +39,12 @@
   line-height: 1.4em;
 }
 .tile__more {
+  line-height: 32px;
+  font-size: 12px;
+  font-family: 'Nexa-XBold', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   outline: none;
