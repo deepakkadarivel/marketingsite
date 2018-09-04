@@ -49,15 +49,16 @@
   margin: 30px 0;
 }
 .testimonials__section__content .user--content__use {
-  font-family: 'Nexa-Black-Italic', sans-serif;
+  font-family: 'Nexa-Bold-Italic', sans-serif;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .testimonials__section__content .user--content__info {
   display: flex;
   margin-left: -12%;
   font-size: 14px;
   line-height: 1.4em;
-  font-family: 'Nexa-Black', sans-serif;
+  font-family: 'Nexa-Bold', sans-serif;
 }
 .testimonials__section__content .user--content__info__img {
   margin-left: 30px;
@@ -68,10 +69,11 @@
 }
 .testimonials__section__content .user--content__more {
   text-transform: uppercase;
-  margin-top: 20px;
   font-size: 12px;
   font-family: 'Nexa-Black', sans-serif;
   cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
 }
 .testimonials__section__left {
   position: absolute;

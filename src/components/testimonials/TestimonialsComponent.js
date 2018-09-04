@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './testimonials.css';
 import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
 import Jason from '../../assets/images/users/Jason.JPG';
@@ -32,7 +33,12 @@ class TestimonialsComponent extends Component {
       summary:
         'Our students are being challenged to read higher-level texts, as well as to learn new vocabulary. With this practice, in many cases students have been able to provide the definitions to words that come up in our readings and share them with the class.',
       img: Jason,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Thorough, user-friendly, and competitive.',
+      howIUse:
+        "I use Zinc in a variety of ways, mainly for vocabulary. I have assigned it as homework, it has been used as a warm-up, and I always have it as an assignment posted as early-finisher work. It’s also helping me differentiate instruction, as many self-motivated students take it upon themselves to learn new words without my direction. \n  usually teach my students a set number of words per week, then assign Zinc to cover other words I know are important, but don't have time to teach. \n The reports can be run by class to see who has completed the assignments and what their performance was. With this feature, I’m able to quickly assign articles, have Zinc grade them, then enter those grades into the grade book, holding students more accountable.",
+      impact:
+        'Some teachers are in competition with each other over whose students are in the top ten on the leaderboard. Our students are being challenged to read higher-level texts, as well as to learn new vocabulary. With this practice, in many cases students have been able to provide the definitions to words that come up in our readings and share them with the class because they first learned the word in Zinc.'
     },
     {
       type: 'image',
@@ -50,7 +56,12 @@ class TestimonialsComponent extends Component {
       summary:
         'It has been wonderful to see the healthy competition. Students really are motivated to go back and play multiple decks even when they’re not explicitly assigned. This never used to happen with our previous vocabulary routines.',
       img: dave,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Innovative, engaging, fun.',
+      howIUse:
+        'We use Zinc 2-3 times a week, primarily as "Do-Nows" and as homework assignments. Each activity takes roughly 10-minutes. ',
+      impact:
+        'Zinc helps students stay engaged in their vocabulary instruction. It also helps us to give more immediate feedback. Our classroom has become a place where 100% of the class will engage in vocabulary instruction. Gone are the days of forcing kids to learn and review content area terms. \n It has been wonderful to see the healthy competition that comes from the class rankings. Students really are motivated to go back and play multiple decks even when they’re not explicitly assigned. This never used to happen with our previous vocabulary routines.'
     },
     {
       type: 'image',
@@ -68,7 +79,12 @@ class TestimonialsComponent extends Component {
       summary:
         'Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests.',
       img: Jane,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Effective, excellent, and efficient.',
+      howIUse:
+        'Zinc is assigned weekly and counts towards a homework grade. At the beginning of the year students have two weeks to complete an article, and once I believe students have the hang of it, students complete an article each week.',
+      impact:
+        'Zinc solves the problem of students reading. Most of my students are resistant to reading anything and Zinc as homework helps. The vocabulary part of Zinc helps with standardized testing and understanding things better in other classes. Zinc has helped students improve vocabulary, and, for some, encouraged a desire to read. Parents are also supportive of Zinc. \n Due to my being excited about using Zinc and seeing the improvement with numerous students, other students began to take it seriously. Over 75% of my students will now complete their assignments. This has resulted in students being willing to read articles assigned in other classes and staying in touch with current events! Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests. '
     },
     {
       type: 'image',
@@ -85,7 +101,12 @@ class TestimonialsComponent extends Component {
       summary:
         'I’ve seen many students’ [SAT/ACT] verbal scores increase after spending a few months reading the articles on the app!',
       img: julie,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Empathetic, passionate, and devoted.',
+      howIUse:
+        'I use the articles throughout my work with students (usually 3-12 months) to improve comprehension and expose students to new ideas and different styles of writing. I love the app and the company’s philosophy. \n I check the predictions students type in. They give you real insight into quality of comprehension.',
+      impact:
+        'I’ve seen many students’ verbal scores increase after spending a few months reading the articles on the app!Yes, I’ve seen many SAT reading scores jump up significantly after using Zinc’s app.  \n Students feel more able to read from different news sources, more willing to find new resources.'
     },
     {
       type: 'image',
@@ -102,7 +123,12 @@ class TestimonialsComponent extends Component {
       summary:
         "Zinc helps with enriching students' vocabulary and content skills. I have seen my students learn an amazing amount of grade-level content words. My Intermediate ELLS are mastering rhetorical and figurative terms to prepare for state EOC exams. I would say that Zinc vocabulary has greatly impacted students’ content vocabulary skills, which will in turn affect their reading levels.",
       img: Swobodzinski,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Challenging, relevant, and engaging.',
+      howIUse:
+        'I use Zinc for extra credit vocabulary practice to support my core curricula. It’s great for students who have completed assignments in class or as homework for students who need/want extra credit.',
+      impact:
+        'I have seen my students learn an amazing amount of grade-level content words. My Intermediate ELLS are mastering rhetorical and figurative terms to prepare for state EOC exams. One of my novice ESL students is ranked #34 in the top leaderboard on Zinc. He has learned 1,345 words this semester alone! I would say that Zinc vocabulary has greatly impacted students’ content vocabulary skills, which will in turn affect their reading levels. \n Using ZInc as extra credit also helps motivate the students. Some students even become competitive with each other for points or words learned.'
     },
     {
       type: 'image',
@@ -119,7 +145,12 @@ class TestimonialsComponent extends Component {
       summary:
         'With Zinc, we are automatically aligned! Since Zinc, our scores have increased on our state tests! The students are having more fun learning! Most importantly, ALL students are engaged!',
       img: Curtis,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'Exciting, knowledge and helpful.',
+      howIUse:
+        'I use Zinc’s vocabulary and articles three times per week for 25 minutes each time. Zinc makes it easier to study for vocabulary words. It also is a great way to find interesting articles to read! In addition it aligns with the common core standards. We had to choose from different articles from a variety of different resources. We had to also find information that would align to our common core state standards. With Zinc, we are automatically aligned! \n The vocabulary is great for students to learn as all the words are aligned with the common core standards. Make sure you allow time in the classroom for students to complete the vocabulary decks along with reading the interesting articles!',
+      impact:
+        'Since Zinc, our scores have increased on our statndardized tests! The students are having more fun learning! Most importantly, ALL students are engaged! \n I have a student that was not interested in his learning and since Zinc, he has started to participate and has really learned and understands the importance of our vocabulary! Through reading several articles in a week and learning the vocabulary, many of our students are able to read at a faster rate through our reading circles. \n State and district tests have improved since Zinc. The program has allowed our students to improve their understandings of complex sentences and texts. Zinc is AWESOME!'
     },
     {
       type: 'image',
@@ -139,7 +170,12 @@ class TestimonialsComponent extends Component {
       summary:
         'Zinc has helped me raise my A.I.R test scores. The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work.',
       img: Greg,
-      type: 'comment'
+      type: 'comment',
+      toMe: 'stimulating, exciting, and applicable.',
+      howIUse:
+        'I use Zinc about twice a week, as in-class work to reinforce the topic of the unit. It helps my solve the problem of finding companion articles and topics for our thematic units.',
+      impact:
+        'The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work. \n Zinc has helped me raise my A.I.R test scores because Zinc mimics the way the AIR test is given. It helps my solve the problem of finding companion articles and topics for our thematic units. \n I have told, showed, and trained several colleagues on the benefits of Zinc.'
     },
     {
       type: 'image',
@@ -207,7 +243,6 @@ class TestimonialsComponent extends Component {
         );
       }
     };
-
     return (
       <div className="testimonials">
         <section className="testimonials__section testimonials--bg parallax">
@@ -238,7 +273,15 @@ class TestimonialsComponent extends Component {
                       </span>
                       {this.state.currentTestimonial.zincUsage}
                     </p>
-                    <div className="user--content__more">Read More >>></div>
+                    <Link
+                      className="user--content__more"
+                      to={{
+                        pathname: '/testimonial',
+                        state: { testimonial: this.state.currentTestimonial }
+                      }}
+                    >
+                      {'Read More >>>'}
+                    </Link>
                   </div>
                   <img
                     className="user--content__info__img"

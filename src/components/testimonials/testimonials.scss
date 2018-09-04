@@ -55,8 +55,9 @@
         }
 
         &__use {
-          font-family: 'Nexa-Black-Italic', sans-serif;
+          font-family: 'Nexa-Bold-Italic', sans-serif;
           font-size: 14px;
+          margin-bottom: 10px;
         }
 
         &__info {
@@ -64,7 +65,7 @@
           margin-left: -12%;
           font-size: 14px;
           line-height: 1.4em;
-          font-family: 'Nexa-Black', sans-serif;
+          font-family: 'Nexa-Bold', sans-serif;
 
           &__img {
             margin-left: 30px;
@@ -77,10 +78,11 @@
 
         &__more {
           text-transform: uppercase;
-          margin-top: 20px;
           font-size: 12px;
           font-family: 'Nexa-Black', sans-serif;
           cursor: pointer;
+          text-decoration: none;
+          color: #ffffff;
         }
       }
     }

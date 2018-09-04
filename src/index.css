@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: 'Nexa-Bold-Italic';
+  src: local('Nexa-Bold-Italic'), url(./assets/fonts/Nexa-Bold-Italic.otf);
+}
+
+@font-face {
   font-family: 'Nexa-XBold';
   src: local('Nexa-XBold'), url(./assets/fonts/Nexa-XBold.otf);
 }
@@ -31,6 +36,16 @@
 @font-face {
   font-family: 'Nexa-Heavy-Italic';
   src: local('Nexa-Heavy-Italic'), url(./assets/fonts/Nexa-Heavy-Italic.otf);
+}
+
+@font-face {
+  font-family: 'Nexa-Book-Italic';
+  src: local('Nexa-Book-Italic'), url(./assets/fonts/Nexa-Book-Italic.otf);
+}
+
+@font-face {
+  font-family: 'Nexa-Book';
+  src: local('Nexa-Book'), url(./assets/fonts/Nexa-Book.otf);
 }
 
 @font-face {

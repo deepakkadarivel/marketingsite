@@ -11,6 +11,7 @@ import Contact from '../contact/Contact';
 import News from '../news/News';
 import Zinc from '../zinc/Zinc';
 import Login from '../login/Login';
+import TestimonialDetail from '../testimonialDetail/TestimonialDetail';
 import { withRouter } from 'react-router-dom';
 
 class App extends Component {
@@ -29,7 +30,7 @@ class App extends Component {
 
   onRouteChanged() {
     this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+      return { sideDrawerOpen: false };
     });
   }
 
@@ -53,6 +54,12 @@ class App extends Component {
           <Route exact path="/news" component={News} />
           <Route exact path="/zinc" component={Zinc} />
           <Route exact path="/login" component={Login} />
+          <Route
+            exact
+            path="/testimonial"
+            component={TestimonialDetail}
+            onChange={() => window.scrollTo(0, 0)}
+          />
           <Route component={Home} />
         </Switch>
         <FooterComponent />

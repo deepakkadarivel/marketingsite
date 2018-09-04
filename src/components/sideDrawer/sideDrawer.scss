@@ -19,6 +19,10 @@
     flex-direction: column;
     margin-top: 60px;
 
+    Link, a {
+      text-decoration: none;
+    }
+
     p {
       margin: 0 2%;
       text-transform: uppercase;

@@ -1,0 +1,90 @@
+.testimonial {
+  padding: 8% 0;
+  background-color: #d71920;
+}
+.testimonial .back {
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  right: 35px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+.testimonial__section {
+  padding: 0 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+.testimonial__section .section {
+  margin-bottom: 50px;
+}
+.testimonial__section__content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.testimonial__section__content .student--story {
+  margin-top: 60px;
+  margin-left: 30px;
+  display: block;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+.testimonial__section__content .quote--image {
+  min-width: 180px;
+  height: 485px;
+  z-index: 1;
+  background: url('../../assets/icons/icon_quote_plain.svg') center center
+    no-repeat;
+}
+.testimonial__section__content .user--content {
+  margin: 5% 2% 0 0%;
+  min-height: 270px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  font-family: 'Nexa-Heavy-Italic', sans-serif;
+}
+.testimonial__section__content .user--content__summary {
+  font-family: 'Nexa-Book-Italic', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.testimonial__section__content .user--content__summary span {
+  font-family: 'Nexa-Heavy-Italic', sans-serif;
+}
+.testimonial__section__content .user--content__comment {
+  font-family: 'Nexa-Black', sans-serif;
+  font-size: 1em;
+  margin: 30px 0;
+  margin-left: 2%;
+}
+.testimonial__section__content .user--content__use {
+  font-family: 'Nexa-Book-Italic', sans-serif;
+  font-size: 18px;
+}
+.testimonial__section__content .user--content__info {
+  display: flex;
+  margin-left: -3%;
+}
+.testimonial__section__content .user--content__info--detail {
+  padding-right: 30%;
+}
+.testimonial__section__content .user--content__info__img {
+  display: block;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+.testimonial__section__content .user--content__more {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'Nexa-Black', sans-serif;
+  cursor: pointer;
+}

@@ -18,6 +18,10 @@
   flex-direction: column;
   margin-top: 60px;
 }
+.sidebar__items link,
+.sidebar__items a {
+  text-decoration: none;
+}
 .sidebar__items p {
   margin: 0 2%;
   text-transform: uppercase;
