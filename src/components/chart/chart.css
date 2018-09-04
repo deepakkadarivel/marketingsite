@@ -6,7 +6,7 @@
   background-color: #ec008c;
 }
 .chart__section {
-  padding: 0 12%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,5 +129,18 @@
   .chart__table th {
     text-align: center;
     padding: 14px 8px;
+  }
+  .chart__table .methodsHeader:not(:first-child) {
+    width: 20%;
+  }
+  .chart__table .readingHeader:first-child {
+    width: 30%;
+    font-family: 'Nexa-Black', sans-serif;
+  }
+  .chart__table .readingHeader:last-child {
+    width: 50%;
+  }
+  .chart__table .readingHeader {
+    line-height: 2em;
   }
 }

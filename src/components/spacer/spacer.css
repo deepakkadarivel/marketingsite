@@ -45,6 +45,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .spacer__header {
+    padding: 0 5%;
+  }
   .spacer__header__action-type {
     font-family: 'Nexa-Heavy', sans-serif;
     font-size: 12px;

@@ -16,7 +16,7 @@
   font-family: 'Nexa-Bold', sans-serif;
 }
 .stepper__section {
-  padding: 0 12%;
+  padding: 0 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,6 +104,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .stepper__section {
+    padding: 0 5%;
+  }
+  .stepper__section__actions {
+    margin-top: 0;
+  }
   .stepper__section__actions .action {
     margin-right: 0;
     display: flex;
@@ -161,6 +167,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .stepper__section {
+    padding: 0 5%;
+  }
   .stepper__section__actions .action {
     margin-right: 30px;
     display: flex;
@@ -175,10 +184,34 @@
   .stepper__section__actions .action__text {
     font-size: 12px;
   }
+  .stepper__section__actions .action .arrow {
+    background: url('../../assets/icons/icon_arrow.svg') center center no-repeat;
+  }
+  .stepper__section__actions .action .test {
+    background: url('../../assets/icons/icon_test_md.svg') center center
+      no-repeat;
+  }
+  .stepper__section__actions .action .vocab {
+    background: url('../../assets/icons/icon_vocab_md.svg') center center
+      no-repeat;
+  }
+  .stepper__section__actions .action .reading {
+    background: url('../../assets/icons/icon_reading_md.svg') center center
+      no-repeat;
+  }
+  .stepper__section__actions .action .train {
+    background: url('../../assets/icons/icon_train_md.svg') center center
+      no-repeat;
+  }
+  .stepper__section__actions .action .target {
+    background: url('../../assets/icons/icon_target.svg') center center
+      no-repeat;
+  }
   .stepper__section__actions .action:last-child {
     margin-right: 0;
   }
   .stepper__section__text {
-    padding: 10%;
+    padding: 5%;
+    font-size: 1em;
   }
 }

@@ -22,12 +22,13 @@
   }
 
   &__content {
-    padding: 0 4% 0 12%;
+    padding: 0 5%;
 
     &--body {
       display: flex;
       flex-direction: row;
       margin-top: 40px;
+      align-items: flex-start;
 
       &__action {
         width: 20%;
@@ -103,8 +104,105 @@
         max-width: 60%;
         min-width: 20%;
         height: auto;
+        object-fit: contain;
       }
     }
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .method {
+    &__content {
+      &--body {
+      &__action {
+        width: 30%;
+        
+        .item {
+          width: 80px;
+          height: 80px;
+        }
+
+        .test {
+          background: url("../../assets/icons/icon_test_md_color.svg") center center no-repeat;
+        }
+
+        .vocab {
+          background: url("../../assets/icons/icon_vocab_md_color.svg") center center no-repeat;
+        }
+
+        .reading {
+          background: url("../../assets/icons/icon_reading_md_color.svg") center center no-repeat;
+        }
+
+        .train {
+          background: url("../../assets/icons/icon_train_md_color.svg") center center no-repeat;
+        }
+
+        .target {
+          background: url("../../assets/icons/icon_target_md_color.svg") center center no-repeat;
+        }
+      }
+
+      &__info {
+        width: 40%;
+      }
+
+      &__image {
+        width: 50%
+      }
+    }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .method {
+    &__content {
+      padding: 0 5%;
+      &--body {
+        display: flex;
+      flex-direction: column;
+      
+      &__action {
+        width: 100%;
+        
+        .item {
+          width: 80px;
+          height: 80px;
+        }
+
+        .test {
+          background: url("../../assets/icons/icon_test_md_color.svg") center center no-repeat;
+        }
+
+        .vocab {
+          background: url("../../assets/icons/icon_vocab_md_color.svg") center center no-repeat;
+        }
+
+        .reading {
+          background: url("../../assets/icons/icon_reading_md_color.svg") center center no-repeat;
+        }
+
+        .train {
+          background: url("../../assets/icons/icon_train_md_color.svg") center center no-repeat;
+        }
+
+        .target {
+          background: url("../../assets/icons/icon_target_md_color.svg") center center no-repeat;
+        }
+      }
+
+      &__info {
+        width: 100%;
+        padding: 0;
+        margin: 40px 0;
+      }
+
+      &__image {
+        min-width: 100%;
+      }
+    }
+    }
+  }
 }

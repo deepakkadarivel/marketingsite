@@ -21,12 +21,13 @@
   background-color: #bb00d7;
 }
 .method__content {
-  padding: 0 4% 0 12%;
+  padding: 0 5%;
 }
 .method__content--body {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+  align-items: flex-start;
 }
 .method__content--body__action {
   width: 20%;
@@ -94,4 +95,86 @@
   max-width: 60%;
   min-width: 20%;
   height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .method__content--body__action {
+    width: 30%;
+  }
+  .method__content--body__action .item {
+    width: 80px;
+    height: 80px;
+  }
+  .method__content--body__action .test {
+    background: url('../../assets/icons/icon_test_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .vocab {
+    background: url('../../assets/icons/icon_vocab_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .reading {
+    background: url('../../assets/icons/icon_reading_md_color.svg') center
+      center no-repeat;
+  }
+  .method__content--body__action .train {
+    background: url('../../assets/icons/icon_train_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .target {
+    background: url('../../assets/icons/icon_target_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__info {
+    width: 40%;
+  }
+  .method__content--body__image {
+    width: 50%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .method__content {
+    padding: 0 5%;
+  }
+  .method__content--body {
+    display: flex;
+    flex-direction: column;
+  }
+  .method__content--body__action {
+    width: 100%;
+  }
+  .method__content--body__action .item {
+    width: 80px;
+    height: 80px;
+  }
+  .method__content--body__action .test {
+    background: url('../../assets/icons/icon_test_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .vocab {
+    background: url('../../assets/icons/icon_vocab_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .reading {
+    background: url('../../assets/icons/icon_reading_md_color.svg') center
+      center no-repeat;
+  }
+  .method__content--body__action .train {
+    background: url('../../assets/icons/icon_train_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__action .target {
+    background: url('../../assets/icons/icon_target_md_color.svg') center center
+      no-repeat;
+  }
+  .method__content--body__info {
+    width: 100%;
+    padding: 0;
+    margin: 40px 0;
+  }
+  .method__content--body__image {
+    min-width: 100%;
+  }
 }
