@@ -77,3 +77,39 @@
         }
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gradepopup {
+      display: block;
+
+      .popup--body {
+        min-width: 60%;
+        max-width: 65%;
+        margin-top: 20px;
+    }
+  
+      .header {
+          flex-direction: column;
+        &__link {
+            margin: 40px 0;
+            p {
+                font-size: 1.6em;
+                line-height: 1.6em;
+            }
+        }
+
+        &__action {
+            p {
+                margin: 0;
+                padding: 8px 4px 0px 4px;
+            }
+        }
+    }
+  }
+}
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .gradepopup {
+  display: none;
+    }
+  }

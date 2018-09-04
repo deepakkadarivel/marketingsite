@@ -2,24 +2,22 @@
   z-index: 4;
 }
 .section__header {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 100;
   margin: 0;
-  letter-spacing: 0.1em;
 }
 .section__header span {
   font-family: 'BELLI', sans-serif;
-  font-size: 4.2rem;
+  font-size: 5rem;
 }
 .section__sub-header {
-  font-size: 2.2em;
-  margin: 0;
+  font-size: 2.6em;
+  margin: 8px 0;
   text-transform: uppercase;
 }
 .section__content {
   margin-top: 10px;
-  font-size: 1.3em;
-  letter-spacing: 0.05em;
+  font-size: 1.4em;
 }
 .section__content p {
   margin: 0;
@@ -27,32 +25,30 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .section__header {
-    font-size: 4.2em;
-  }
   .section__sub-header {
-    font-size: 2em;
-    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0;
   }
   .section__content {
-    margin-top: 40px;
-    font-size: 1.2em;
+    margin-top: 10px;
+    font-size: 1.6em;
     font-weight: normal;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .section {
-    padding: 20px;
-  }
   .section__header {
-    font-size: 4em;
+    font-size: 3.2em;
+  }
+  .section__header span {
+    font-size: 4rem;
   }
   .section__sub-header {
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: 0.1em;
+    line-height: 2rem;
   }
   .section__content {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }

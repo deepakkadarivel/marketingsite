@@ -8,11 +8,10 @@
   margin-top: 0;
 }
 .grade--popup .grade__cell--body {
-  padding: 10px 5px 3px 5px;
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 2.6em;
+  font-size: 5em;
   transition: 0.5s ease;
 }
 .grade--popup .grade__cell--body p {
@@ -45,25 +44,24 @@
   align-items: center;
 }
 .grade__cell--head .content__eye {
-  width: 64px;
-  height: 36px;
+  width: 96px;
+  height: 48px;
   margin-left: 20px;
   background: url('../../assets/icons/icon_eye.svg') center center no-repeat;
 }
 .grade__cell--head .content__text {
   position: absolute;
   margin-left: 100px;
-  text-align: start;
   text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1em;
+  font-size: 1.4em;
+  margin-top: 2px;
 }
 .grade__cell--body {
   padding: 30px 20px 10px 20px;
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 5em;
+  font-size: 7em;
   transition: 0.5s ease;
 }
 .grade__cell--body p {
@@ -83,13 +81,20 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  display: block;
+  .grade {
+    display: block;
+  }
+  .grade__cell--body {
+    font-size: 6em;
+  }
+  .grade__cell--body p {
+    font-size: 0.4rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .grade {
     display: block;
-    padding: 20px;
   }
   .grade__cell {
     padding: 10px;
