@@ -18,7 +18,7 @@ import News_Zinc_In_EdTech from '../../assets/images/news/News_Zinc_In_EdTech.jp
 import News_Zinc_Presents from '../../assets/images/news/News_Zinc_Presents.jpg';
 import News_Zinc_Takes_On from '../../assets/images/news/News_Zinc_Takes_On.jpg';
 import News_Zinc_Weights_In from '../../assets/images/news/News_Zinc_Weights_In.jpg';
-import leap_innovations from '../../assets/images/news/leap_innovations.png';
+import leap_innovations from '../../assets/images/news/leap_innovations.jpg';
 
 let brakePoints = [750];
 const newsImages = [

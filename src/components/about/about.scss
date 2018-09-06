@@ -1,14 +1,14 @@
 .about {
-  padding: 5%;
+  padding: 5% 12%;
   background: url('../../assets/images/about_bg.jpg') no-repeat fixed center;
   background-size: cover;
   color: #FFFFFF;
 
   &__content {
     padding-right: 50%;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.1em;
-    line-height: 24px;
+    line-height: 2em;
   }
 }
 
@@ -37,7 +37,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .about {
     background: url('../../assets/images/about_bg_mob.jpg') no-repeat center center fixed;
-    padding: 10%;
+    padding: 20% 5%;
     &__content {
       padding-right: 10%;
     }

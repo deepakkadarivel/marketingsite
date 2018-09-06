@@ -3,12 +3,15 @@ import './sectionTitle.css';
 import PropTypes from 'prop-types';
 
 const SectionTitleComponent = props => {
+  let subHeader = props.subHeader
+    .split('\n')
+    .map((i, key) => <p key={key}>{i}</p>);
   return (
     <div className="section">
       <p className="section__header">
         what <span>if</span>
       </p>
-      <p className="section__sub-header">{props.subHeader}</p>
+      <p className="section__sub-header">{subHeader}</p>
       <p className="section__content">{props.content}</p>
     </div>
   );

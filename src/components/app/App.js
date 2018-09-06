@@ -45,7 +45,10 @@ class App extends Component {
     return (
       <div className="App">
         <ToolbarComponent drawerClickHandler={drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer
+          show={this.state.sideDrawerOpen}
+          drawerClickHandler={drawerToggleClickHandler}
+        />
         {this.state.sideDrawerOpen && (
           <Backdrop drawerClickHandler={drawerToggleClickHandler} />
         )}

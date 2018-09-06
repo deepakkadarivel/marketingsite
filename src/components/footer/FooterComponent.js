@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 const FooterComponent = () => {
   return (
@@ -8,7 +9,7 @@ const FooterComponent = () => {
         <div className="footer__section__actions">
           <div className="button">
             <span className="sign-up" />
-            sign up for a demo
+            <Link to="/signup">sign up for a demo</Link>
           </div>
           <div className="button">
             <span className="email" />

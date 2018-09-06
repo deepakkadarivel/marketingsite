@@ -38,6 +38,11 @@
   margin-right: 20px;
   background: url('../../assets/icons/icon_signup.svg') center center no-repeat;
 }
+.footer__section__actions link,
+.footer__section__actions a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .footer__section__actions .email {
   width: 48px;
   height: 48px;

@@ -105,7 +105,7 @@ const Home = () => {
       <StepperComponent />
       <SpacerComponent
         action={'STUDENT PERFORMANCE DATA'}
-        img={ZIA_Main_Page_interactive_close_reading_instruction_grab}
+        img={ZIA_Main_Page_student_performance_data_grab}
         name={'performance'}
       />
       <ChartComponent data={methods} />
@@ -117,13 +117,13 @@ const Home = () => {
       <ChartComponent data={closeReading} />
       <SpacerComponent
         action={'INTERACTIVE CLOSE READING INSTRUCTION'}
-        img={ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab}
+        img={ZIA_Main_Page_interactive_close_reading_instruction_grab}
         name={'performance'}
       />
       <TestimonialsComponent />
       <SpacerComponent
         action={'SAT PREP: VOCABULARY - 5TH GRADE'}
-        img={ZIA_Main_Page_student_performance_data_grab}
+        img={ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab}
         name={'performance'}
       />
     </div>

@@ -7,24 +7,42 @@ import { withRouter } from 'react-router';
 const SideDrawer = props => {
   return (
     <div className={`sidebar ${props.show ? 'sidebar--open' : ''}`}>
+      <div className="close" onClick={props.drawerClickHandler} />
       <div className="sidebar__items">
         <Link to="/">
-          <p>Home</p>
+          <p>
+            <span>>&nbsp;</span> Home
+          </p>
         </Link>
         <Link to="/zinc">
-          <p>@ZincLearning</p>
+          <p>
+            <span>>&nbsp;</span>
+            @ZincLearning
+          </p>
         </Link>
         <Link to="/news">
-          <p>News</p>
+          <p>
+            <span>>&nbsp;</span>
+            News
+          </p>
         </Link>
         <Link to="/about">
-          <p>About</p>
+          <p>
+            <span>>&nbsp;</span>
+            About
+          </p>
         </Link>
         <Link to="/contact">
-          <p>Contact</p>
+          <p>
+            <span>>&nbsp;</span>
+            Contact
+          </p>
         </Link>
         <a href="https://games.zinclearninglabs.com/users/sign_in">
-          <p>Login</p>
+          <p>
+            <span>>&nbsp;</span>
+            Login
+          </p>
         </a>
       </div>
 
@@ -42,7 +60,8 @@ const SideDrawer = props => {
 };
 
 SideDrawer.propTypes = {
-  show: PropTypes.bool
+  show: PropTypes.bool,
+  drawerClickHandler: PropTypes.func
 };
 
 export default withRouter(SideDrawer);

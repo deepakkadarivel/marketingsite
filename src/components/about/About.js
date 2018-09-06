@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about">
       <SectionTitleComponent
-        subHeader={'YOU HAD A PARTNER IN STUDENT SUCCESS?'}
+        subHeader={'YOU HAD A PARTNER IN STUDENT \n SUCCESS?'}
       />
       <div className="about__content">
         <p>

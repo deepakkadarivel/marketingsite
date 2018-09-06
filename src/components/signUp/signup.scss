@@ -16,6 +16,11 @@
       background-color: #000000;
       max-height: 18px;
       line-height: 25px;
+      cursor: pointer;
+    }
+
+    .submit:hover {
+        background-color: rgb(187, 0, 215);
     }
 
     .input {

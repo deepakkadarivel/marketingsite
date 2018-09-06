@@ -6,10 +6,40 @@
   color: #ffffff;
 }
 .contact__content {
-  padding-right: 50%;
+  margin-top: 50px;
+}
+.contact__content .button {
+  font-family: 'Nexa-Black', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.1em;
-  line-height: 24px;
+  line-height: 1.6em;
+  background: none;
+  padding: 12px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s ease;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.contact__content .email {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_email.svg') center center no-repeat;
+}
+.contact__content .phone {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_phone.svg') center center no-repeat;
+}
+.contact__content .location {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  background: url('../../assets/icons/icon_location.svg') center center
+    no-repeat;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -31,6 +61,7 @@
     background: url('../../assets/images/conatct_bg_ipad_land.jpg') no-repeat
       center center fixed;
     padding: 10%;
+    height: auto;
   }
   .contact__content {
     padding-right: 30%;
@@ -39,9 +70,10 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contact {
+    padding: 20% 5%;
+    height: auto;
     background: url('../../assets/images/contact_bg_mob.jpg') no-repeat center
       center fixed;
-    padding: 10%;
   }
   .contact__content {
     padding-right: 10%;

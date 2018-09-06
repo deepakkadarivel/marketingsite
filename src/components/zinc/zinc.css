@@ -33,7 +33,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .zinc {
-    padding: 10%;
+    padding: 20% 5%;
     background: url('../../assets/images/zinc_bg_mob.jpg') no-repeat center
       center fixed;
   }
