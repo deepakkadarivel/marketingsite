@@ -1,0 +1,142 @@
+.signup {
+  padding: 8% 10%;
+  //   height: 100vh;
+  background-color: rgb(142, 179, 82);
+  color: #ffffff;
+
+  &__content {
+    display: flex;
+
+    div:first-child {
+      width: 70%;
+    }
+
+    .submit {
+      padding: 10px 10px;
+      background-color: #000000;
+      max-height: 18px;
+      line-height: 25px;
+    }
+
+    .input {
+      border: 1px solid #cccccc;
+      padding: 10px 10px;
+      background-color: #ffffff;
+      font-size: 14px;
+
+      p {
+        display: inline-block;
+        color: #8e8e8e;
+        line-height: 18px;
+      }
+
+      .input {
+        border: none;
+        padding-bottom: 0;
+      }
+    }
+
+    .date {
+      p:first-child {
+        display: block;
+      }
+    }
+
+    .firstName,
+    .lastName {
+      width: 45%;
+    }
+
+    .firstName {
+      margin-right: 23px;
+    }
+
+    .email,
+    .role,
+    .usage,
+    .contactDetail,
+    .how,
+    .date {
+      width: 95.5%;
+      margin-top: 23px;
+    }
+
+    .input::placeholder {
+      color: #8e8e8e;
+      font-family: "NexaRegular", sans-serif;
+    }
+
+    .select {
+      font-size: 14px;
+      height: 14px;
+      border: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      background-color: #ffffff;
+    }
+
+    select::-ms-expand {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .signup {
+    padding: 15% 10%;
+    &__content {
+      display: flex;
+
+      div:first-child {
+        width: 85%;
+      }
+
+      .submit {
+        margin-left: 20px;
+      }
+
+      .firstName,
+      .lastName {
+        width: 43%;
+      }
+
+      .firstName {
+        margin-right: 27px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .signup {
+    padding: 18% 10%;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+
+      div:first-child {
+        width: 100%;
+      }
+      .email,
+      .role,
+      .usage,
+      .contactDetail,
+      .how,
+      .date {
+        width: auto;
+      }
+
+      .lastName, .submit {
+        margin-top: 23px;
+      }
+
+      .firstName,
+    .lastName,
+    .email,
+    .how {
+      width: 93.5%;
+    }
+    }
+  }
+}

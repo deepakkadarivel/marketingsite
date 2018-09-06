@@ -11,6 +11,7 @@ import Contact from '../contact/Contact';
 import News from '../news/News';
 import Zinc from '../zinc/Zinc';
 import Login from '../login/Login';
+import SignUp from '../signUp/SignUp';
 import TestimonialDetail from '../testimonialDetail/TestimonialDetail';
 import { withRouter } from 'react-router-dom';
 
@@ -54,6 +55,7 @@ class App extends Component {
           <Route exact path="/news" component={News} />
           <Route exact path="/zinc" component={Zinc} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/signup" component={SignUp} />
           <Route
             exact
             path="/testimonial"

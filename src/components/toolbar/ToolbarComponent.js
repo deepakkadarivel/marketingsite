@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './toolbar.css';
 import DrawerToggleButton from '../sideDrawer/DrawerToggleButton';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 class ToolbarComponent extends Component {
   render() {
@@ -9,7 +10,7 @@ class ToolbarComponent extends Component {
       <div className="nav">
         <div className="nav__logo" />
         <div className="nav__items">
-          <a href="#">Sign up for a Demo</a>
+          <Link to="/signup">Sign up for a Demo</Link>
           <a href="https://games.zinclearninglabs.com/users/sign_in">Login</a>
         </div>
         <div>

@@ -1,0 +1,119 @@
+.signup {
+  padding: 8% 10%;
+  background-color: #8eb352;
+  color: #ffffff;
+}
+.signup__content {
+  display: flex;
+}
+.signup__content div:first-child {
+  width: 70%;
+}
+.signup__content .submit {
+  padding: 10px 10px;
+  background-color: #000000;
+  max-height: 18px;
+  line-height: 25px;
+}
+.signup__content .input {
+  border: 1px solid #cccccc;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+.signup__content .input p {
+  display: inline-block;
+  color: #8e8e8e;
+  line-height: 18px;
+}
+.signup__content .input .input {
+  border: none;
+  padding-bottom: 0;
+}
+.signup__content .date p:first-child {
+  display: block;
+}
+.signup__content .firstName,
+.signup__content .lastName {
+  width: 45%;
+}
+.signup__content .firstName {
+  margin-right: 23px;
+}
+.signup__content .email,
+.signup__content .role,
+.signup__content .usage,
+.signup__content .contactDetail,
+.signup__content .how,
+.signup__content .date {
+  width: 95.5%;
+  margin-top: 23px;
+}
+.signup__content .input::placeholder {
+  color: #8e8e8e;
+  font-family: 'NexaRegular', sans-serif;
+}
+.signup__content .select {
+  font-size: 14px;
+  height: 14px;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+}
+.signup__content select::-ms-expand {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .signup {
+    padding: 15% 10%;
+  }
+  .signup__content {
+    display: flex;
+  }
+  .signup__content div:first-child {
+    width: 85%;
+  }
+  .signup__content .submit {
+    margin-left: 20px;
+  }
+  .signup__content .firstName,
+  .signup__content .lastName {
+    width: 43%;
+  }
+  .signup__content .firstName {
+    margin-right: 27px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .signup {
+    padding: 18% 10%;
+  }
+  .signup__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .signup__content div:first-child {
+    width: 100%;
+  }
+  .signup__content .email,
+  .signup__content .role,
+  .signup__content .usage,
+  .signup__content .contactDetail,
+  .signup__content .how,
+  .signup__content .date {
+    width: auto;
+  }
+  .signup__content .lastName,
+  .signup__content .submit {
+    margin-top: 23px;
+  }
+  .signup__content .firstName,
+  .signup__content .lastName,
+  .signup__content .email,
+  .signup__content .how {
+    width: 93.5%;
+  }
+}
