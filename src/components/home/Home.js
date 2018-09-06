@@ -94,7 +94,7 @@ const Home = () => {
       {
         title: 'Scaffolding',
         content:
-          'Students work at their own pace. When they make mistakes, hints and support guide them to the right answer and full comprehension.'
+          'Students work at their own paces. When they make mistakes, hints and support guide them to the right answer and full comprehension.'
       }
     ],
     type: 'readings'
@@ -122,7 +122,7 @@ const Home = () => {
       />
       <TestimonialsComponent />
       <SpacerComponent
-        action={'SAT PREP: VOCABULARY - 5TH GRADE'}
+        action={'VOCABULARY'}
         img={ZIA_Main_Page_SAT_prep_Vocab_5th_grade_grab}
         name={'performance'}
       />

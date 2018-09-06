@@ -27,7 +27,7 @@ class StepperComponent extends Component {
         text: 'Test',
         question: 'YOU KNEW WHERE TO START WITH EACH STUDENT?',
         answer:
-          'Zinc can offer your students a path to progress. Our short (under one class period) diagnostic sets a baseline level for each stu- dent.',
+          "Zinc's short (under one class period) diagnostic sets the independent reading level for each student. It features:",
         points: [
           'short authentic fiction and non-fiction texts',
           'separate adaptive tests for middle and high school students',

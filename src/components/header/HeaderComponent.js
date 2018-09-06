@@ -16,7 +16,7 @@ class HeaderComponent extends Component {
 
   render() {
     let text =
-      'Join our mission to give students the knowledge, skills, \npractice and imagination to achieve advanced literacy success.';
+      'Let’s give students the knowledge, skills, and\npractice they need to achieve advanced literacy success.';
     let content = text.split('\n').map((i, key) => <p key={key}>{i}</p>);
 
     const setSelectedGrade = grade => {

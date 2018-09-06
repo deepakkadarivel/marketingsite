@@ -23,6 +23,11 @@ import student_testimonial_10 from '../../assets/images/testimonials/student_tes
 class TestimonialsComponent extends Component {
   testimonials = [
     {
+      type: 'image',
+      img: student_testimonial_1,
+      id: 1
+    },
+    {
       name: 'Jason Bowen',
       profession: 'Role: 8th grade English teacher',
       location: 'Location: Salinas, California',
@@ -42,8 +47,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_1,
-      id: 1
+      img: student_testimonial_6,
+      id: 6
     },
     {
       name: 'Dave Diem',
@@ -88,8 +93,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_3,
-      id: 3
+      img: student_testimonial_7,
+      id: 7
     },
     {
       name: 'Julie Wright',
@@ -110,8 +115,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_4,
-      id: 4
+      img: student_testimonial_3,
+      id: 3
     },
     {
       name: 'Julie Swobodzinski',
@@ -132,8 +137,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_5,
-      id: 5
+      img: student_testimonial_8,
+      id: 8
     },
     {
       name: 'Curtis Eccles',
@@ -154,8 +159,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_6,
-      id: 6
+      img: student_testimonial_4,
+      id: 4
     },
     {
       name: 'Greg Jones',
@@ -179,18 +184,13 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_7,
-      id: 7
-    },
-    {
-      type: 'image',
-      img: student_testimonial_8,
-      id: 8
-    },
-    {
-      type: 'image',
       img: student_testimonial_9,
       id: 9
+    },
+    {
+      type: 'image',
+      img: student_testimonial_5,
+      id: 5
     },
     {
       type: 'image',
