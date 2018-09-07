@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './signup.css';
 import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
+import firebase from 'firebase';
 
 class SignUp extends Component {
   constructor() {
@@ -9,13 +10,23 @@ class SignUp extends Component {
       firstName: '',
       lastName: '',
       email: '',
-      role: '',
-      usage: '',
-      contactDetail: '',
+      role: 'TEACHER',
+      usage: 'NO',
+      contactDetail: 'SCHEDULE A DEMO',
       dateOption1: '',
       dateOption2: '',
       how: ''
     };
+
+    const config = {
+      apiKey: 'AIzaSyDrTEXpqKnbnytvsYnl4kEiYhfnrxWO-P0',
+      authDomain: 'contactform-cadc1.firebaseapp.com',
+      databaseURL: 'https://contactform-cadc1.firebaseio.com',
+      projectId: 'contactform-cadc1',
+      storageBucket: 'contactform-cadc1.appspot.com',
+      messagingSenderId: '133239038658'
+    };
+    firebase.initializeApp(config);
   }
 
   componentDidMount() {
@@ -23,6 +34,21 @@ class SignUp extends Component {
   }
 
   render() {
+    let messagesRef = firebase.database().ref('messages');
+    const saveMessage = () => {
+      let newMessageRef = messagesRef.push();
+      newMessageRef.set({
+        firstName: this.state.firstName,
+        lastName: this.state.lastName,
+        email: this.state.email,
+        role: this.state.role,
+        usage: this.state.usage,
+        contactDetail: this.state.contactDetail,
+        dateOption1: this.state.dateOption1,
+        dateOption2: this.state.dateOption2,
+        howDoYouKnowUs: this.state.how
+      });
+    };
     return (
       <div className="signup">
         <SectionTitleComponent
@@ -128,7 +154,7 @@ class SignUp extends Component {
               onChange={e => this.setState({ how: e.target.value })}
             />
           </div>
-          <div className="submit">
+          <div className="submit" onClick={() => saveMessage()}>
             <p>SUBMIT</p>
           </div>
         </div>

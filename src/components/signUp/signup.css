@@ -99,6 +99,9 @@
     display: flex;
     flex-direction: column;
   }
+  .signup__content .submit {
+    text-align: center;
+  }
   .signup__content div:first-child {
     width: 100%;
   }
