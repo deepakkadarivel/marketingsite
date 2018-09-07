@@ -191,23 +191,32 @@
     &__section {
       padding: 0 5%;
       &__actions {
+        .action-container {
+          flex-direction: column;
+          align-items: center;
+        }
+        flex-direction: column;
         .action {
-          margin-right: 30px;
+          padding-bottom: 0;
+          margin-right: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           &__item {
-            width: 62px;
-            height: 62px;
+            width: 80px;
+            height: 80px;
+
+            &--link {
+              height: 50px;
+              width: 50px;
+              position: relative;
+              bottom: 0;
+            }
           }
 
           &__text {
             font-size: 12px;
-          }
-
-          .arrow {
-            background: url("../../assets/icons/icon_arrow.svg") center center no-repeat;
           }
     
           .test {
@@ -227,12 +236,38 @@
           }
     
           .target {
-            background: url("../../assets/icons/icon_target.svg") center center no-repeat;
+            background: url("../../assets/icons/icon_target_md.svg") center center no-repeat;
           }
+        }
+
+        .arrow {
+          background: url("../../assets/icons/icon_arrow_down.svg") center center no-repeat;
         }
 
         .action:last-child {
           margin-right: 0;
+        }
+
+        .action:hover {
+          .test {
+            background: url("../../assets/icons/icon_test_md_color.svg") center center no-repeat;
+          }
+
+          .vocab {
+            background: url("../../assets/icons/icon_vocab_md_color.svg") center center no-repeat;
+          }
+
+          .reading {
+            background: url("../../assets/icons/icon_reading_md_color.svg") center center no-repeat;
+          }
+
+          .train {
+            background: url("../../assets/icons/icon_train_md_color.svg") center center no-repeat;
+          }
+
+          .target {
+            background: url("../../assets/icons/icon_target_md_color.svg") center center no-repeat;
+          }
         }
       }
 
