@@ -195,16 +195,18 @@ class News extends Component {
   render() {
     return (
       <div className="news">
-        <SectionTitleComponent
-          subHeader={'YOU WERE JOINING A MEANINGFUL COMMUNITY?'}
-        />
-        <div className="news__container">
-          <Masonry brakePoints={brakePoints}>
-            {newsImages.map((image, id) => {
-              return <Tile key={id} src={image} isNews={true} />;
-            })}
-          </Masonry>
-        </div>
+        <section className="parallax">
+          <SectionTitleComponent
+            subHeader={'YOU WERE JOINING A MEANINGFUL COMMUNITY?'}
+          />
+          <div className="news__container">
+            <Masonry brakePoints={brakePoints}>
+              {newsImages.map((image, id) => {
+                return <Tile key={id} src={image} isNews={true} />;
+              })}
+            </Masonry>
+          </div>
+        </section>
       </div>
     );
   }

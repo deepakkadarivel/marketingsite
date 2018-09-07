@@ -16,7 +16,7 @@ const Method = prop => {
             <div className={`item ${prop.method.icon}`} />
             <p className="text">{text}</p>
             {prop.method.link && (
-              <a className="action" href={prop.method.link}>
+              <a className="action" href={prop.method.link} target="_blank">
                 <p>{prop.method.linkName}</p>
                 <p>&#9658;</p>
               </a>

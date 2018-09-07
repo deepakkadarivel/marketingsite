@@ -41,7 +41,7 @@ const SideDrawer = props => {
         <a href="https://games.zinclearninglabs.com/users/sign_in">
           <p>
             <span>>&nbsp;</span>
-            Login
+            Log in
           </p>
         </a>
       </div>

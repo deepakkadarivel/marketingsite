@@ -39,16 +39,18 @@ class Zinc extends Component {
   render() {
     return (
       <div className="zinc">
-        <SectionTitleComponent
-          subHeader={"YOU DIDN'T HAVE TO TAKE OUR WORD?"}
-        />
-        <div className="news__container">
-          <Masonry brakePoints={brakePoints}>
-            {zincImages.map((image, id) => {
-              return <Tile key={id} src={image} />;
-            })}
-          </Masonry>
-        </div>
+        <section className="parallax">
+          <SectionTitleComponent
+            subHeader={"YOU DIDN'T HAVE TO TAKE OUR WORD?"}
+          />
+          <div className="news__container">
+            <Masonry brakePoints={brakePoints}>
+              {zincImages.map((image, id) => {
+                return <Tile key={id} src={image} />;
+              })}
+            </Masonry>
+          </div>
+        </section>
       </div>
     );
   }

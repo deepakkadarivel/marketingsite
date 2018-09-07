@@ -23,7 +23,9 @@ class Masonry extends Component {
   }
 
   onResize() {
-    const columns = this.getColumns(this.refs.Masonry.offsetWidth);
+    const columns = this.getColumns(
+      this.refs.Masonry ? this.refs.Masonry.offsetWidth : ''
+    );
     if (columns !== this.state.columns) {
       this.setState({ columns: columns });
     }
@@ -68,7 +70,7 @@ const Tile = ({ src, isNews = false }) => {
           <p className="tile__date">{src.date}</p>
           <p className="tile__description">{src.description}</p>
           {src.link && (
-            <a href={src.link} className="tile__more">
+            <a href={src.link} className="tile__more" target="_blank">
               More
             </a>
           )}

@@ -13,7 +13,7 @@
   .parallax {
     z-index: -1;
     height: 100vh;
-    background: url('../../assets/images/header_bg.jpg') no-repeat fixed center;
+    background: url("../../assets/images/header_bg.jpg") no-repeat fixed center;
     background-size: cover;
   }
 }
@@ -24,18 +24,10 @@
       padding: 0 5%;
     }
     .parallax {
-      background: url('../../assets/images/header_bg_ipad.jpg') no-repeat center center fixed;
-    }
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .header {
-    &__section {
-      padding: 0 5%;
-    }
-    .parallax {
-      background: url('../../assets/images/header_bg_ipad_land.jpg') no-repeat center center fixed;
+      z-index: -1;
+      height: 100vh;
+      background: url("../../assets/images/header_bg_ipad.jpg") no-repeat;
+      background-size: cover;
     }
   }
 }
@@ -46,7 +38,8 @@
       padding: 0 5%;
     }
     .parallax {
-      background: url('../../assets/images/header_bg_mob.jpg') no-repeat center center fixed;
+      background: url("../../assets/images/header_bg_mob.jpg") no-repeat center
+        center fixed;
     }
   }
 }
@@ -57,7 +50,8 @@
       padding: 0 5%;
     }
     .parallax {
-      background: url('../../assets/images/header_bg_mob.jpg') no-repeat center center fixed;
+      background: url("../../assets/images/header_bg_mob.jpg") no-repeat center
+        center fixed;
     }
   }
 }

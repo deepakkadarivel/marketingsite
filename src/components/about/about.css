@@ -13,30 +13,17 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .about {
-    background: url('../../assets/images/about_bg_ipad.jpg') no-repeat fixed
-      center;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .about {
-    background: url('../../assets/images/about_bg_mob.jpg') no-repeat center
-      center fixed;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .about {
-    background: url('../../assets/images/about_bg_ipad_land.jpg') no-repeat
-      center center fixed;
     padding: 10%;
+    background: url('../../assets/images/about_bg_ipad.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
   }
   .about__content {
-    padding-right: 30%;
+    padding-right: 20%;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .about {
     background: url('../../assets/images/about_bg_mob.jpg') no-repeat center
       center fixed;

@@ -84,11 +84,24 @@
   .grade {
     display: block;
   }
+  .grade--popup {
+    margin-top: 0;
+  }
+  .grade--popup .grade__cell--body {
+    padding: 30px 20px 10px 10px;
+    font-size: 2.8em;
+  }
+  .grade--popup .grade__cell--body p {
+    font-size: 0.2rem;
+  }
   .grade__cell--body {
     font-size: 6em;
   }
   .grade__cell--body p {
     font-size: 0.4rem;
+  }
+  .grade__cell--head .content__text {
+    font-size: 1.4em;
   }
 }
 

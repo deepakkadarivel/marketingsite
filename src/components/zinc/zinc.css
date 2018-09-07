@@ -4,6 +4,10 @@
   background-size: cover;
   color: #ffffff;
 }
+.zinc .parallax {
+  background: none;
+  padding: none;
+}
 .zinc__container {
   width: 100%;
   margin: auto;
@@ -12,15 +16,15 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .zinc {
-    background: url('../../assets/images/zinc_bg_ipad.jpg') no-repeat fixed
-      center;
+    padding: 2%;
+    background: url('../../assets/images/zinc_bg_ipad.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
   }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .zinc {
-    background: url('../../assets/images/zinc_bg_ipad_land.jpg') no-repeat
-      center center fixed;
+  .zinc .parallax {
+    padding: 70% 10% 0 10%;
+    background: url('../../assets/images/zinc_bg_ipad.jpg') no-repeat;
+    background-size: contain;
   }
 }
 

@@ -25,11 +25,11 @@ class GradeComponent extends Component {
         one: 'VOCABULARY',
         oneImg: MS_Vocab,
         oneAction: 'PLAY GAME',
-        oneUrl: 'http://bit.ly/2P0V8Zw',
+        oneUrl: 'http://bit.ly/2Ohsd3z',
         two: 'CLOSE READING EXPERIENCE',
         twoImg: MS_CRE,
         twoAction: 'PLAY GAME',
-        twoUrl: 'http://bit.ly/2Ohsd3z',
+        twoUrl: 'http://bit.ly/2P0V8Zw',
         three: 'ARTICLES',
         threeImg: MS_articles,
         threeAction: 'BROWSE',
@@ -40,30 +40,30 @@ class GradeComponent extends Component {
         one: 'VOCABULARY',
         oneImg: HS_Vocab,
         oneAction: 'PLAY GAME',
-        oneUrl: 'http://bit.ly/2w6JTrt',
+        oneUrl: 'http://bit.ly/2v9tAIV',
         two: 'CLOSE READING EXPERIENCE',
         twoImg: HS_CRE,
         twoAction: 'PLAY GAME',
-        twoUrl: 'http://bit.ly/2v8An5U',
+        twoUrl: 'http://bit.ly/2w6JTrt',
         three: 'ARTICLES',
         threeImg: HS_articles,
         threeAction: 'BROWSE',
-        threeUrl: 'http://bit.ly/2v9tAIV',
+        threeUrl: 'http://bit.ly/2v8An5U',
         id: 'hs'
       },
       ell: {
         one: 'VOCABULARY',
         oneImg: ELL_Vocab,
         oneAction: 'PLAY GAME',
-        oneUrl: 'http://bit.ly/2MaOSgL',
+        oneUrl: 'http://bit.ly/2lfV91s',
         two: 'CLOSE READING EXPERIENCE',
         twoImg: ELL_CRE,
         twoAction: 'PLAY GAME',
-        twoUrl: 'http://bit.ly/2lfV91s',
+        twoUrl: 'http://bit.ly/2MsjBKv',
         three: 'ARTICLES',
         threeImg: ELL_articles,
         threeAction: 'BROWSE',
-        threeUrl: 'http://bit.ly/2MsjBKv',
+        threeUrl: 'http://bit.ly/2MaOSgL',
         id: 'ell'
       }
     };
@@ -134,6 +134,7 @@ class GradeComponent extends Component {
             <a
               className="header__action"
               href={selection[`${this.state.selected}Url`]}
+              target="_blank"
             >
               <p>{selection[`${this.state.selected}Action`]}</p>
               <p>&#9658;</p>

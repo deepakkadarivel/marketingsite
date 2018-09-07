@@ -4,6 +4,11 @@
   background-size: cover;
   color: #FFFFFF;
 
+  .parallax {
+    background: none;
+    padding: none;
+  }
+
   &__container {
     width: 100%;
     margin: auto;
@@ -17,15 +22,18 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .news {
-      background: url('../../assets/images/news_bg_ipad.jpg') no-repeat fixed center;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
     .news {
-        background: url('../../assets/images/news_bg_ipad_land.jpg') no-repeat center center fixed;
+      padding: 2%;
+      background: url("../../assets/images/news_bg_ipad.jpg") no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+      .parallax {
+        padding: 70% 10% 0 10%;
+        background: url("../../assets/images/news_bg_ipad.jpg") no-repeat;
+        background-size: contain;
       }
+    }
   }
   
   @media (min-width: 481px) and (max-width: 767px) {

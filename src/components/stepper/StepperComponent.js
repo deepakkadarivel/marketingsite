@@ -25,13 +25,14 @@ class StepperComponent extends Component {
         id: 0,
         icon: 'test',
         text: 'Test',
-        question: 'YOU KNEW WHERE TO START WITH EACH STUDENT?',
+        question:
+          'you could offer each student a personalized path to progress?',
         answer:
-          "Zinc's short (under one class period) diagnostic sets the independent reading level for each student. It features:",
+          "Zinc's short (under one class period) diagnostic sets the indepenedent reading level for each student. It features:",
         points: [
-          'short authentic fiction and non-fiction texts',
-          'separate adaptive tests for middle and high school students',
-          'multiple opportunities to retest and level up later'
+          'Short authentic fiction and non-fiction texts',
+          'Separate adaptive tests for middle and high school students',
+          'Multiple opportunities to re-test and level up later'
         ],
         img: method_test
       },
@@ -39,13 +40,13 @@ class StepperComponent extends Component {
         id: 1,
         icon: 'vocab',
         text: 'Teach \n Vocabulary',
-        question: 'STUDENTS KNEW THE WORDS AND TERMS?',
-        answer:
-          'Zinc offers explicit vocabulary/ terms instruction and engaging close reading skills lessons.',
+        question: 'students knew the words and terms?',
+        answer: 'Zinc offers explicit vocabulary instruction with:',
         points: [
-          'multi-modal vocabulary games with spaced repetition',
-          'over 5000 words and terms let you use existing sets or make your own',
-          'relatable presenters guide students through interactive close reading experiences to build comprehension skills'
+          "Multi-modal vocabulary games, so students aren't just memorizing definitions",
+          'Thousands of words and terms available to create customized sets',
+          'Spaced repetition, so students see each word six times over two months',
+          'Ready made sets for test prep and commonly taught texts'
         ],
         img: method_vocab,
         link: 'http://bit.ly/2AmgI82',
@@ -55,13 +56,14 @@ class StepperComponent extends Component {
         id: 2,
         icon: 'reading',
         text: 'Teach \n Close Reading',
-        question: 'ALL STUDENTS MASTERED CLOSE READING SKILLS?',
+        question: 'all students mastered advanced close reading skills?',
         answer:
-          'Zinc links to hundreds of great articles, essays, excerpts and poems and provides short comprehension quizzes for each.',
+          'The reading skills that students master in primary school prepare them to read elementary level texts. Middle, high school and college-level reading, however, demand advanced skills. Our Close Reading Exercises offer:',
         points: [
-          'diverse, high-interest, authentic texts',
-          ' embedded standardized testing strategies and practice',
-          'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
+          'Instruction on discrete close reading skills',
+          'Interactive video lessons led by student teachers',
+          'Alignment to commonly taught texts like Romeo and Juliet and The Giver',
+          'Scaffolding as needed, leveled options, and the ability for students to work at their own pace'
         ],
         img: method_close_reading,
         link: 'http://bit.ly/2w9qxSl',
@@ -71,13 +73,13 @@ class StepperComponent extends Component {
         id: 3,
         icon: 'train',
         text: 'Train',
-        question: 'STUDENTS COULD READ TEXTS THEY LOVE?',
+        question: 'students could read texts they love?',
         answer:
-          'Zinc links to hundreds of great articles, essays, excerpts and poems and provides short comprehension quizzes for each.',
+          'Zinc links to hundreds of great articles, essays, excerpts and poems and provides short comprehension quizzes for each. Our reading offerings include:',
         points: [
-          'diverse, high-interest, authentic texts',
-          ' embedded standardized testing strategies and practice',
-          'sort by subject, difficulty level, length or use multiple article sets aligned to curricula'
+          'Diverse, high-interest, authentic texts from 4th grade reading level up to college',
+          'Embedded standardized testing strategies and practice',
+          'The ability to sort by subject, difficulty level, length and standards'
         ],
         img: method_train,
         link: 'http://bit.ly/2NLWMNZ',
@@ -87,13 +89,13 @@ class StepperComponent extends Component {
         id: 4,
         icon: 'target',
         text: 'Target',
-        question: 'DATA-DRIVEN INSTRUCTION WAS A CLICK AWAY?',
+        question: 'data-driven instruction was a click away?',
         answer:
-          'Zinc leaderboards and reports let you and your students see exactly what needs to happen next.',
+          'Zinc leaderboards and reports let you and your students see exactly what needs to happen next. We provide:',
         points: [
-          'see detailed reporting on each student, each class or your whole school',
-          'aligned to TEKS, FLA and state standards',
-          'leaderboards motivate friendly competition'
+          'Detailed reporting at the student, class and school level',
+          'Reporting on mastery of reading skills and standards',
+          'Leaderboards to motivate friendly competition'
         ],
         img: method_target
       }

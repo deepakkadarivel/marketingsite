@@ -7,11 +7,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
 
     .section {
       margin-bottom: 50px;
-
     }
 
     &__content {
@@ -23,7 +22,7 @@
         margin-top: 60px;
         margin-left: 30px;
         display: block;
-        max-height:400px;
+        max-height: 400px;
         width: auto;
         height: auto;
       }
@@ -33,7 +32,8 @@
         height: 485px;
         margin-left: 10%;
         z-index: 1;
-        background: url("../../assets/icons/icon_quote.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_quote.svg") center center
+          no-repeat;
       }
 
       .user--content {
@@ -42,20 +42,20 @@
         min-height: 270px;
 
         &__summary {
-          font-family: 'Nexa-Heavy-Italic', sans-serif;
+          font-family: "Nexa-Heavy-Italic", sans-serif;
           font-size: 1.2em;
           line-height: 1.6em;
           margin-top: 60px;
         }
 
         &__comment {
-          font-family: 'Nexa-Heavy-Italic', sans-serif;
+          font-family: "Nexa-Heavy-Italic", sans-serif;
           font-size: 1.2em;
           margin: 30px 0;
         }
 
         &__use {
-          font-family: 'Nexa-Bold-Italic', sans-serif;
+          font-family: "Nexa-Bold-Italic", sans-serif;
           font-size: 14px;
           margin-bottom: 10px;
         }
@@ -65,21 +65,22 @@
           margin-left: -12%;
           font-size: 14px;
           line-height: 1.4em;
-          font-family: 'Nexa-Bold', sans-serif;
+          font-family: "Nexa-Bold", sans-serif;
 
           &__img {
             margin-left: 30px;
             display: block;
-            max-height:200px;
+            max-height: 200px;
             width: auto;
             height: auto;
+            object-fit: contain;
           }
         }
 
         &__more {
           text-transform: uppercase;
           font-size: 12px;
-          font-family: 'Nexa-Black', sans-serif;
+          font-family: "Nexa-Black", sans-serif;
           cursor: pointer;
           text-decoration: none;
           color: #ffffff;
@@ -92,7 +93,8 @@
       width: 74px;
       height: 74px;
       left: 2%;
-      background: url("../../assets/icons/icon_arrow_left.svg") center center no-repeat;
+      background: url("../../assets/icons/icon_arrow_left.svg") center center
+        no-repeat;
     }
 
     &__right {
@@ -100,7 +102,8 @@
       width: 74px;
       height: 74px;
       right: 2%;
-      background: url("../../assets/icons/icon_arrow_right.svg") center center no-repeat;
+      background: url("../../assets/icons/icon_arrow_right.svg") center center
+        no-repeat;
     }
   }
 }
@@ -114,6 +117,34 @@
           width: 150px;
           height: 150px;
         }
+
+        .student--story {
+          margin-top: 60px;
+          margin-left: 0px;
+          display: block;
+          max-height: 200px;
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+
+      &__left {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        left: 5%;
+        background: url("../../assets/icons/icon_arrow_left_md.svg") center
+          center no-repeat;
+      }
+
+      &__right {
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        right: 5%;
+        background: url("../../assets/icons/icon_arrow_right_md.svg") center
+          center no-repeat;
       }
     }
   }
@@ -126,12 +157,9 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .testimonials {
-
     &__section {
-
       .section {
         margin-bottom: 0;
-
       }
 
       &__content {
@@ -141,7 +169,7 @@
         .student--story {
           margin: 0;
           display: block;
-          max-height:none;
+          max-height: none;
           width: auto;
           height: auto;
           object-fit: contain;
@@ -174,18 +202,18 @@
         width: 33px;
         height: 37px;
         left: 2%;
-        background: url("../../assets/icons/icon_arrow_left_md.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_arrow_left_md.svg") center
+          center no-repeat;
       }
-  
+
       &__right {
         position: absolute;
         width: 33px;
         height: 37px;
         right: 2%;
-        background: url("../../assets/icons/icon_arrow_right_md.svg") center center no-repeat;
+        background: url("../../assets/icons/icon_arrow_right_md.svg") center
+          center no-repeat;
       }
     }
-
-    
   }
 }

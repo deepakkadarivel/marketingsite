@@ -46,6 +46,13 @@
   .contact {
     background: url('../../assets/images/contact_bg_ipad.jpg') no-repeat fixed
       center;
+    padding: 10%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: auto;
+  }
+  .contact__content {
+    padding-right: 30%;
   }
 }
 
@@ -53,18 +60,6 @@
   .contact {
     background: url('../../assets/images/contact_bg_mob.jpg') no-repeat center
       center fixed;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .contact {
-    background: url('../../assets/images/conatct_bg_ipad_land.jpg') no-repeat
-      center center fixed;
-    padding: 10%;
-    height: auto;
-  }
-  .contact__content {
-    padding-right: 30%;
   }
 }
 

@@ -11,7 +11,7 @@ class ToolbarComponent extends Component {
         <div className="nav__logo" />
         <div className="nav__items">
           <Link to="/signup">Sign up for a Demo</Link>
-          <a href="https://games.zinclearninglabs.com/users/sign_in">Login</a>
+          <a href="https://games.zinclearninglabs.com/users/sign_in">Log in</a>
         </div>
         <div>
           <DrawerToggleButton

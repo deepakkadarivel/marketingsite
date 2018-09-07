@@ -1,8 +1,13 @@
 .zinc {
   padding: 5% 12%;
-  background: url('../../assets/images/zinc_bg.jpg') no-repeat fixed center;
+  background: url("../../assets/images/zinc_bg.jpg") no-repeat fixed center;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
+
+  .parallax {
+    background: none;
+    padding: none;
+  }
 
   &__container {
     width: 100%;
@@ -12,27 +17,31 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-.zinc {
-    background: url('../../assets/images/zinc_bg_ipad.jpg') no-repeat fixed center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .zinc {
-      background: url('../../assets/images/zinc_bg_ipad_land.jpg') no-repeat center center fixed;
+    padding: 2%;
+    background: url("../../assets/images/zinc_bg_ipad.jpg") no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+    .parallax {
+      padding: 70% 10% 0 10%;
+      background: url("../../assets/images/zinc_bg_ipad.jpg") no-repeat;
+      background-size: contain;
     }
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .zinc {
-      background: url('../../assets/images/zinc_bg_mob.jpg') no-repeat center center fixed;
-    }
+    background: url("../../assets/images/zinc_bg_mob.jpg") no-repeat center
+      center fixed;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .zinc {
     padding: 20% 5%;
-    background: url('../../assets/images/zinc_bg_mob.jpg') no-repeat center center fixed;
+    background: url("../../assets/images/zinc_bg_mob.jpg") no-repeat center
+      center fixed;
     &__container {
       width: 100%;
     }
