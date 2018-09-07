@@ -9,6 +9,7 @@ import julie from '../../assets/images/users/julie.png';
 import Swobodzinski from '../../assets/images/users/Swobodzinski.png';
 import Curtis from '../../assets/images/users/Curtis.png';
 import Greg from '../../assets/images/users/Greg.png';
+import Whitney from '../../assets/images/users/Whitney.jpeg';
 import student_testimonial_1 from '../../assets/images/testimonials/student_testimonial_1.jpg';
 import student_testimonial_2 from '../../assets/images/testimonials/student_testimonial_2.jpg';
 import student_testimonial_3 from '../../assets/images/testimonials/student_testimonial_3.jpg';
@@ -26,6 +27,29 @@ class TestimonialsComponent extends Component {
       type: 'image',
       img: student_testimonial_1,
       id: 1
+    },
+    {
+      name: 'Whitney Ann Lewis',
+      profession: 'Exploratory teacher for 7th/8th grade SAT/ACT prep',
+      location: 'Horry County, South Carolina',
+      comment: 'Zinc is engaging, motivating and stimulating.',
+      school: 'Large, suburban middle school',
+      zincUsage:
+        'Literacy enrichment, test prep and english Language Development',
+      summary:
+        'Zinc solved the problem of student fear of big words and boredom with reading. The vocab games engage students, and the Skills exercises teach them how to understand tough reads. So many of my middle schoolers are insecure in their reading; being able to choose their own articles at the right level from the “real world” and having the skills to comprehend the reading builds their confidence and enjoyment. The choice especially is what the kids love.',
+      img: Whitney,
+      type: 'comment',
+      toMe: 'Engaging, motivating, and stimulating.',
+      howIUse:
+        'I use Zinc with Chromebooks as part of a blended learning rotation. Students use Zinc daily for 15-20 minutes. On Mondays, they use Zinc’s close reading exercises, on Tuesdays and Thursdays they use vocabulary, and on Wednesdays they read an article of their choice at their level. They love that independence with the article choice! Fridays are “Finish Up Fridays” where students complete any activities from earlier in the week that they need to.',
+      impact:
+        "used in blended learning rotation; Mon, CRE, Tues and Thurs, vocab and Wed reading - rotate all these and Friday is finish up Friday - whatever they need to finish from any of those, they finish. Always, checking vocab, love when they get bonus rounds - always check vocab first to see if any need to be opened. Does assign articles, but most of the time allows them to choose their own based on level. Love that independence to read an article of their interest and choice.every day 15-20 mins a day \n Problem solved: Fear of big words. Their fear of big words that they can't comprehend or pronounce in a text. Also, the deeper skills to break down a passage. Also, article of their choice for interest. The positive interaction with choosing their own article for motovation purposes. Thats what the kids love. So many of them are insecure in their reading and being able to choose their own article builds their confidence to not not like it anymore. \n Before Zinc: Did affixes, word parts, etc. with paper vocab lists. Make them write using them.My classroom is different bc students are becoming more self aware of their reading and vocab development. Zinc brings confidence that they can overcome that discrepancey to make education more exciting and enjoyable. It's the gamification - it's the way of technology, the way of the 21st century. \n Tip: Get to know the whole program, the ins and outs of the whole program as a teacher and student. As well as enjoy it/practice it with your students prior to introdiucing it to the class Yes. walewis71@gmail.com"
+    },
+    {
+      type: 'image',
+      img: student_testimonial_6,
+      id: 6
     },
     {
       name: 'Jason Bowen',
@@ -47,8 +71,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_6,
-      id: 6
+      img: student_testimonial_2,
+      id: 2
     },
     {
       name: 'Dave Diem',
@@ -70,8 +94,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_2,
-      id: 2
+      img: student_testimonial_7,
+      id: 7
     },
     {
       name: 'Jean Trahant',
@@ -93,8 +117,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_7,
-      id: 7
+      img: student_testimonial_3,
+      id: 3
     },
     {
       name: 'Julie Wright',
@@ -115,8 +139,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_3,
-      id: 3
+      img: student_testimonial_8,
+      id: 8
     },
     {
       name: 'Julie Swobodzinski',
@@ -137,8 +161,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_8,
-      id: 8
+      img: student_testimonial_4,
+      id: 4
     },
     {
       name: 'Curtis Eccles',
@@ -159,8 +183,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_4,
-      id: 4
+      img: student_testimonial_9,
+      id: 9
     },
     {
       name: 'Greg Jones',
@@ -181,11 +205,6 @@ class TestimonialsComponent extends Component {
         'I use Zinc about twice a week, as in-class work to reinforce the topic of the unit. It helps my solve the problem of finding companion articles and topics for our thematic units.',
       impact:
         'The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work. \n Zinc has helped me raise my A.I.R test scores because Zinc mimics the way the AIR test is given. It helps my solve the problem of finding companion articles and topics for our thematic units. \n I have told, showed, and trained several colleagues on the benefits of Zinc.'
-    },
-    {
-      type: 'image',
-      img: student_testimonial_9,
-      id: 9
     },
     {
       type: 'image',

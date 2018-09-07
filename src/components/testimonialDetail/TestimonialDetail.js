@@ -28,7 +28,11 @@ class TestimonialDetail extends Component {
 
     return (
       <div className="testimonial">
-        <div className="back" onClick={() => this.props.history.goBack()}>
+        <div
+          className="back"
+          onClick={() => this.props.history.goBack()}
+          onTouch={() => this.props.history.goBack()}
+        >
           Back
         </div>
         <section className="testimonial__section testimonial--bg parallax">
