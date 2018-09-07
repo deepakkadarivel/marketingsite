@@ -121,7 +121,8 @@ class StepperComponent extends Component {
               return (
                 <div className="action-container" key={method.id}>
                   <div className="action">
-                    <div
+                    <a
+                      href={`#${method.icon}`}
                       className={`action__item ${method.icon}`}
                       onClick={() => methodToggleClickHandler(method)}
                     />

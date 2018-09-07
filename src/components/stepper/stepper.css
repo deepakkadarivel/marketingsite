@@ -40,6 +40,7 @@
 .stepper__section__actions .action__item {
   width: 182px;
   height: 182px;
+  display: block;
 }
 .stepper__section__actions .action__item--link {
   width: 50px;

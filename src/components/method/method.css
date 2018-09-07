@@ -4,6 +4,7 @@
   padding: 5% 0;
   color: #ffffff;
   background: #ffffff;
+  scroll-behavior: smooth;
 }
 .method--test {
   background-color: #8eb352;

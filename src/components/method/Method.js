@@ -6,7 +6,10 @@ import PropTypes from 'prop-types';
 const Method = prop => {
   let text = prop.method.text.split('\n').map((i, key) => <p key={key}>{i}</p>);
   return (
-    <div className={`method method--${prop.method.icon}`}>
+    <section
+      id={prop.method.icon}
+      className={`method method--${prop.method.icon}`}
+    >
       <div className="method__content">
         <section>
           <SectionTitleComponent subHeader={prop.method.question} />
@@ -37,7 +40,7 @@ const Method = prop => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
