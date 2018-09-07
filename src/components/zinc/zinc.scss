@@ -39,9 +39,16 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .zinc {
-    padding: 20% 5%;
-    background: url("../../assets/images/zinc_bg_mob.jpg") no-repeat center
-      center fixed;
+    padding: 10% 5%;
+    background: url("../../assets/images/zinc_bg_mob.jpg") no-repeat;
+    background-size: cover;
+      -webkit-background-size: cover;
+
+      .parallax {
+        padding: 70% 0 0 0;
+        background: url("../../assets/images/zinc_bg_mob.jpg") no-repeat;
+        background-size: contain;
+      }
     &__container {
       width: 100%;
     }

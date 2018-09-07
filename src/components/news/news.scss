@@ -44,8 +44,15 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .news {
-    background: url('../../assets/images/news_bg_mob.jpg') no-repeat center center fixed;
-    padding: 20% 5%;
+    background: url('../../assets/images/news_bg_mob.jpg') no-repeat;
+    padding: 15% 5%;
+    background-size: cover;
+        -webkit-background-size: cover;
+      .parallax {
+        padding: 80% 0 0 0;
+        background: url("../../assets/images/news_bg_mob.jpg") no-repeat;
+        background-size: contain;
+      }
 
     &__container {
       width: 100%;

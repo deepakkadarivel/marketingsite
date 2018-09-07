@@ -51,7 +51,8 @@
     }
     .parallax {
       background: url("../../assets/images/header_bg_mob.jpg") no-repeat center
-        center fixed;
+      center;
+        background-size: cover;
     }
   }
 }

@@ -27,8 +27,9 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .about {
-    background: url("../../assets/images/about_bg_mob.jpg") no-repeat center
-      center fixed;
+    background: url("../../assets/images/about_bg_ipad.jpg") no-repeat fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
     padding: 20% 5%;
     &__content {
       padding-right: 10%;

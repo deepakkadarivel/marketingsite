@@ -79,7 +79,11 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .sidebar {
-    width: 70%;
+    width: 80%;
+  }
+  .sidebar .close {
+    top: 20px;
+    right: 20px;
   }
   .sidebar__items p {
     margin: 0 2%;

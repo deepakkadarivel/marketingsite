@@ -34,11 +34,7 @@ class HeaderComponent extends Component {
           />
           <GradeTableComponent setSelectedGrade={setSelectedGrade} />
 
-          <Video
-            src={
-              'blob:https://www.dropbox.com/0977e8ac-a4dc-4481-a321-d03bf4314f69'
-            }
-          />
+          <Video src={'https://www.youtube.com/embed/ZsX0JzokWdU?ecver=1'} />
           {this.state.grade !== '' && (
             <Backdrop drawerClickHandler={() => setSelectedGrade('')} />
           )}
