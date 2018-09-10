@@ -3,6 +3,36 @@
   background-color: #8eb352;
   color: #ffffff;
 }
+.signup--message {
+  width: 40%;
+  height: 160px;
+  position: absolute;
+  padding: 20px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 8px;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.signup--message h2 {
+  font-family: 'Nexa-Book-Italic', sans-serif;
+}
+.signup--message p {
+  line-height: 1.4em;
+  color: #8e8e8e;
+}
+.signup--message__link {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #000000;
+}
 .signup__content {
   display: flex;
 }
@@ -73,6 +103,10 @@
   .signup {
     padding: 15% 10%;
   }
+  .signup--message {
+    width: 60%;
+    height: 180px;
+  }
   .signup__content {
     display: flex;
   }
@@ -94,6 +128,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .signup {
     padding: 18% 10%;
+  }
+  .signup--message {
+    width: 80%;
+    height: 200px;
   }
   .signup__content {
     display: flex;

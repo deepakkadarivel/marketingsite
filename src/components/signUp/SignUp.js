@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './signup.css';
 import SectionTitleComponent from '../sectionTitle/SectionTitleComponent';
 import firebase from 'firebase';
+import Backdrop from '../backdrop/Backdrop';
+import { Link } from 'react-router-dom';
 
 class SignUp extends Component {
   constructor() {
@@ -15,7 +17,8 @@ class SignUp extends Component {
       contactDetail: 'SCHEDULE A DEMO',
       dateOption1: '',
       dateOption2: '',
-      how: ''
+      how: '',
+      showMessage: false
     };
 
     const config = {
@@ -37,20 +40,42 @@ class SignUp extends Component {
     let messagesRef = firebase.database().ref('messages');
     const saveMessage = () => {
       let newMessageRef = messagesRef.push();
-      newMessageRef.set({
-        firstName: this.state.firstName,
-        lastName: this.state.lastName,
-        email: this.state.email,
-        role: this.state.role,
-        usage: this.state.usage,
-        contactDetail: this.state.contactDetail,
-        dateOption1: this.state.dateOption1,
-        dateOption2: this.state.dateOption2,
-        howDoYouKnowUs: this.state.how
-      });
+      newMessageRef.set(
+        {
+          firstName: this.state.firstName,
+          lastName: this.state.lastName,
+          email: this.state.email,
+          role: this.state.role,
+          usage: this.state.usage,
+          contactDetail: this.state.contactDetail,
+          dateOption1: this.state.dateOption1,
+          dateOption2: this.state.dateOption2,
+          howDoYouKnowUs: this.state.how
+        },
+        () => {
+          this.setState({
+            showMessage: true
+          });
+          window.scrollTo(0, 0);
+        }
+      );
     };
     return (
       <div className="signup">
+        {this.state.showMessage && <Backdrop />}
+        {this.state.showMessage && (
+          <div className="signup--message">
+            <h2>Thank you for signing up.</h2>
+            <p>
+              You are very important to us, all information received will always
+              remain confidential. We will contact you as soon as we review your
+              message.
+            </p>
+            <Link to="/" className="signup--message__link">
+              OK
+            </Link>
+          </div>
+        )}
         <SectionTitleComponent
           subHeader={'ALL OF YOUR QUESTIONS WERE ANSWERED?'}
         />
@@ -154,7 +179,18 @@ class SignUp extends Component {
               onChange={e => this.setState({ how: e.target.value })}
             />
           </div>
-          <div className="submit" onClick={() => saveMessage()}>
+          <div
+            className="submit"
+            onClick={() => {
+              if (
+                this.state.firstName !== '' ||
+                this.state.lastName !== '' ||
+                this.state.email !== ''
+              ) {
+                saveMessage();
+              }
+            }}
+          >
             <p>SUBMIT</p>
           </div>
         </div>
