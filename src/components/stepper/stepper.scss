@@ -42,6 +42,9 @@
           width: 182px;
           height: 182px;
           display: block;
+          behavior: 'smooth';
+          transition: all 1.5s ease;
+          -webkit-transition: all 1.5s ease;
 
           &--link {
             width: 50px;

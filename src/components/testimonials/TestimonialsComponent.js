@@ -30,11 +30,10 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Jean Trahant',
-      profession: 'Role: 6th grade ELA teacher',
-      location: 'Location: Suburban Illinois',
+      profession: '6th grade ELA teacher',
+      location: 'Suburban Illinois',
       comment: 'Zinc is effective, excellent and efficient.',
-      school:
-        'School/Population: Large suburban with 75-80% free and reduced lunch',
+      school: 'Large suburban with 75-80% free and reduced lunch',
       zincUsage: 'Supplemental reading and standardized test prep',
       summary:
         'Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests.',
@@ -53,10 +52,10 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Julie Wright',
-      profession: 'Role: Test-Prep Tutor',
-      location: 'Location: New York, NY',
+      profession: 'Test-Prep Tutor',
+      location: 'New York, NY',
       comment: 'Zinc is empathetic, passionate, and devoted.',
-      school: 'School/Population: Middle and High School One-on-One Students',
+      school: 'Middle and High School One-on-One Students',
       zincUsage: 'Reading supplement for private test-prep tutoring',
       summary:
         'I’ve seen many students’ [SAT/ACT] verbal scores increase after spending a few months reading the articles on the app!',
@@ -75,12 +74,10 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Greg Jones',
-      profession:
-        'Role: 10th grade English teacher with 17 years of experience',
-      location: 'Location: Cincinnati, OH',
+      profession: '10th grade English teacher with 17 years of experience',
+      location: 'Cincinnati, OH',
       comment: 'Zinc is stimulating, exciting, and applicable.',
-      school:
-        'School/Population: Urban high school, 99% free and reduced lunch',
+      school: 'Urban high school, 99% free and reduced lunch',
       zincUsage:
         'Integrated reading and writing to supplement core curriculum and for test prep',
       summary:
@@ -100,10 +97,10 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Curtis Eccles',
-      profession: 'Role: 9th and 10th grade ELA with 22 years of experience',
-      location: 'Location: Washington state',
+      profession: '9th and 10th grade ELA with 22 years of experience',
+      location: 'Washington state',
       comment: 'Zinc is exciting, knowledge and helpful.',
-      school: 'School/Population: Small rural',
+      school: 'Small rural',
       zincUsage: 'Standards-aligned reading and vocabulary supplement',
       summary:
         'With Zinc, we are automatically aligned! Since Zinc, our scores have increased on our state tests! The students are having more fun learning! Most importantly, ALL students are engaged!',
@@ -122,11 +119,11 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Jason Bowen',
-      profession: 'Role: 8th grade English teacher',
-      location: 'Location: Salinas, California',
+      profession: '8th grade English teacher',
+      location: 'Salinas, California',
       comment: 'Zinc is thorough, user-friendly and competitive.',
       school:
-        'School/Population: 97% English Language Learners or former English Language Learners',
+        '97% English Language Learners or former English Language Learners',
       zincUsage: 'Vocabulary instruction for English Language Learners',
       summary:
         'Our students are being challenged to read higher-level texts, as well as to learn new vocabulary. With this practice, in many cases students have been able to provide the definitions to words that come up in our readings and share them with the class.',
@@ -146,10 +143,10 @@ class TestimonialsComponent extends Component {
     {
       name: 'Dave Diem',
       profession:
-        'Role: 9th grade Global Studies teacher with 14 years of experience',
-      location: 'Location: New York, NY',
+        '9th grade Global Studies teacher with 14 years of experience',
+      location: 'New York, NY',
       comment: 'Zinc is innovative, engaging and fun.',
-      school: 'School/Population: Career and Technical Education (CTE)',
+      school: 'Career and Technical Education (CTE)',
       zincUsage: 'Content area (not ELA) vocabulary instruction',
       summary:
         'It has been wonderful to see the healthy competition. Students really are motivated to go back and play multiple decks even when they’re not explicitly assigned. This never used to happen with our previous vocabulary routines.',
@@ -168,9 +165,9 @@ class TestimonialsComponent extends Component {
     },
     {
       name: 'Julie Swobodzinski',
-      profession: 'Role: 10th English Language Development, English II Teacher',
-      location: 'Location: North Carolina',
-      comment: 'School/Population: Urban High School',
+      profession: '10th English Language Development, English II Teacher',
+      location: 'North Carolina',
+      comment: 'Urban High School',
       school: 'Urban High School',
       zincUsage: 'Vocabulary supplement to support core curriculum',
       summary:

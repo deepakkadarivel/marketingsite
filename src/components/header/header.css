@@ -28,6 +28,18 @@
   }
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .header__section {
+    padding: 0 5%;
+  }
+  .header .parallax {
+    z-index: -1;
+    height: 100vh;
+    background: url('../../assets/images/header_bg_ipad_land.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   .header__section {
     padding: 0 5%;

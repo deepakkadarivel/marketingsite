@@ -45,13 +45,22 @@ class TestimonialDetail extends Component {
               <div className="user--content">
                 <div>
                   <p>{testimonial.name}</p>
-                  <p>{testimonial.profession}</p>
-                  <p>{testimonial.school}</p>
-                  <p>{testimonial.location}</p>
-                  <p className="user--content__use">
-                    <span>
-                      <b>Zinc use: </b>
+                  <p>
+                    <span className="user--content__bold">Role: </span>
+                    {testimonial.profession}
+                  </p>
+                  <p>
+                    <span className="user--content__bold">
+                      School/Population:{' '}
                     </span>
+                    {testimonial.school}
+                  </p>
+                  <p>
+                    <span className="user--content__bold">Location: </span>
+                    {testimonial.location}
+                  </p>
+                  <p>
+                    <span className="user--content__bold">Zinc use: </span>
                     {testimonial.zincUsage}
                   </p>
                 </div>

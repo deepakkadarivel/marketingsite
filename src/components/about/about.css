@@ -23,6 +23,16 @@
   }
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .about {
+    padding: 10%;
+    background: url('../../assets/images/about_bg_ipad_land.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .about {
     background: url('../../assets/images/about_bg_ipad.jpg') no-repeat fixed;

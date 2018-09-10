@@ -47,7 +47,10 @@
   min-height: 270px;
   font-size: 1.2em;
   line-height: 1.4em;
-  font-family: 'Nexa-Heavy-Italic', sans-serif;
+  font-family: 'Nexa-Regular', sans-serif;
+}
+.testimonial__section__content .user--content__bold {
+  font-family: 'Nexa-Heavy', sans-serif;
 }
 .testimonial__section__content .user--content__summary {
   font-family: 'Nexa-Book-Italic', sans-serif;
@@ -57,7 +60,7 @@
   margin-left: 5%;
 }
 .testimonial__section__content .user--content__summary span {
-  font-family: 'Nexa-Heavy-Italic', sans-serif;
+  font-family: 'Nexa-Heavy', sans-serif;
 }
 .testimonial__section__content .user--content__comment {
   font-family: 'Nexa-Black', sans-serif;
@@ -81,6 +84,7 @@
   max-height: 250px;
   width: auto;
   height: auto;
+  object-fit: contain;
 }
 .testimonial__section__content .user--content__more {
   text-transform: uppercase;
@@ -93,6 +97,12 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .testimonial {
     padding: 15% 0;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .testimonial {
+    padding: 10% 0;
   }
 }
 
