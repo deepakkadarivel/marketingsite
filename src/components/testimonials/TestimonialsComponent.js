@@ -29,27 +29,96 @@ class TestimonialsComponent extends Component {
       id: 1
     },
     {
-      name: 'Whitney Ann Lewis',
-      profession: 'Exploratory teacher for 7th/8th grade SAT/ACT prep',
-      location: 'Horry County, South Carolina',
-      comment: 'Zinc is engaging, motivating and stimulating.',
-      school: 'Large, suburban middle school',
-      zincUsage:
-        'Literacy enrichment, test prep and english Language Development',
+      name: 'Jean Trahant',
+      profession: 'Role: 6th grade ELA teacher',
+      location: 'Location: Suburban Illinois',
+      comment: 'Zinc is effective, excellent and efficient.',
+      school:
+        'School/Population: Large suburban with 75-80% free and reduced lunch',
+      zincUsage: 'Supplemental reading and standardized test prep',
       summary:
-        'Zinc solved the problem of student fear of big words and boredom with reading. The vocab games engage students, and the Skills exercises teach them how to understand tough reads. So many of my middle schoolers are insecure in their reading; being able to choose their own articles at the right level from the “real world” and having the skills to comprehend the reading builds their confidence and enjoyment. The choice especially is what the kids love.',
-      img: Whitney,
+        'Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests.',
+      img: Jane,
       type: 'comment',
-      toMe: 'Engaging, motivating, and stimulating.',
+      toMe: 'Effective, excellent, and efficient.',
       howIUse:
-        'I use Zinc with Chromebooks as part of a blended learning rotation. Students use Zinc daily for 15-20 minutes. On Mondays, they use Zinc’s close reading exercises, on Tuesdays and Thursdays they use vocabulary, and on Wednesdays they read an article of their choice at their level. They love that independence with the article choice! Fridays are “Finish Up Fridays” where students complete any activities from earlier in the week that they need to.',
+        'Zinc is assigned weekly and counts towards a homework grade. At the beginning of the year students have two weeks to complete an article, and once I believe students have the hang of it, students complete an article each week.',
       impact:
-        "used in blended learning rotation; Mon, CRE, Tues and Thurs, vocab and Wed reading - rotate all these and Friday is finish up Friday - whatever they need to finish from any of those, they finish. Always, checking vocab, love when they get bonus rounds - always check vocab first to see if any need to be opened. Does assign articles, but most of the time allows them to choose their own based on level. Love that independence to read an article of their interest and choice.every day 15-20 mins a day \n Problem solved: Fear of big words. Their fear of big words that they can't comprehend or pronounce in a text. Also, the deeper skills to break down a passage. Also, article of their choice for interest. The positive interaction with choosing their own article for motovation purposes. Thats what the kids love. So many of them are insecure in their reading and being able to choose their own article builds their confidence to not not like it anymore. \n Before Zinc: Did affixes, word parts, etc. with paper vocab lists. Make them write using them.My classroom is different bc students are becoming more self aware of their reading and vocab development. Zinc brings confidence that they can overcome that discrepancey to make education more exciting and enjoyable. It's the gamification - it's the way of technology, the way of the 21st century. \n Tip: Get to know the whole program, the ins and outs of the whole program as a teacher and student. As well as enjoy it/practice it with your students prior to introdiucing it to the class Yes. walewis71@gmail.com"
+        'Zinc solves the problem of students reading. Most of my students are resistant to reading anything and Zinc as homework helps. The vocabulary part of Zinc helps with standardized testing and understanding things better in other classes. Zinc has helped students improve vocabulary, and, for some, encouraged a desire to read. Parents are also supportive of Zinc. \n Due to my being excited about using Zinc and seeing the improvement with numerous students, other students began to take it seriously. Over 75% of my students will now complete their assignments. This has resulted in students being willing to read articles assigned in other classes and staying in touch with current events! Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests. '
     },
     {
       type: 'image',
       img: student_testimonial_6,
       id: 6
+    },
+    {
+      name: 'Julie Wright',
+      profession: 'Role: Test-Prep Tutor',
+      location: 'Location: New York, NY',
+      comment: 'Zinc is empathetic, passionate, and devoted.',
+      school: 'School/Population: Middle and High School One-on-One Students',
+      zincUsage: 'Reading supplement for private test-prep tutoring',
+      summary:
+        'I’ve seen many students’ [SAT/ACT] verbal scores increase after spending a few months reading the articles on the app!',
+      img: julie,
+      type: 'comment',
+      toMe: 'Empathetic, passionate, and devoted.',
+      howIUse:
+        'I use the articles throughout my work with students (usually 3-12 months) to improve comprehension and expose students to new ideas and different styles of writing. I love the app and the company’s philosophy. \n I check the predictions students type in. They give you real insight into quality of comprehension.',
+      impact:
+        'I’ve seen many students’ verbal scores increase after spending a few months reading the articles on the app!Yes, I’ve seen many SAT reading scores jump up significantly after using Zinc’s app.  \n Students feel more able to read from different news sources, more willing to find new resources.'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_2,
+      id: 2
+    },
+    {
+      name: 'Greg Jones',
+      profession:
+        'Role: 10th grade English teacher with 17 years of experience',
+      location: 'Location: Cincinnati, OH',
+      comment: 'Zinc is stimulating, exciting, and applicable.',
+      school:
+        'School/Population: Urban high school, 99% free and reduced lunch',
+      zincUsage:
+        'Integrated reading and writing to supplement core curriculum and for test prep',
+      summary:
+        'Zinc has helped me raise my A.I.R test scores. The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work.',
+      img: Greg,
+      type: 'comment',
+      toMe: 'stimulating, exciting, and applicable.',
+      howIUse:
+        'I use Zinc about twice a week, as in-class work to reinforce the topic of the unit. It helps my solve the problem of finding companion articles and topics for our thematic units.',
+      impact:
+        'The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work. \n Zinc has helped me raise my A.I.R test scores because Zinc mimics the way the AIR test is given. It helps my solve the problem of finding companion articles and topics for our thematic units. \n I have told, showed, and trained several colleagues on the benefits of Zinc.'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_7,
+      id: 7
+    },
+    {
+      name: 'Curtis Eccles',
+      profession: 'Role: 9th and 10th grade ELA with 22 years of experience',
+      location: 'Location: Washington state',
+      comment: 'Zinc is exciting, knowledge and helpful.',
+      school: 'School/Population: Small rural',
+      zincUsage: 'Standards-aligned reading and vocabulary supplement',
+      summary:
+        'With Zinc, we are automatically aligned! Since Zinc, our scores have increased on our state tests! The students are having more fun learning! Most importantly, ALL students are engaged!',
+      img: Curtis,
+      type: 'comment',
+      toMe: 'Exciting, knowledge and helpful.',
+      howIUse:
+        'I use Zinc’s vocabulary and articles three times per week for 25 minutes each time. Zinc makes it easier to study for vocabulary words. It also is a great way to find interesting articles to read! In addition it aligns with the common core standards. We had to choose from different articles from a variety of different resources. We had to also find information that would align to our common core state standards. With Zinc, we are automatically aligned! \n The vocabulary is great for students to learn as all the words are aligned with the common core standards. Make sure you allow time in the classroom for students to complete the vocabulary decks along with reading the interesting articles!',
+      impact:
+        'Since Zinc, our scores have increased on our statndardized tests! The students are having more fun learning! Most importantly, ALL students are engaged! \n I have a student that was not interested in his learning and since Zinc, he has started to participate and has really learned and understands the importance of our vocabulary! Through reading several articles in a week and learning the vocabulary, many of our students are able to read at a faster rate through our reading circles. \n State and district tests have improved since Zinc. The program has allowed our students to improve their understandings of complex sentences and texts. Zinc is AWESOME!'
+    },
+    {
+      type: 'image',
+      img: student_testimonial_3,
+      id: 3
     },
     {
       name: 'Jason Bowen',
@@ -71,8 +140,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_2,
-      id: 2
+      img: student_testimonial_8,
+      id: 8
     },
     {
       name: 'Dave Diem',
@@ -94,53 +163,8 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_7,
-      id: 7
-    },
-    {
-      name: 'Jean Trahant',
-      profession: 'Role: 6th grade ELA teacher',
-      location: 'Location: Suburban Illinois',
-      comment: 'Zinc is effective, excellent and efficient.',
-      school:
-        'School/Population: Large suburban with 75-80% free and reduced lunch',
-      zincUsage: 'Supplemental reading and standardized test prep',
-      summary:
-        'Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests.',
-      img: Jane,
-      type: 'comment',
-      toMe: 'Effective, excellent, and efficient.',
-      howIUse:
-        'Zinc is assigned weekly and counts towards a homework grade. At the beginning of the year students have two weeks to complete an article, and once I believe students have the hang of it, students complete an article each week.',
-      impact:
-        'Zinc solves the problem of students reading. Most of my students are resistant to reading anything and Zinc as homework helps. The vocabulary part of Zinc helps with standardized testing and understanding things better in other classes. Zinc has helped students improve vocabulary, and, for some, encouraged a desire to read. Parents are also supportive of Zinc. \n Due to my being excited about using Zinc and seeing the improvement with numerous students, other students began to take it seriously. Over 75% of my students will now complete their assignments. This has resulted in students being willing to read articles assigned in other classes and staying in touch with current events! Wow! Reading levels improved based on standardized tests and lexile levels. Students were no longer afraid of taking the tests. '
-    },
-    {
-      type: 'image',
-      img: student_testimonial_3,
-      id: 3
-    },
-    {
-      name: 'Julie Wright',
-      profession: 'Role: Test-Prep Tutor',
-      location: 'Location: New York, NY',
-      comment: 'Zinc is empathetic, passionate, and devoted.',
-      school: 'School/Population: Middle and High School One-on-One Students',
-      zincUsage: 'Reading supplement for private test-prep tutoring',
-      summary:
-        'I’ve seen many students’ [SAT/ACT] verbal scores increase after spending a few months reading the articles on the app!',
-      img: julie,
-      type: 'comment',
-      toMe: 'Empathetic, passionate, and devoted.',
-      howIUse:
-        'I use the articles throughout my work with students (usually 3-12 months) to improve comprehension and expose students to new ideas and different styles of writing. I love the app and the company’s philosophy. \n I check the predictions students type in. They give you real insight into quality of comprehension.',
-      impact:
-        'I’ve seen many students’ verbal scores increase after spending a few months reading the articles on the app!Yes, I’ve seen many SAT reading scores jump up significantly after using Zinc’s app.  \n Students feel more able to read from different news sources, more willing to find new resources.'
-    },
-    {
-      type: 'image',
-      img: student_testimonial_8,
-      id: 8
+      img: student_testimonial_4,
+      id: 4
     },
     {
       name: 'Julie Swobodzinski',
@@ -161,50 +185,25 @@ class TestimonialsComponent extends Component {
     },
     {
       type: 'image',
-      img: student_testimonial_4,
-      id: 4
-    },
-    {
-      name: 'Curtis Eccles',
-      profession: 'Role: 9th and 10th grade ELA with 22 years of experience',
-      location: 'Location: Washington state',
-      comment: 'Zinc is exciting, knowledge and helpful.',
-      school: 'School/Population: Small rural',
-      zincUsage: 'Standards-aligned reading and vocabulary supplement',
-      summary:
-        'With Zinc, we are automatically aligned! Since Zinc, our scores have increased on our state tests! The students are having more fun learning! Most importantly, ALL students are engaged!',
-      img: Curtis,
-      type: 'comment',
-      toMe: 'Exciting, knowledge and helpful.',
-      howIUse:
-        'I use Zinc’s vocabulary and articles three times per week for 25 minutes each time. Zinc makes it easier to study for vocabulary words. It also is a great way to find interesting articles to read! In addition it aligns with the common core standards. We had to choose from different articles from a variety of different resources. We had to also find information that would align to our common core state standards. With Zinc, we are automatically aligned! \n The vocabulary is great for students to learn as all the words are aligned with the common core standards. Make sure you allow time in the classroom for students to complete the vocabulary decks along with reading the interesting articles!',
-      impact:
-        'Since Zinc, our scores have increased on our statndardized tests! The students are having more fun learning! Most importantly, ALL students are engaged! \n I have a student that was not interested in his learning and since Zinc, he has started to participate and has really learned and understands the importance of our vocabulary! Through reading several articles in a week and learning the vocabulary, many of our students are able to read at a faster rate through our reading circles. \n State and district tests have improved since Zinc. The program has allowed our students to improve their understandings of complex sentences and texts. Zinc is AWESOME!'
-    },
-    {
-      type: 'image',
       img: student_testimonial_9,
       id: 9
     },
     {
-      name: 'Greg Jones',
-      profession:
-        'Role: 10th grade English teacher with 17 years of experience',
-      location: 'Location: Cincinnati, OH',
-      comment: 'Zinc is stimulating, exciting, and applicable.',
-      school:
-        'School/Population: Urban high school, 99% free and reduced lunch',
-      zincUsage:
-        'Integrated reading and writing to supplement core curriculum and for test prep',
+      name: 'Whitney Ann Lewis',
+      profession: 'Exploratory teacher for 7th/8th grade SAT/ACT prep',
+      location: 'Horry County, South Carolina',
+      comment: 'Zinc is engaging, motivating and stimulating.',
+      school: 'Large, suburban middle school',
+      zincUsage: 'Blended learning rotation',
       summary:
-        'Zinc has helped me raise my A.I.R test scores. The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work.',
-      img: Greg,
+        'Zinc solved the problems of student fear of big words and boredom with reading. The vocab games engage students, and the close reading exercises teach them how to understand tough reads. So many of my middle schoolers are insecure in their reading; being able to choose their own articles at the right level from the “real world” and having the skills to comprehend the reading builds their confidence and enjoyment. The choice especially is what the kids love. \n Zinc is engaging, motivating and stimulating.',
+      img: Whitney,
       type: 'comment',
-      toMe: 'stimulating, exciting, and applicable.',
+      toMe: 'Engaging, motivating, and stimulating.',
       howIUse:
-        'I use Zinc about twice a week, as in-class work to reinforce the topic of the unit. It helps my solve the problem of finding companion articles and topics for our thematic units.',
+        'I use Zinc with Chromebooks as part of a blended learning rotation. Students use Zinc daily for 15-20 minutes. On Mondays, they use Zinc’s close reading exercises, on Tuesdays and Thursdays they use vocabulary, and on Wednesdays they read an article of their choice at their level. They love that independence with the article choice! Fridays are “Finish Up Fridays” where students complete any activities from earlier in the week that they need to.',
       impact:
-        'The classroom runs smoother because the information is centrally located and the students know that on certain days just come in and start doing their Zinc work. \n Zinc has helped me raise my A.I.R test scores because Zinc mimics the way the AIR test is given. It helps my solve the problem of finding companion articles and topics for our thematic units. \n I have told, showed, and trained several colleagues on the benefits of Zinc.'
+        "Zinc solved the problems of student fear of big words and boredom with reading. The vocab games engage students, and the close reading exercises teach them how to understand tough reads. So many of my middle schoolers are insecure in their reading; being able to choose their own articles at the right level from the “real world” and having the skills to comprehend the reading builds their confidence and enjoyment. The choice especially is what the kids love. \n Zinc has also impacted scores. I've used Zinc for the past three years and seen impressive results. Zinc usage nearly tripled the number of students in my classes whose 8th grade PSAT scores qualified them for the South Carolina DoE's Junior Scholars program. I attribute the growth to the daily interaction with the Zinc program along with strategies to succeed at the test."
     },
     {
       type: 'image',

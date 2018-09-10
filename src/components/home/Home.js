@@ -110,7 +110,7 @@ const Home = () => {
       />
       <ChartComponent data={methods} />
       <SpacerComponent
-        action={'“LEVELED, “REAL WORLD” TEXTS'}
+        action={'LEVELED, “REAL WORLD” TEXTS'}
         img={ZIA_Main_Page_leveled_real_world_texts_grab}
         name={'performance'}
       />
