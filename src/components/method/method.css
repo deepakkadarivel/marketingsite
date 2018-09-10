@@ -149,6 +149,9 @@
     width: 80px;
     height: 80px;
   }
+  .method__content--body__action .action {
+    display: none;
+  }
   .method__content--body__action .test {
     background: url('../../assets/icons/icon_test_md_color.svg') center center
       no-repeat;

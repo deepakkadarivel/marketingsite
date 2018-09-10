@@ -31,13 +31,13 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .zinc {
-    background: url('../../assets/images/zinc_bg_ipad_land.jpg') no-repeat
-      center center fixed;
-    background-size: contain;
+    background: url('../../assets/images/news_bg.jpg') no-repeat;
+    background-size: cover;
   }
   .zinc .parallax {
     padding: 40% 10% 0 10%;
-    background: none;
+    background: url('../../assets/images/zinc_bg_ipad_land.jpg') no-repeat;
+    background-size: contain;
   }
 }
 
