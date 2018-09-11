@@ -35,6 +35,24 @@
     font-size: 1.6em;
     font-weight: normal;
   }
+  .section__content--mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .section__sub-header {
+    line-height: 1.4em;
+    margin: 0;
+  }
+  .section__content {
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-weight: normal;
+  }
+  .section__content--mobile {
+    display: block;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -51,5 +69,8 @@
   }
   .section__content {
     font-size: 0.8em;
+  }
+  .section__content--mobile {
+    display: none;
   }
 }

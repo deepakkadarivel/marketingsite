@@ -66,11 +66,15 @@
   .contact {
     padding: 20% 5%;
     height: auto;
-    background: url('../../assets/images/contact_bg_mob.jpg') no-repeat;
+    // background: url('../../assets/images/contact_bg_mob.jpg') no-repeat;
+    background: url("../../assets/images/about_bg_mob.jpg") fixed;
     background-size: cover;
       -webkit-background-size: cover;
     &__content {
       padding-right: 10%;
+      .button {
+        font-size: 10px;
+      }
     }
   }
 }

@@ -12,13 +12,14 @@ const SectionTitleComponent = props => {
         what <span>if</span>
       </p>
       <p className="section__sub-header">{subHeader}</p>
-      <p className="section__content">{props.content}</p>
+      <p className={`section__content ${props.className}`}>{props.content}</p>
     </div>
   );
 };
 
 SectionTitleComponent.propTypes = {
-  subHeader: PropTypes.string.isRequired
+  subHeader: PropTypes.string.isRequired,
+  className: PropTypes.string
 };
 
 SectionTitleComponent.defaultProps = {

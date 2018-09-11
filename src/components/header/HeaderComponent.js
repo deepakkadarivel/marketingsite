@@ -31,6 +31,7 @@ class HeaderComponent extends Component {
           <SectionTitleComponent
             subHeader={'all of your students loved to read?'}
             content={content}
+            className="section__content--mobile"
           />
           <GradeTableComponent setSelectedGrade={setSelectedGrade} />
 

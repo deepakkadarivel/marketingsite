@@ -100,7 +100,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .method__content--body__action {
-    width: 30%;
+    width: 20%;
   }
   .method__content--body__action .item {
     width: 80px;
@@ -127,10 +127,10 @@
       no-repeat;
   }
   .method__content--body__info {
-    width: 40%;
+    width: 45%;
   }
   .method__content--body__image {
-    width: 50%;
+    width: 35%;
   }
 }
 

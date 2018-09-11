@@ -3,6 +3,7 @@
   margin-top: 5%;
   border-spacing: 0;
   font-family: 'Nexa-Bold', sans-serif;
+  text-shadow: 2px 2px 2px #000000;
 }
 .grade--popup {
   margin-top: 0;
@@ -83,6 +84,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .grade {
     display: block;
+    margin-top: 20%;
   }
   .grade--popup {
     margin-top: 0;
@@ -102,6 +104,12 @@
   }
   .grade__cell--head .content__text {
     font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .grade {
+    margin-top: 5%;
   }
 }
 
